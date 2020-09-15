@@ -1,0 +1,142 @@
+<ValueSet xmlns="http://hl7.org/fhir">
+                <id value="1.2.276.0.76.11.36--20141219000000"/>
+                <meta>
+                    <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/><!--<profile value="http://hl7.org/fhir/4.0/StructureDefinition/ValueSet"/>-->
+                </meta>
+                <extension url="http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod">
+                    <valuePeriod>
+                        <start value="2014-12-19T00:00:00+02:00"/>
+                    </valuePeriod>
+                </extension>
+                <url value="http://art-decor.org/fhir/ValueSet/1.2.276.0.76.11.36--20141219000000"/>
+                <identifier>
+                    <use value="official"/>
+                    <system value="http://art-decor.org/ns/oids/vs"/>
+                    <value value="1.2.276.0.76.11.36"/>
+                </identifier>
+                <version value="2014-12-19T00:00:00"/>
+                <name value="IHEXDShealthcareFacilityTypeCode"/>
+                <title value="IHEXDS healthcareFacilityTypeCode"/>
+                <status value="retired"/>
+                <experimental value="false"/>
+                <publisher value="IHE Deutschland e.V."/>
+                <description value="healthcareFacilityTypeCode (XDSDocumentEntry)This code for an XDS Document represents the type of organizational setting of the clinical encounter during which the documented act occurred."/>
+                <immutable value="false"/>
+                <compose>
+                    <include>
+                        <system value="urn:oid:1.3.6.1.4.1.19376.3.276.5.2"/>
+                        <concept>
+                            <extension url="http://hl7.org/fhir/StructureDefinition/valueset-concept-comments">
+                                <valueString value="Arbeitsplatz einer oder mehrerer niedergelassenen &#xC4;rztinnen. Umfasst sowohl den klassischen &quot;Einzelsitz&quot;, wie auch die Gemeinschaftspraxis oder die Praxisgemeinschaft. Auch mobile Arztpraxen, die ambulante Zentrumsdialyse und Zahnarztpraxen werden durch diesen Wert abgedeckt. Ebenso werden niedergelassene Laborarztpraxen und von &#xE4;rztlichen Psychotherapeuten gef&#xFC;hrte Arztpraxen &#xFC;ber diesen Wert&#10;                        abgedeckt. "/>
+                            </extension>
+                            <code value="PRA"/>
+                            <display value="Arztpraxis"/>
+                        </concept>
+                        <concept>
+                            <extension url="http://hl7.org/fhir/StructureDefinition/valueset-concept-comments">
+                                <valueString value="Eine freiberuflich t&#xE4;tige Hebamme; bzw. eine in Kooperation mit anderen Hebammen t&#xE4;tige Hebamme. Dieser Wert deckt auch Geburtsh&#xE4;user als von Hebammen betriebene au&#xDF;erklinische Einrichtungen ab."/>
+                            </extension>
+                            <code value="HEB"/>
+                            <display value="Hebamme/Geburtshaus"/>
+                        </concept>
+                        <concept>
+                            <extension url="http://hl7.org/fhir/StructureDefinition/valueset-concept-comments">
+                                <valueString value="Sozialstationen und gewerblich betriebene ambulante Pflegedienste, die Patienten in der eigenen h&#xE4;uslichen Umgebung betreuben, aber keine &#xE4;rztlichen T&#xE4;tigkeiten durchf&#xFC;hren."/>
+                            </extension>
+                            <code value="APD"/>
+                            <display value="Ambulanter Pflegedienst"/>
+                        </concept>
+                        <concept>
+                            <extension url="http://hl7.org/fhir/StructureDefinition/valueset-concept-comments">
+                                <valueString value="Eine station&#xE4;re oder ambulante Einrichtung der Sterbebegleitung. Dies umfa&#xDF;t sowohl Pflegeheim-&#xE4;hnliche Einrichtungen, wie auch Einrichtungen die den Patienten in der eigenen h&#xE4;uslichen Umgebung betreuen. Sowohl Einrichtungen unter &#xE4;rztlicher Leitung, wie auch unter pflegerischer Leitung werden hier zusammengefasst."/>
+                            </extension>
+                            <code value="HOS"/>
+                            <display value="Hospiz"/>
+                        </concept>
+                        <concept>
+                            <extension url="http://hl7.org/fhir/StructureDefinition/valueset-concept-comments">
+                                <valueString value="Einrichtung zur ambulanten medizinischen Versorgung nach &#xA7;95 SGB V"/>
+                            </extension>
+                            <code value="MVZ"/>
+                            <display value="Medizinisches Versorgungszentrum"/>
+                        </concept>
+                        <concept>
+                            <extension url="http://hl7.org/fhir/StructureDefinition/valueset-concept-comments">
+                                <valueString value="Eine Einrichtung zur Unterbringung und Versorgung pflegebed&#xFC;rftiger Menschen. Umfa&#xDF;t Altenpflegeheime und Pflegeheime f&#xFC;r Menschen mit Behinderung. Die Einrichtungen versorgen Menschen &#xFC;blicherweise langfristig, aber auch Kurzzeitpflege der genannten Personengruppen ist durch diesen Wert abgedeckt."/>
+                            </extension>
+                            <code value="PFL"/>
+                            <display value="Pflegeheim"/>
+                        </concept>
+                        <concept>
+                            <extension url="http://hl7.org/fhir/StructureDefinition/valueset-concept-comments">
+                                <valueString value="Eine ambulante, teilstation&#xE4;re oder station&#xE4;re Einrichtung der medizinischen Rehabilitation unter &#xE4;rztlicher Leitung. Darunter fallen sowohl Reha-Kliniken als auch dezentrale Organisationsformen aus dem ambulanten Sektor."/>
+                            </extension>
+                            <code value="REH"/>
+                            <display value="medizinische Rehabilitation"/>
+                        </concept>
+                        <concept>
+                            <extension url="http://hl7.org/fhir/StructureDefinition/valueset-concept-comments">
+                                <valueString value="Eine dedizierte Einrichtung die ausschliesslich auf die telemedizinische Betreuung von Patienten abzielt. Dies umfa&#xDF;t sowohl dedizierte Care Management Organisationen, wie auch Telemonitoring-Zentren. Dokumente die im Rahmen von telemedizinischen Dienstleistungen von Krankenh&#xE4;usern oder niedergelassenen &#xC4;rzten erbracht werden, sollten nicht mit diesem Wert gekennzeichnet werden, sondern mit dem Wert f&#xFC;r Krankenh&#xE4;user bzw. Arztpraxen."/>
+                            </extension>
+                            <code value="TZM"/>
+                            <display value="Telemedizinisches Zentrum"/>
+                        </concept>
+                        <concept>
+                            <extension url="http://hl7.org/fhir/StructureDefinition/valueset-concept-comments">
+                                <valueString value="Eine Einrichtung die als Krankenhaus nach dem Krankenhausfinanzierungsgesetz (KHG) zu verstehen ist, mit Ausnahme von Reha-Kliniken. Dazu geh&#xF6;ren auch Zahnkliniken. Zus&#xE4;tzlich fallen unter diesen Wert auch Krankenh&#xE4;user auf die das KHG keine Anwendung findet (siehe &#xA7;3, z.B. im Straf- oder Ma&#xDF;regelvollzug, Polizeikrankenh&#xE4;user, ...), solange es sich nicht um Einrichtungen der medizinischen Rehabilitation handelt.F&#xFC;r Dokumente aus der Abteilung Krankenhausapotheke sollte immer der Wert f&#xFC;r &quot;Krankenhaus&quot; verwendet werden. Auch bei&#10;                        vornehmlich telemedizinisch erbrachten Leistungen eines Krankenhauses (z.B. Teleradiologie) sollte der Wert f&#xFC;r &quot;Krankenhaus&quot; verwendet werden.F&#xFC;r angeschlo&#xDF;ene, aber selbsst&#xE4;ndige Einrichtungen, wie z.B. ein zum Krankenhaus geh&#xF6;riges MVZ oder Hospiz, sollte der spezifischere Wert f&#xFC;r den Einrichtungstyp verwendet werden. Dazu z&#xE4;hlen auch ausgegr&#xFC;ndete Labore, die als Arztpraxis abgebildet werden, da sie eine entsprechende KV-Zulassung ben&#xF6;tigen.Psychotherapeutische, psychatrische und psychosomatische Abteilungen von Krankenh&#xE4;usern&#10;                        und eigenst&#xE4;ndige Fachkliniken aus diesem Bereich werden auch mit diesem Wert abgedeckt, unabh&#xE4;ngig davon ob die Dienste station&#xE4;r, als Tagesklinik oder ambulant angeboten werden."/>
+                            </extension>
+                            <code value="KHS"/>
+                            <display value="Krankenhaus"/>
+                        </concept>
+                        <concept>
+                            <extension url="http://hl7.org/fhir/StructureDefinition/valueset-concept-comments">
+                                <valueString value="Von nicht-&#xE4;rztlichen Heilberuflern betriebene Einrichtungen zur Beratung, Therapie oder Betreuung. Darunter fallen Praxen von Heilpraktikerinnen, Physiotherapeutinnen, Ergotherapeutinnen, Podologinnen, Masseurinnen, Logop&#xE4;dinnen, Sprachtherapeutinnen, Di&#xE4;tassistentinnen, sowie&#xA0;human-medizinische Beratungsstellen. Auch nicht-&#xE4;rztliche&#xA0;psychotherapeutische Praxen, z.B. von Diplom oder Master-Psychologen, geh&#xF6;ren dazu.Dokumente von freiberuflichen Hebammen fallen nicht in diese Gruppe sondern sind mit dem Wert f&#xFC;r &quot;Hebamme/Geburtshaus&quot; zu kennzeichnen.Dokumente von Pflegediensten oder freiberuflichen Pflegekr&#xE4;ften fallen nicht in diese Gruppe sondern sind mit dem Wert f&#xFC;r &quot;Ambulante Pflegedienste&quot; zu kennzeichnen."/>
+                            </extension>
+                            <code value="HEI"/>
+                            <display value="nicht-&#xE4;rztliche Heilberufs-Praxis"/>
+                        </concept>
+                        <concept>
+                            <extension url="http://hl7.org/fhir/StructureDefinition/valueset-concept-comments">
+                                <valueString value="Staatliche oder kommunale Gesundheitsbeh&#xF6;rde."/>
+                            </extension>
+                            <code value="BHR"/>
+                            <display value="Gesundheitsbeh&#xF6;rde"/>
+                        </concept>
+                        <concept>
+                            <extension url="http://hl7.org/fhir/StructureDefinition/valueset-concept-comments">
+                                <valueString value="Dieser Wert kann zur Kennzeichnung der Herkunft von Dokumenten verwendet werden, die der Patient selbstst&#xE4;ndig erstellt und eingestellt hat, zum Beispiel &#xFC;ber ein Patientenportal oder eine Smartphone-App. Daten die vom Patienten &#xFC;ber eine solche L&#xF6;sung stellvertretend f&#xFC;r einen Heilberufler eingestellt werden (z.B. gescannter Arztbrief, DICOM-DVD) sollten nicht diesen Wert verwenden, sondern den f&#xFC;r den Heilberufler vorgesehenen Wert."/>
+                            </extension>
+                            <code value="PAT"/>
+                            <display value="Patient au&#xDF;erhalb der Betreuung"/>
+                        </concept>
+                        <concept>
+                            <extension url="http://hl7.org/fhir/StructureDefinition/valueset-concept-comments">
+                                <valueString value="Eine Einrichtung zur Abgabe und ggf. Lagerung oder Herstellung von Arzneimitteln. Dieser Wert sollte nicht zur Kennzeichnung von Daten aus Krankenhausapotheken verwendet werden."/>
+                            </extension>
+                            <code value="APO"/>
+                            <display value="Apotheke"/>
+                        </concept>
+                        <concept>
+                            <extension url="http://hl7.org/fhir/StructureDefinition/valueset-concept-comments">
+                                <valueString value="Eine Einrichtung des medizinisch-technischen Handwerks, wie Augenoptiker, H&#xF6;rakustiker-Fachgesch&#xE4;ft, Di&#xE4;tkoch, Orthop&#xE4;dische Schuhmacher, sowie Orthop&#xE4;dische Fachgesch&#xE4;fte und Sanit&#xE4;tsh&#xE4;user."/>
+                            </extension>
+                            <code value="HAN"/>
+                            <display value="medizinisch-technisches Handwerk"/>
+                        </concept>
+                        <concept>
+                            <extension url="http://hl7.org/fhir/StructureDefinition/valueset-concept-comments">
+                                <valueString value="Einrichtungen des zivilen Rettungsdienst, wie z.B. Rettungswachen, Wasserrettung, etc.&#xA0;"/>
+                            </extension>
+                            <code value="RTN"/>
+                            <display value="Rettungsdienst"/>
+                        </concept>
+                        <concept>
+                            <extension url="http://hl7.org/fhir/StructureDefinition/valueset-concept-comments">
+                                <valueString value="Der &#xE4;rztliche Bereitschaftsdienst wird auch als&#xA0;Kassen&#xE4;rztliche Notdienst bezeichnet. Er wird h&#xE4;ufig durch Niedergelassene &#xC4;rzte durchgef&#xFC;hrt und von&#xA0;der Kassen&#xE4;rztlichen Vereinigungen organisiert, da diese die Verantwortung f&#xFC;r die Sicherstellung der medizinischen Versorgung auch au&#xDF;erhalb der &#xFC;blichen &#xD6;ffnungszeiten hat. Der Dienst ist vom Rettungsdienst zu unterscheiden, der auf speziell ausgebildete Not&#xE4;rzte zur&#xFC;ckgreift."/>
+                            </extension>
+                            <code value="BER"/>
+                            <display value="&#xC4;rztlicher Bereitschaftsdienst"/>
+                        </concept>
+                    </include>
+                </compose>
+            </ValueSet>
