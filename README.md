@@ -7,7 +7,8 @@ Sync from ART-DECOR
 
 only one way from ART-DECOR project to this GitHub
 
-GIThub sync with ART-DECOR®+
+GIThub sync with ART-DECOR®
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDU3NjA4MzQ4LC0xMTQxNTI1NDkxXX0=
+eyJoaXN0b3J5IjpbLTExNDE1MjU0OTEsNDU3NjA4MzQ4LC0xMT
+QxNTI1NDkxXX0=
 -->
