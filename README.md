@@ -7,4 +7,4 @@ Sync from ART-DECOR
 only one way from ART-DECOR project to this GitHub
 
 
-Copyright ART-DECOR Open Tools and ART-DECOR Expert Group 
+(c) Copyright ART-DECOR Open Tools and ART-DECOR Expert Group 
