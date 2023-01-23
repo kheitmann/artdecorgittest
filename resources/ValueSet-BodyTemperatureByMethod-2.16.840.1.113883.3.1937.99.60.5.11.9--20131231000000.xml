@@ -1,0 +1,62 @@
+<ValueSet xmlns="http://hl7.org/fhir">
+    <id value="2.16.840.1.113883.3.1937.99.60.5.11.9--20131231000000"/>
+    <meta>
+        <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/><!--<profile value="http://hl7.org/fhir/4.0/StructureDefinition/ValueSet"/>-->
+    </meta>
+    <extension url="http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod">
+        <valuePeriod>
+            <start value="2013-12-31T00:00:00+01:00"/>
+        </valuePeriod>
+    </extension>
+    <url value="http://localhost:8877/fhir/ValueSet/2.16.840.1.113883.3.1937.99.60.5.11.9--20131231000000"/>
+    <identifier>
+        <use value="official"/>
+        <system value="urn:ietf:rfc:3986"/>
+        <value value="urn:oid:2.16.840.1.113883.3.1937.99.60.5.11.9"/>
+    </identifier>
+    <version value="2013-12-31T00:00:00"/>
+    <name value="BodyTemperatureByMethod"/>
+    <title value="Body Temperature By Method"/>
+    <status value="draft"/>
+    <experimental value="false"/>
+    <publisher value="The ART-DECOR expert group"/>
+    <description value="Body Temperature By Method"/>
+    <immutable value="false"/>
+    <compose>
+        <include>
+            <system value="http://loinc.org"/>
+            <concept>
+                <code value="8310-5"/>
+                <display value="Body temperature"/>
+            </concept>
+            <concept>
+                <code value="8329-5"/>
+                <display value="Body temperature - Core"/>
+            </concept>
+            <concept>
+                <code value="8331-1"/>
+                <display value="Body temperature - Mouth"/>
+            </concept>
+            <concept>
+                <code value="8332-9"/>
+                <display value="Body temperature - Rectum"/>
+            </concept>
+            <concept>
+                <code value="8328-7"/>
+                <display value="Body temperature - Axillary"/>
+            </concept>
+            <concept>
+                <code value="8330-3"/>
+                <display value="Body temperature - Intravascular"/>
+            </concept>
+            <concept>
+                <code value="8334-5"/>
+                <display value="Body temperature - Urinary bladder"/>
+            </concept>
+            <concept>
+                <code value="8333-7"/>
+                <display value="Body temperature - Tympanic membrane"/>
+            </concept>
+        </include>
+    </compose>
+</ValueSet>
