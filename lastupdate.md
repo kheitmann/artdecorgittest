@@ -2,7 +2,7 @@
 
 Synchronized from ART-DECOR
 
-Last Updated on 2024-05-04 18:05:43
+Last Updated on 2024-05-04 20:05:51
 
 List of updated files:
-* myTerminology/CodeSystems/CodeSystem-IHEXDSclassCode.xml
+* myTerminology/ValueSets/ValueSet-1.2.276.0.76.11.31--20180713132208.xml
