@@ -1,0 +1,61 @@
+<ValueSet xmlns="http://hl7.org/fhir">
+                <id value="1.2.276.0.76.11.469--20220401000000"/>
+                <meta>
+                    <lastUpdated value="2023-02-14T11:33:05Z"/>
+                    <source value="http://localhost:8877/exist/apps/fhir/4.0/kdl-"/>
+                    <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/><!--<profile value="http://hl7.org/fhir/4.0/StructureDefinition/ValueSet"/>-->
+                    <tag>
+                        <system value="http://hl7.org/fhir/FHIR-version"/>
+                        <code value="4.0.1"/>
+                    </tag>
+                </meta>
+                <extension url="http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod">
+                    <valuePeriod>
+                        <start value="2022-04-01T00:00:00+02:00"/>
+                    </valuePeriod>
+                </extension>
+                <url value="http://dvmd.de/fhir/ValueSet/kdl"/>
+                <identifier>
+                    <use value="official"/>
+                    <system value="urn:ietf:rfc:3986"/>
+                    <value value="urn:oid:1.2.276.0.76.11.469"/>
+                </identifier>
+                <version value="2022-04-01T00:00:00"/>
+                <name value="Kdl_vs_2022"/>
+                <title value="Klinische Dokumentenklassen-Liste"/>
+                <status value="draft"/>
+                <experimental value="false"/>
+                <publisher value="Der Fachverband f&#xFC;r Dokumentation und Informationsmanagement in der Medizin (DVMD)"/>
+                <contact>
+                    <name value="Der Fachverband f&#xFC;r Dokumentation und Informationsmanagement in der Medizin (DVMD)"/>
+                    <telecom>
+                        <system value="email"/>
+                        <value value="dvmd@dvmd.de"/>
+                    </telecom>
+                    <telecom>
+                        <system value="url"/>
+                        <value value="https://www.dvmd.de"/>
+                    </telecom>
+                    <telecom>
+                        <system value="email"/>
+                        <value value="mueller@dvmd.de"/>
+                    </telecom>
+                    <telecom>
+                        <system value="url"/>
+                        <value value="https://www.dvmd.de"/>
+                    </telecom>
+                </contact>
+                <description value="Klinische Dokumentenklassen-Liste"/>
+                <immutable value="false"/>
+                <copyright value="2022 DVMD e.V."/>
+                <compose>
+                    <include>
+                        <system value="http://dvmd.de/fhir/CodeSystem/kdl"/>
+                        <filter>
+                            <property value="child"/>
+                            <op value="exists"/>
+                            <value value="false"/>
+                        </filter>
+                    </include>
+                </compose>
+            </ValueSet>
