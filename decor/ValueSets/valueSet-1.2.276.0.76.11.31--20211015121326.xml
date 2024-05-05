@@ -1,0 +1,580 @@
+<valueSet id="1.2.276.0.76.11.31" name="IHEXDSauthorSpeciality" displayName="IHE XDS authorSpecialty" effectiveDate="2021-10-15T12:13:26" statusCode="draft" versionLabel="v4 draft" canonicalUri="http://ihe-d.de/ValueSets/IHEXDSauthorSpeciality">
+            <desc language="en-US">
+            <b>authorSpecialty (XDSDocumentEntry or XDSSubmissionSet)</b>
+            <br clear="none"/>Represents a specific specialty within a healthcare facility under which the human and/or machines authored the XDS Document or XDS SubmissionSet</desc>
+            <conceptList>
+                <concept code="011001" codeSystem="1.2.276.0.76.5.514" displayName="FA Allgemeinmedizin" level="0" type="L"/>
+                <concept code="012901" codeSystem="1.2.276.0.76.5.514" displayName="SP Geriatrie" level="0" type="L">
+                    <desc language="de-DE">FA Allgemeinmedizin mit SP Geriatrie</desc>
+                </concept>
+                <concept code="021001" codeSystem="1.2.276.0.76.5.514" displayName="FA An&#xE4;sthesiologie" level="0" type="L"/>
+                <concept code="021002" codeSystem="1.2.276.0.76.5.514" displayName="FA An&#xE4;sthesiologie und Intensivtherapie" level="0" type="L"/>
+                <concept code="031001" codeSystem="1.2.276.0.76.5.514" displayName="FA Anatomie" level="0" type="L"/>
+                <concept code="041001" codeSystem="1.2.276.0.76.5.514" displayName="FA Arbeitshygiene" level="0" type="L"/>
+                <concept code="041002" codeSystem="1.2.276.0.76.5.514" displayName="FA Arbeitsmedizin" level="0" type="L"/>
+                <concept code="051001" codeSystem="1.2.276.0.76.5.514" displayName="FA Augenheilkunde" level="0" type="L"/>
+                <concept code="061001" codeSystem="1.2.276.0.76.5.514" displayName="FA Biochemie" level="0" type="L"/>
+                <concept code="071107" codeSystem="1.2.276.0.76.5.514" displayName="FA Allgemeinchirurgie" level="0" type="L"/>
+                <concept code="071101" codeSystem="1.2.276.0.76.5.514" displayName="FA Allgemeine Chirurgie" level="0" type="L"/>
+                <concept code="071001" codeSystem="1.2.276.0.76.5.514" displayName="FA Chirurgie" level="0" type="L"/>
+                <concept code="071102" codeSystem="1.2.276.0.76.5.514" displayName="FA Gef&#xE4;&#xDF;chirurgie" level="0" type="L"/>
+                <concept code="071002" codeSystem="1.2.276.0.76.5.514" displayName="FA Herzchirurgie" level="0" type="L"/>
+                <concept code="071202" codeSystem="1.2.276.0.76.5.514" displayName="FA Kinder- und Jugendchirurgie" level="0" type="L"/>
+                <concept code="071003" codeSystem="1.2.276.0.76.5.514" displayName="FA Kinderchirurgie" level="0" type="L"/>
+                <concept code="071004" codeSystem="1.2.276.0.76.5.514" displayName="FA Orthop&#xE4;die" level="0" type="L"/>
+                <concept code="071103" codeSystem="1.2.276.0.76.5.514" displayName="FA Orthop&#xE4;die und Unfallchirurgie" level="0" type="L"/>
+                <concept code="071005" codeSystem="1.2.276.0.76.5.514" displayName="FA Plastische Chirurgie" level="0" type="L"/>
+                <concept code="071106" codeSystem="1.2.276.0.76.5.514" displayName="FA Plastische und &#xC4;sthetische Chirurgie" level="0" type="L"/>
+                <concept code="071201" codeSystem="1.2.276.0.76.5.514" displayName="FA Plastische; Rekonstruktive und &#xC4;sthetische Chirurgie" level="0" type="L"/>
+                <concept code="071104" codeSystem="1.2.276.0.76.5.514" displayName="FA Thoraxchirurgie" level="0" type="L"/>
+                <concept code="071105" codeSystem="1.2.276.0.76.5.514" displayName="FA Visceralchirurgie" level="0" type="L"/>
+                <concept code="071108" codeSystem="1.2.276.0.76.5.514" displayName="FA Viszeralchirurgie" level="0" type="L"/>
+                <concept code="072001" codeSystem="1.2.276.0.76.5.514" displayName="SP Gef&#xE4;&#xDF;chirurgie" level="0" type="L"/>
+                <concept code="072002" codeSystem="1.2.276.0.76.5.514" displayName="SP Rheumatologie (Orthop&#xE4;die)" level="0" type="L">
+                    <desc language="de-DE">FA Chirurgie mit SP Rheumatologie (Orthopädie)</desc>
+                </concept>
+                <concept code="072003" codeSystem="1.2.276.0.76.5.514" displayName="SP Thoraxchirurgie in der Chirurgie" level="0" type="L">
+                    <desc language="de-DE">FA Chirurgie mit SP Thoraxchirurgie in der Chirurgie</desc>
+                </concept>
+                <concept code="072004" codeSystem="1.2.276.0.76.5.514" displayName="SP Thoraxchirurgie in der Herzchirurgie" level="0" type="L">
+                    <desc language="de-DE">FA Chirurgie mit SP Thoraxchirurgie in der Herzchirurgie</desc>
+                </concept>
+                <concept code="072005" codeSystem="1.2.276.0.76.5.514" displayName="SP Unfallchirurgie" level="0" type="L">
+                    <desc language="de-DE">FA Chirurgie mit SP Unfallchirurgie</desc>
+                </concept>
+                <concept code="072006" codeSystem="1.2.276.0.76.5.514" displayName="SP Visceralchirurgie" level="0" type="L">
+                    <desc language="de-DE">FA Chirurgie mit SP Visceralchirurgie</desc>
+                </concept>
+                <concept code="073001" codeSystem="1.2.276.0.76.5.514" displayName="TG Echokardiologie herznaher Gef&#xE4;&#xDF;e" level="0" type="L">
+                    <desc language="de-DE">FA Chirurgie mit TG Echokardiologie herznaher Gefäße</desc>
+                </concept>
+                <concept code="073002" codeSystem="1.2.276.0.76.5.514" displayName="TG Gef&#xE4;&#xDF;chirurgie" level="0" type="L">
+                    <desc language="de-DE">FA Chirurgie mit TG Gefäßchirurgie</desc>
+                </concept>
+                <concept code="073003" codeSystem="1.2.276.0.76.5.514" displayName="TG Herz- und Gef&#xE4;&#xDF;chirurgie" level="0" type="L">
+                    <desc language="de-DE">FA Chirurgie mit TG Herz- und Gefäßchirurgie</desc>
+                </concept>
+                <concept code="073004" codeSystem="1.2.276.0.76.5.514" displayName="TG Kinderchirurgie" level="0" type="L">
+                    <desc language="de-DE">FA Chirurgie mit TG Kinderchirurgie</desc>
+                </concept>
+                <concept code="073005" codeSystem="1.2.276.0.76.5.514" displayName="TG Plastische Chirurgie" level="0" type="L">
+                    <desc language="de-DE">FA Chirurgie mit TG Plastische Chirurgie</desc>
+                </concept>
+                <concept code="073006" codeSystem="1.2.276.0.76.5.514" displayName="TG Rheumatologie (Orthop&#xE4;die)" level="0" type="L">
+                    <desc language="de-DE">FA Chirurgie mit TG Rheumatologie (Orthopädie)</desc>
+                </concept>
+                <concept code="073007" codeSystem="1.2.276.0.76.5.514" displayName="TG Thorax- und Kardiovaskularchirurgie" level="0" type="L">
+                    <desc language="de-DE">FA Chirurgie mit TG Thorax- und Kardiovaskularchirurgie</desc>
+                </concept>
+                <concept code="073008" codeSystem="1.2.276.0.76.5.514" displayName="TG Thoraxchirurgie" level="0" type="L">
+                    <desc language="de-DE">FA Chirurgie mit TG Thoraxchirurgie</desc>
+                </concept>
+                <concept code="073009" codeSystem="1.2.276.0.76.5.514" displayName="TG Unfallchirurgie" level="0" type="L">
+                    <desc language="de-DE">FA Chirurgie mit TG Unfallchirurgie</desc>
+                </concept>
+                <concept code="081001" codeSystem="1.2.276.0.76.5.514" displayName="FA Frauenheilkunde" level="0" type="L"/>
+                <concept code="081002" codeSystem="1.2.276.0.76.5.514" displayName="FA Frauenheilkunde und Geburtshilfe" level="0" type="L"/>
+                <concept code="081003" codeSystem="1.2.276.0.76.5.514" displayName="FA Gyn&#xE4;kologie und Geburtshilfe" level="0" type="L"/>
+                <concept code="082101" codeSystem="1.2.276.0.76.5.514" displayName="SP Gyn&#xE4;kologische Endokrinologie und Reproduktionsmedizin" level="0" type="L">
+                    <desc language="de-DE">FA Frauenheilkunde und Geburtshilfe mit SP Gynäkologische Endokrinologie und Reproduktionsmedizin</desc>
+                </concept>
+                <concept code="082102" codeSystem="1.2.276.0.76.5.514" displayName="SP Gyn&#xE4;kologische Onkologie" level="0" type="L">
+                    <desc language="de-DE">FA Frauenheilkunde und Geburtshilfe mit SP Gynäkologische Onkologie</desc>
+                </concept>
+                <concept code="082103" codeSystem="1.2.276.0.76.5.514" displayName="SP Spezielle Geburtshilfe und Perinatalmedizin" level="0" type="L">
+                    <desc language="de-DE">FA Frauenheilkunde und Geburtshilfe mit SP Spezielle Geburtshilfe und Perinatalmedizin</desc>
+                </concept>
+                <concept code="091001" codeSystem="1.2.276.0.76.5.514" displayName="FA Hals-Nasen-Ohrenheilkunde" level="0" type="L"/>
+                <concept code="091002" codeSystem="1.2.276.0.76.5.514" displayName="FA Phoniatrie und P&#xE4;daudiologie" level="0" type="L"/>
+                <concept code="091101" codeSystem="1.2.276.0.76.5.514" displayName="FA Sprach-; Stimm- und kindliche H&#xF6;rst&#xF6;rungen" level="0" type="L"/>
+                <concept code="093001" codeSystem="1.2.276.0.76.5.514" displayName="TG Audiologie" level="0" type="L">
+                    <desc language="de-DE">FA Hals- Nasen- Ohrenheilkunde mit TG Audiologie</desc>
+                </concept>
+                <concept code="093002" codeSystem="1.2.276.0.76.5.514" displayName="TG Phoniatrie" level="0" type="L">
+                    <desc language="de-DE">FA Hals- Nasen- Ohrenheilkunde mit TG Phoniatrie</desc>
+                </concept>
+                <concept code="093003" codeSystem="1.2.276.0.76.5.514" displayName="TG Phoniatrie und P&#xE4;daudiologie" level="0" type="L">
+                    <desc language="de-DE">FA Hals- Nasen- Ohrenheilkunde mit TG Phoniatrie und Pädaudiologie</desc>
+                </concept>
+                <concept code="101001" codeSystem="1.2.276.0.76.5.514" displayName="FA Dermatologie und Venerologie" level="0" type="L"/>
+                <concept code="101002" codeSystem="1.2.276.0.76.5.514" displayName="FA Haut- und Geschlechtskrankheiten" level="0" type="L"/>
+                <concept code="111001" codeSystem="1.2.276.0.76.5.514" displayName="FA Humangenetik" level="0" type="L"/>
+                <concept code="121001" codeSystem="1.2.276.0.76.5.514" displayName="FA Hygiene" level="0" type="L"/>
+                <concept code="121002" codeSystem="1.2.276.0.76.5.514" displayName="FA Hygiene und Umweltmedizin" level="0" type="L"/>
+                <concept code="131001" codeSystem="1.2.276.0.76.5.514" displayName="FA Immunologie" level="0" type="L"/>
+                <concept code="141002" codeSystem="1.2.276.0.76.5.514" displayName="FA Innere Medizin" level="0" type="L"/>
+                <concept code="141110" codeSystem="1.2.276.0.76.5.514" displayName="FA Innere Medizin und Angiologie" level="0" type="L"/>
+                <concept code="141111" codeSystem="1.2.276.0.76.5.514" displayName="FA Innere Medizin und Endokrinologie und Diabetologie" level="0" type="L"/>
+                <concept code="141112" codeSystem="1.2.276.0.76.5.514" displayName="FA Innere Medizin und Gastroenterologie" level="0" type="L"/>
+                <concept code="141903" codeSystem="1.2.276.0.76.5.514" displayName="FA Innere Medizin und Geriatrie" level="0" type="L"/>
+                <concept code="141113" codeSystem="1.2.276.0.76.5.514" displayName="FA Innere Medizin und H&#xE4;matologie und Onkologie" level="0" type="L"/>
+                <concept code="141904" codeSystem="1.2.276.0.76.5.514" displayName="FA Innere Medizin und Infektiologie" level="0" type="L"/>
+                <concept code="141114" codeSystem="1.2.276.0.76.5.514" displayName="FA Innere Medizin und Kardiologie" level="0" type="L"/>
+                <concept code="141115" codeSystem="1.2.276.0.76.5.514" displayName="FA Innere Medizin und Nephrologie" level="0" type="L"/>
+                <concept code="141116" codeSystem="1.2.276.0.76.5.514" displayName="FA Innere Medizin und Pneumologie" level="0" type="L"/>
+                <concept code="141117" codeSystem="1.2.276.0.76.5.514" displayName="FA Innere Medizin und Rheumatologie" level="0" type="L"/>
+                <concept code="141102" codeSystem="1.2.276.0.76.5.514" displayName="FA Innere Medizin und Schwerpunkt Angiologie" level="0" type="L"/>
+                <concept code="141103" codeSystem="1.2.276.0.76.5.514" displayName="FA Innere Medizin und Schwerpunkt Endokrinologie und Diabetologie" level="0" type="L"/>
+                <concept code="141104" codeSystem="1.2.276.0.76.5.514" displayName="FA Innere Medizin und Schwerpunkt Gastroenterologie" level="0" type="L"/>
+                <concept code="141901" codeSystem="1.2.276.0.76.5.514" displayName="FA Innere Medizin und Schwerpunkt Geriatrie" level="0" type="L"/>
+                <concept code="141902" codeSystem="1.2.276.0.76.5.514" displayName="FA Innere Medizin und Schwerpunkt gesamte Innere Medizin" level="0" type="L"/>
+                <concept code="141105" codeSystem="1.2.276.0.76.5.514" displayName="FA Innere Medizin und Schwerpunkt H&#xE4;matologie und Onkologie" level="0" type="L"/>
+                <concept code="141106" codeSystem="1.2.276.0.76.5.514" displayName="FA Innere Medizin und Schwerpunkt Kardiologie" level="0" type="L"/>
+                <concept code="141107" codeSystem="1.2.276.0.76.5.514" displayName="FA Innere Medizin und Schwerpunkt Nephrologie" level="0" type="L"/>
+                <concept code="141108" codeSystem="1.2.276.0.76.5.514" displayName="FA Innere Medizin und Schwerpunkt Pneumologie" level="0" type="L"/>
+                <concept code="141109" codeSystem="1.2.276.0.76.5.514" displayName="FA Innere Medizin und Schwerpunkt Rheumatologie" level="0" type="L"/>
+                <concept code="141003" codeSystem="1.2.276.0.76.5.514" displayName="FA Internist/Lungen- und Bronchialheilkunde" level="0" type="L"/>
+                <concept code="141005" codeSystem="1.2.276.0.76.5.514" displayName="FA Lungen- und Bronchialheilkunde" level="0" type="L"/>
+                <concept code="141004" codeSystem="1.2.276.0.76.5.514" displayName="FA Lungenheilkunde" level="0" type="L"/>
+                <concept code="142001" codeSystem="1.2.276.0.76.5.514" displayName="SP Angiologie" level="0" type="L"/>
+                <concept code="142002" codeSystem="1.2.276.0.76.5.514" displayName="SP Endokrinologie" level="0" type="L"/>
+                <concept code="142901" codeSystem="1.2.276.0.76.5.514" displayName="SP Endokrinologie und Diabetologie" level="0" type="L">
+                    <desc language="de-DE">FA Innere Medizin mit SP Endokrinologie und Diabetologie</desc>
+                </concept>
+                <concept code="142003" codeSystem="1.2.276.0.76.5.514" displayName="SP Gastroenterologie" level="0" type="L"/>
+                <concept code="142004" codeSystem="1.2.276.0.76.5.514" displayName="SP Geriatrie" level="0" type="L">
+                    <desc language="de-DE">FA Innere Medizin mit SP Geriatrie</desc>
+                </concept>
+                <concept code="142005" codeSystem="1.2.276.0.76.5.514" displayName="SP H&#xE4;matologie und Internistische Onkologie" level="0" type="L">
+                    <desc language="de-DE">FA Innere Medizin mit SP Hämatologie und Internistische Onkologie</desc>
+                </concept>
+                <concept code="142006" codeSystem="1.2.276.0.76.5.514" displayName="SP Infektiologie" level="0" type="L">
+                    <desc language="de-DE">FA Innere Medizin mit SP Infektiologie</desc>
+                </concept>
+                <concept code="142007" codeSystem="1.2.276.0.76.5.514" displayName="SP Kardiologie" level="0" type="L">
+                    <desc language="de-DE">FA Innere Medizin mit SP Kardiologie</desc>
+                </concept>
+                <concept code="142008" codeSystem="1.2.276.0.76.5.514" displayName="SP Nephrologie" level="0" type="L">
+                    <desc language="de-DE">FA Innere Medizin mit SP Nephrologie</desc>
+                </concept>
+                <concept code="142009" codeSystem="1.2.276.0.76.5.514" displayName="SP Pneumologie" level="0" type="L">
+                    <desc language="de-DE">FA Innere Medizin mit SP Pneumologie</desc>
+                </concept>
+                <concept code="142010" codeSystem="1.2.276.0.76.5.514" displayName="SP Rheumatologie" level="0" type="L">
+                    <desc language="de-DE">FA Innere Medizin mit SP Rheumatologie</desc>
+                </concept>
+                <concept code="143001" codeSystem="1.2.276.0.76.5.514" displayName="TG Diabetologie" level="0" type="L">
+                    <desc language="de-DE">FA Innere Medizin mit TG Diabetologie</desc>
+                </concept>
+                <concept code="143002" codeSystem="1.2.276.0.76.5.514" displayName="TG Endokrinologie" level="0" type="L">
+                    <desc language="de-DE">FA Innere Medizin mit TG Endokrinologie</desc>
+                </concept>
+                <concept code="143003" codeSystem="1.2.276.0.76.5.514" displayName="TG Gastroenterologie" level="0" type="L">
+                    <desc language="de-DE">FA Innere Medizin mit TG Gastroenterologie</desc>
+                </concept>
+                <concept code="143004" codeSystem="1.2.276.0.76.5.514" displayName="TG H&#xE4;matologie" level="0" type="L">
+                    <desc language="de-DE">FA Innere Medizin mit TG Hämatologie</desc>
+                </concept>
+                <concept code="143005" codeSystem="1.2.276.0.76.5.514" displayName="TG Infektions- und Tropenmedizin" level="0" type="L">
+                    <desc language="de-DE">FA Innere Medizin mit TG Infektions- und Tropenmedizin</desc>
+                </concept>
+                <concept code="143006" codeSystem="1.2.276.0.76.5.514" displayName="TG Kardiologie" level="0" type="L">
+                    <desc language="de-DE">FA Innere Medizin mit TG Kardiologie</desc>
+                </concept>
+                <concept code="143901" codeSystem="1.2.276.0.76.5.514" displayName="TG Kardiologie und Angiologie" level="0" type="L">
+                    <desc language="de-DE">FA Innere Medizin mit TG Kardiologie und Angiologie</desc>
+                </concept>
+                <concept code="143007" codeSystem="1.2.276.0.76.5.514" displayName="TG Lungen- und Bronchialheilkunde" level="0" type="L">
+                    <desc language="de-DE">FA Innere Medizin mit TG Lungen- und Bronchialheilkunde</desc>
+                </concept>
+                <concept code="143008" codeSystem="1.2.276.0.76.5.514" displayName="TG Nephrologie" level="0" type="L">
+                    <desc language="de-DE">FA Innere Medizin mit TG Nephrologie</desc>
+                </concept>
+                <concept code="143009" codeSystem="1.2.276.0.76.5.514" displayName="TG Rheumatologie" level="0" type="L">
+                    <desc language="de-DE">FA Innere Medizin mit TG Rheumatologie</desc>
+                </concept>
+                <concept code="151002" codeSystem="1.2.276.0.76.5.514" displayName="FA Kinder- und Jugendmedizin" level="0" type="L"/>
+                <concept code="151001" codeSystem="1.2.276.0.76.5.514" displayName="FA Kinderheilkunde" level="0" type="L"/>
+                <concept code="152901" codeSystem="1.2.276.0.76.5.514" displayName="SP Endokrinologie und Diabetologie in der Kinder- und Jugendmedizin" level="0" type="L"/>
+                <concept code="152902" codeSystem="1.2.276.0.76.5.514" displayName="SP Gastroenterologie in der Kinder- und Jugendmedizin" level="0" type="L"/>
+                <concept code="152001" codeSystem="1.2.276.0.76.5.514" displayName="SP Infektiologie" level="0" type="L">
+                    <desc language="de-DE">FA Kinder- und Jugendmedizin mit SP Infektiologie</desc>
+                </concept>
+                <concept code="152201" codeSystem="1.2.276.0.76.5.514" displayName="SP Kinder- und Jugend-H&#xE4;matologie und -Onkologie" level="0" type="L">
+                    <desc language="de-DE">FA Kinder- und Jugendmedizin mit SP Kinder- und Jugend-Hämatologie und -Onkologie</desc>
+                </concept>
+                <concept code="152202" codeSystem="1.2.276.0.76.5.514" displayName="SP Kinder- und Jugend-Kardiologie" level="0" type="L">
+                    <desc language="de-DE">FA Kinder- und Jugendmedizin mit SP Kinder- und Jugend-Kardiologie</desc>
+                </concept>
+                <concept code="152101" codeSystem="1.2.276.0.76.5.514" displayName="SP Kinder-H&#xE4;matologie und -Onkologie" level="0" type="L">
+                    <desc language="de-DE">FA Kinder- und Jugendmedizin mit SP Kinder-Hämatologie und -Onkologie</desc>
+                </concept>
+                <concept code="152002" codeSystem="1.2.276.0.76.5.514" displayName="SP Kinder-Kardiologie" level="0" type="L">
+                    <desc language="de-DE">FA Kinder- und Jugendmedizin mit SP Kinder-Kardiologie</desc>
+                </concept>
+                <concept code="152906" codeSystem="1.2.276.0.76.5.514" displayName="SP Kinderpneumologie" level="0" type="L">
+                    <desc language="de-DE">FA Kinder- und Jugendmedizin mit SP Kinderpneumologie</desc>
+                </concept>
+                <concept code="152003" codeSystem="1.2.276.0.76.5.514" displayName="SP Neonatologie" level="0" type="L">
+                    <desc language="de-DE">FA Kinder- und Jugendmedizin mit SP Neonatologie</desc>
+                </concept>
+                <concept code="152903" codeSystem="1.2.276.0.76.5.514" displayName="SP Nephrologie" level="0" type="L">
+                    <desc language="de-DE">FA Kinder- und Jugendmedizin mit SP Nephrologie</desc>
+                </concept>
+                <concept code="152102" codeSystem="1.2.276.0.76.5.514" displayName="SP Neurop&#xE4;diatrie" level="0" type="L">
+                    <desc language="de-DE">FA Kinder- und Jugendmedizin mit SP Neuropädiatrie</desc>
+                </concept>
+                <concept code="152904" codeSystem="1.2.276.0.76.5.514" displayName="SP P&#xE4;diatrische Rheumatologie" level="0" type="L">
+                    <desc language="de-DE">FA Kinder- und Jugendmedizin mit SP Pädiatrische Rheumatologie</desc>
+                </concept>
+                <concept code="152905" codeSystem="1.2.276.0.76.5.514" displayName="SP Pulmologie in der Kinder- und Jugendmedizin" level="0" type="L">
+                    <desc language="de-DE">FA Kinder- und Jugendmedizin mit SP Pulmologie in der Kinder- und Jugendmedizin</desc>
+                </concept>
+                <concept code="153001" codeSystem="1.2.276.0.76.5.514" displayName="TG Kinderdiabetologie" level="0" type="L">
+                    <desc language="de-DE">FA Kinder- und Jugendmedizin mit TG Kinderdiabetologie</desc>
+                </concept>
+                <concept code="153002" codeSystem="1.2.276.0.76.5.514" displayName="TG Kindergastroenterologie" level="0" type="L">
+                    <desc language="de-DE">FA Kinder- und Jugendmedizin mit TG Kindergastroenterologie</desc>
+                </concept>
+                <concept code="153003" codeSystem="1.2.276.0.76.5.514" displayName="TG Kinderh&#xE4;matologie" level="0" type="L">
+                    <desc language="de-DE">FA Kinder- und Jugendmedizin mit TG Kinderhämatologie</desc>
+                </concept>
+                <concept code="153004" codeSystem="1.2.276.0.76.5.514" displayName="TG Kinderkardiologie" level="0" type="L">
+                    <desc language="de-DE">FA Kinder- und Jugendmedizin mit TG Kinderkardiologie</desc>
+                </concept>
+                <concept code="153005" codeSystem="1.2.276.0.76.5.514" displayName="TG Kinderlungen- und -bronchialheilkunde" level="0" type="L">
+                    <desc language="de-DE">FA Kinder- und Jugendmedizin mit TG Kinderlungen- und -bronchialheilkunde</desc>
+                </concept>
+                <concept code="153006" codeSystem="1.2.276.0.76.5.514" displayName="TG Kinderneonatologie" level="0" type="L">
+                    <desc language="de-DE">FA Kinder- und Jugendmedizin mit TG Kinderneonatologie</desc>
+                </concept>
+                <concept code="153007" codeSystem="1.2.276.0.76.5.514" displayName="TG Kindernephrologie" level="0" type="L">
+                    <desc language="de-DE">FA Kinder- und Jugendmedizin mit TG Kindernephrologie</desc>
+                </concept>
+                <concept code="153008" codeSystem="1.2.276.0.76.5.514" displayName="TG Kinderneuropsychiatrie" level="0" type="L">
+                    <desc language="de-DE">FA Kinder- und Jugendmedizin mit TG Kinderneuropsychiatrie</desc>
+                </concept>
+                <concept code="161001" codeSystem="1.2.276.0.76.5.514" displayName="FA Kinder- und Jugendpsychiatrie" level="0" type="L"/>
+                <concept code="161002" codeSystem="1.2.276.0.76.5.514" displayName="FA Kinder- und Jugendpsychiatrie und -psychotherapie" level="0" type="L"/>
+                <concept code="171001" codeSystem="1.2.276.0.76.5.514" displayName="FA Laboratoriumsmedizin" level="0" type="L"/>
+                <concept code="173001" codeSystem="1.2.276.0.76.5.514" displayName="TG Medizinische Mikrobiologie" level="0" type="L">
+                    <desc language="de-DE">FA Laboratoriumsmedizin mit TG Medizinische Mikrobiologie</desc>
+                </concept>
+                <concept code="181001" codeSystem="1.2.276.0.76.5.514" displayName="FA Mikrobiologie" level="0" type="L"/>
+                <concept code="181002" codeSystem="1.2.276.0.76.5.514" displayName="FA Mikrobiologie und Infektionsepidemiologie" level="0" type="L"/>
+                <concept code="181101" codeSystem="1.2.276.0.76.5.514" displayName="FA Mikrobiologie; Virologie und Infektionsepidemiologie" level="0" type="L"/>
+                <concept code="191001" codeSystem="1.2.276.0.76.5.514" displayName="FA Kieferchirurgie" level="0" type="L"/>
+                <concept code="191002" codeSystem="1.2.276.0.76.5.514" displayName="FA Mund-Kiefer-Gesichtschirurgie" level="0" type="L"/>
+                <concept code="191901" codeSystem="1.2.276.0.76.5.514" displayName="FA Oralchirurgie" level="0" type="L"/>
+                <concept code="201001" codeSystem="1.2.276.0.76.5.514" displayName="FA Nervenheilkunde" level="0" type="L"/>
+                <concept code="201002" codeSystem="1.2.276.0.76.5.514" displayName="FA Nervenheilkunde (Neurologie und Psychiatrie)" level="0" type="L"/>
+                <concept code="201003" codeSystem="1.2.276.0.76.5.514" displayName="FA Neurologie und Psychiatrie (Nervenarzt)" level="0" type="L"/>
+                <concept code="203001" codeSystem="1.2.276.0.76.5.514" displayName="TG Kinderneuropsychiatrie" level="0" type="L">
+                    <desc language="de-DE">FA Nervenheilkunde mit TG Kinderneuropsychiatrie</desc>
+                </concept>
+                <concept code="211001" codeSystem="1.2.276.0.76.5.514" displayName="FA Neurochirurgie" level="0" type="L"/>
+                <concept code="221001" codeSystem="1.2.276.0.76.5.514" displayName="FA Neurologie" level="0" type="L"/>
+                <concept code="222901" codeSystem="1.2.276.0.76.5.514" displayName="SP Geriatrie" level="0" type="L">
+                    <desc language="de-DE">FA Neurologie mit SP Geriatrie</desc>
+                </concept>
+                <concept code="231001" codeSystem="1.2.276.0.76.5.514" displayName="FA Nuklearmedizin" level="0" type="L"/>
+                <concept code="241001" codeSystem="1.2.276.0.76.5.514" displayName="FA &#xD6;ffentliches Gesundheitswesen" level="0" type="L"/>
+                <concept code="251001" codeSystem="1.2.276.0.76.5.514" displayName="FA Neuropathologie" level="0" type="L"/>
+                <concept code="251002" codeSystem="1.2.276.0.76.5.514" displayName="FA Pathobiochemie und Labordiagnostik" level="0" type="L"/>
+                <concept code="251003" codeSystem="1.2.276.0.76.5.514" displayName="FA Pathologie" level="0" type="L"/>
+                <concept code="251004" codeSystem="1.2.276.0.76.5.514" displayName="FA Pathologische Anatomie" level="0" type="L"/>
+                <concept code="251005" codeSystem="1.2.276.0.76.5.514" displayName="FA Pathologische Physiologie" level="0" type="L"/>
+                <concept code="253001" codeSystem="1.2.276.0.76.5.514" displayName="TG Neuropathologie" level="0" type="L">
+                    <desc language="de-DE">FA Pathologie mit TG Neuropathologie</desc>
+                </concept>
+                <concept code="261001" codeSystem="1.2.276.0.76.5.514" displayName="FA Klinische Pharmakologie" level="0" type="L"/>
+                <concept code="261002" codeSystem="1.2.276.0.76.5.514" displayName="FA Pharmakologie" level="0" type="L"/>
+                <concept code="261003" codeSystem="1.2.276.0.76.5.514" displayName="FA Pharmakologie und Toxikologie" level="0" type="L"/>
+                <concept code="263001" codeSystem="1.2.276.0.76.5.514" displayName="TG Klinische Pharmakologie" level="0" type="L">
+                    <desc language="de-DE">FA Pharmakologie mit TG Klinische Pharmakologie</desc>
+                </concept>
+                <concept code="381201" codeSystem="1.2.276.0.76.5.514" displayName="Phoniatrie und P&#xE4;daudiologie" level="0" type="L"/>
+                <concept code="271001" codeSystem="1.2.276.0.76.5.514" displayName="FA Physikalische und Rehabilitative Medizin" level="0" type="L"/>
+                <concept code="271002" codeSystem="1.2.276.0.76.5.514" displayName="FA Physiotherapie" level="0" type="L"/>
+                <concept code="281001" codeSystem="1.2.276.0.76.5.514" displayName="FA Physiologie" level="0" type="L"/>
+                <concept code="291001" codeSystem="1.2.276.0.76.5.514" displayName="FA Psychiatrie" level="0" type="L"/>
+                <concept code="291002" codeSystem="1.2.276.0.76.5.514" displayName="FA Psychiatrie und Psychotherapie" level="0" type="L"/>
+                <concept code="292101" codeSystem="1.2.276.0.76.5.514" displayName="SP Forensische Psychiatrie" level="0" type="L"/>
+                <concept code="292901" codeSystem="1.2.276.0.76.5.514" displayName="SP Geriatrie" level="0" type="L">
+                    <desc language="de-DE">FA Psychiatrie und Psychotherapie mit SP Geriatrie</desc>
+                </concept>
+                <concept code="301101" codeSystem="1.2.276.0.76.5.514" displayName="FA Psychosomatische Medizin und Psychotherapie" level="0" type="L"/>
+                <concept code="301001" codeSystem="1.2.276.0.76.5.514" displayName="FA Psychotherapeutische Medizin" level="0" type="L"/>
+                <concept code="301002" codeSystem="1.2.276.0.76.5.514" displayName="FA Psychotherapie" level="0" type="L"/>
+                <concept code="311001" codeSystem="1.2.276.0.76.5.514" displayName="FA Diagnostische Radiologie" level="0" type="L"/>
+                <concept code="311002" codeSystem="1.2.276.0.76.5.514" displayName="FA Radiologie" level="0" type="L"/>
+                <concept code="311003" codeSystem="1.2.276.0.76.5.514" displayName="FA Radiologische Diagnostik" level="0" type="L"/>
+                <concept code="312201" codeSystem="1.2.276.0.76.5.514" displayName="SP Kinder- und Jugendradiologie" level="0" type="L">
+                    <desc language="de-DE">FA Radiologie mit SP Kinder- und Jugendradiologie</desc>
+                </concept>
+                <concept code="312001" codeSystem="1.2.276.0.76.5.514" displayName="SP Kinderradiologie" level="0" type="L">
+                    <desc language="de-DE">FA Radiologie mit SP Kinderradiologie</desc>
+                </concept>
+                <concept code="312002" codeSystem="1.2.276.0.76.5.514" displayName="SP Neuroradiologie" level="0" type="L">
+                    <desc language="de-DE">FA Radiologie mit SP Neuroradiologie</desc>
+                </concept>
+                <concept code="313001" codeSystem="1.2.276.0.76.5.514" displayName="TG Kinderradiologie" level="0" type="L">
+                    <desc language="de-DE">FA Radiologie mit TG Kinderradiologie</desc>
+                </concept>
+                <concept code="313002" codeSystem="1.2.276.0.76.5.514" displayName="TG Neuroradiologie" level="0" type="L">
+                    <desc language="de-DE">FA Radiologie mit TG Neuroradiologie</desc>
+                </concept>
+                <concept code="313003" codeSystem="1.2.276.0.76.5.514" displayName="TG Strahlentherapie" level="0" type="L">
+                    <desc language="de-DE">FA Radiologie mit TG Strahlentherapie</desc>
+                </concept>
+                <concept code="321001" codeSystem="1.2.276.0.76.5.514" displayName="FA Rechtsmedizin" level="0" type="L"/>
+                <concept code="351001" codeSystem="1.2.276.0.76.5.514" displayName="FA Strahlentherapie" level="0" type="L"/>
+                <concept code="361001" codeSystem="1.2.276.0.76.5.514" displayName="FA Blutspende- und Transfusionswesen" level="0" type="L"/>
+                <concept code="361002" codeSystem="1.2.276.0.76.5.514" displayName="FA Transfusionsmedizin" level="0" type="L"/>
+                <concept code="371001" codeSystem="1.2.276.0.76.5.514" displayName="FA Urologie" level="0" type="L"/>
+                <concept code="011002" codeSystem="1.2.276.0.76.5.514" displayName="FA Praktischer Arzt" level="0" type="L"/>
+                <concept code="011101" codeSystem="1.2.276.0.76.5.514" displayName="FA Innere und Allgemeinmedizin (Hausarzt)" level="0" type="L"/>
+                <concept code="331001" codeSystem="1.2.276.0.76.5.514" displayName="FA Sozialhygiene" level="0" type="L"/>
+                <concept code="341001" codeSystem="1.2.276.0.76.5.514" displayName="FA Sportmedizin" level="0" type="L"/>
+                <concept code="590001" codeSystem="1.2.276.0.76.5.514" displayName="Biomathematik" level="0" type="L"/>
+                <concept code="590002" codeSystem="1.2.276.0.76.5.514" displayName="Biophysik" level="0" type="L"/>
+                <concept code="590003" codeSystem="1.2.276.0.76.5.514" displayName="Geschichte der Medizin" level="0" type="L"/>
+                <concept code="590004" codeSystem="1.2.276.0.76.5.514" displayName="Industrietoxikologie" level="0" type="L"/>
+                <concept code="590005" codeSystem="1.2.276.0.76.5.514" displayName="Kieferchirurgie" level="0" type="L"/>
+                <concept code="590006" codeSystem="1.2.276.0.76.5.514" displayName="Klinische Strahlenphysik" level="0" type="L"/>
+                <concept code="590007" codeSystem="1.2.276.0.76.5.514" displayName="Medizinische Genetik" level="0" type="L"/>
+                <concept code="590008" codeSystem="1.2.276.0.76.5.514" displayName="Medizinische Informatik" level="0" type="L"/>
+                <concept code="590009" codeSystem="1.2.276.0.76.5.514" displayName="Medizinische Physik und Biophysik" level="0" type="L"/>
+                <concept code="590010" codeSystem="1.2.276.0.76.5.514" displayName="Medizinische Wissenschaftsinformation" level="0" type="L"/>
+                <concept code="590011" codeSystem="1.2.276.0.76.5.514" displayName="Pathologische Biochemie" level="0" type="L"/>
+                <concept code="000001" codeSystem="1.2.276.0.76.5.514" displayName="&#xC4;rztin/Arzt" level="0" type="L"/>
+                <concept code="000011" codeSystem="1.2.276.0.76.5.514" displayName="Praktische &#xC4;rztin/Praktischer Arzt (EWG-Recht ab 86/457/EWG)" level="0" type="L"/>
+                <concept code="1" codeSystem="1.2.276.0.76.5.492" displayName="Zahnarzt" level="0" type="S"/>
+                <concept code="2" codeSystem="1.2.276.0.76.5.492" displayName="FZA Allgemeine Zahnheilkunde" level="1" type="L"/>
+                <concept code="3" codeSystem="1.2.276.0.76.5.492" displayName="FZA Parodontologie" level="1" type="L"/>
+                <concept code="4" codeSystem="1.2.276.0.76.5.492" displayName="FZA Oralchirurgie" level="1" type="L"/>
+                <concept code="5" codeSystem="1.2.276.0.76.5.492" displayName="FZA Kieferorthop&#xE4;die" level="1" type="L"/>
+                <concept code="6" codeSystem="1.2.276.0.76.5.492" displayName="FZA &#xF6;ffentliches Gesundheitswesen" level="1" type="L"/>
+                <concept code="1" codeSystem="1.2.276.0.76.5.493" displayName="obsolet" level="0" type="D">
+                    <designation language="de-DE" type="synonym" displayName="Arzt in Facharztausbildung"/>
+                </concept>
+                <concept code="3" codeSystem="1.2.276.0.76.5.493" displayName="obsolet" level="0" type="D">
+                    <designation language="de-DE" type="synonym" displayName="Praktischer Arzt"/>
+                    <desc language="de-DE">
+                    <span style="color: rgb(74, 74, 74); font-family: Helvetica, Arial, sans-serif;">Praktischer Arzt oder Praktische Ärztin ist eine seit der Weiterbildungsordnung von 1992 nicht mehr neu vergebene Berufsbezeichnung für einen niedergelassenen Arzt ohne eine zum Führen der Bezeichnung „Facharzt“ obligate Weiterbildung.</span>
+                    <br clear="none"/>
+                </desc>
+                </concept>
+                <concept code="1" codeSystem="1.3.6.1.4.1.19376.3.276.1.5.11" displayName="Gesundheits- Sozial-, Sportmanagement" level="0" type="S"/>
+                <concept code="2" codeSystem="1.3.6.1.4.1.19376.3.276.1.5.11" displayName="Arzthilfe, Praxisorganisation, -verwaltung" level="1" type="S"/>
+                <concept code="179" codeSystem="1.3.6.1.4.1.19376.3.276.1.5.11" displayName="Physician Assistant" level="2" type="L"/>
+                <concept code="3" codeSystem="1.3.6.1.4.1.19376.3.276.1.5.11" displayName="Kaufmann/-frau - Gesundheitswesen" level="2" type="L"/>
+                <concept code="4" codeSystem="1.3.6.1.4.1.19376.3.276.1.5.11" displayName="Medizinischer Fachangestellter" level="2" type="L"/>
+                <concept code="5" codeSystem="1.3.6.1.4.1.19376.3.276.1.5.11" displayName="obsolet" level="2" type="D">
+                    <designation language="de-DE" type="synonym" displayName="Tiermedizinischer Fachangestellter"/>
+                </concept>
+                <concept code="6" codeSystem="1.3.6.1.4.1.19376.3.276.1.5.11" displayName="Zahnmedizinischer Fachangestellter" level="2" type="L"/>
+                <concept code="7" codeSystem="1.3.6.1.4.1.19376.3.276.1.5.11" displayName="Arztsekret&#xE4;r" level="2" type="L"/>
+                <concept code="8" codeSystem="1.3.6.1.4.1.19376.3.276.1.5.11" displayName="Sozial-, Gesundheitsmanagement" level="1" type="L"/>
+                <concept code="9" codeSystem="1.3.6.1.4.1.19376.3.276.1.5.11" displayName="Gesundheitsaufseher / Hygienekontrolleur" level="2" type="L"/>
+                <concept code="10" codeSystem="1.3.6.1.4.1.19376.3.276.1.5.11" displayName="Assistent Gesundheits- und Sozialwesen" level="2" type="L"/>
+                <concept code="11" codeSystem="1.3.6.1.4.1.19376.3.276.1.5.11" displayName="Beamte Sozialversicherung" level="2" type="L"/>
+                <concept code="12" codeSystem="1.3.6.1.4.1.19376.3.276.1.5.11" displayName="Beamte Sozialverwaltung" level="2" type="L"/>
+                <concept code="13" codeSystem="1.3.6.1.4.1.19376.3.276.1.5.11" displayName="Betriebswirt  Sozialversicherung" level="2" type="L"/>
+                <concept code="14" codeSystem="1.3.6.1.4.1.19376.3.276.1.5.11" displayName="Gesundheitsmanager" level="2" type="L"/>
+                <concept code="15" codeSystem="1.3.6.1.4.1.19376.3.276.1.5.11" displayName="Sozial&#xF6;konom, -wirt" level="2" type="L"/>
+                <concept code="16" codeSystem="1.3.6.1.4.1.19376.3.276.1.5.11" displayName="Sozialversicherungsfachangestellte" level="2" type="L"/>
+                <concept code="17" codeSystem="1.3.6.1.4.1.19376.3.276.1.5.11" displayName="Sportmanagement" level="1" type="S"/>
+                <concept code="18" codeSystem="1.3.6.1.4.1.19376.3.276.1.5.11" displayName="Sportassistent" level="2" type="L"/>
+                <concept code="19" codeSystem="1.3.6.1.4.1.19376.3.276.1.5.11" displayName="Fachwirt Fitness" level="2" type="L"/>
+                <concept code="20" codeSystem="1.3.6.1.4.1.19376.3.276.1.5.11" displayName="Sport- und Fitnesskaufmann" level="2" type="L"/>
+                <concept code="21" codeSystem="1.3.6.1.4.1.19376.3.276.1.5.11" displayName="Sportmanager, Sport&#xF6;konom" level="2" type="L"/>
+                <concept code="22" codeSystem="1.3.6.1.4.1.19376.3.276.1.5.11" displayName="nicht&#xE4;rztliche medizinische Analyse, Beratung, Pflege, Therapie" level="0" type="S"/>
+                <concept code="23" codeSystem="1.3.6.1.4.1.19376.3.276.1.5.11" displayName="Gesundheitsberatung, -f&#xF6;rderung" level="1" type="S"/>
+                <concept code="24" codeSystem="1.3.6.1.4.1.19376.3.276.1.5.11" displayName="Assistenten f&#xFC;r Gesundheitstourismus,  -prophylaxe" level="2" type="L"/>
+                <concept code="25" codeSystem="1.3.6.1.4.1.19376.3.276.1.5.11" displayName="Di&#xE4;tassistent" level="2" type="L"/>
+                <concept code="26" codeSystem="1.3.6.1.4.1.19376.3.276.1.5.11" displayName="Gesundheitsf&#xF6;rderer, -p&#xE4;dagoge" level="2" type="L"/>
+                <concept code="27" codeSystem="1.3.6.1.4.1.19376.3.276.1.5.11" displayName="Gesundheitswissenschaftler" level="2" type="L"/>
+                <concept code="28" codeSystem="1.3.6.1.4.1.19376.3.276.1.5.11" displayName="Oekotrophologe" level="2" type="L"/>
+                <concept code="29" codeSystem="1.3.6.1.4.1.19376.3.276.1.5.11" displayName="Tai-Chi-Chuan- und Qigong-Lehrer" level="2" type="L"/>
+                <concept code="30" codeSystem="1.3.6.1.4.1.19376.3.276.1.5.11" displayName="Yogalehrer" level="2" type="L"/>
+                <concept code="31" codeSystem="1.3.6.1.4.1.19376.3.276.1.5.11" displayName="Sportfachmann" level="2" type="L"/>
+                <concept code="32" codeSystem="1.3.6.1.4.1.19376.3.276.1.5.11" displayName="Sportwissenschaftler" level="2" type="L"/>
+                <concept code="33" codeSystem="1.3.6.1.4.1.19376.3.276.1.5.11" displayName="Kranken-, Altenpflege, Geburtshilfe" level="1" type="S"/>
+                <concept code="34" codeSystem="1.3.6.1.4.1.19376.3.276.1.5.11" displayName="Altenpflegehelfer" level="2" type="L"/>
+                <concept code="35" codeSystem="1.3.6.1.4.1.19376.3.276.1.5.11" displayName="Altenpfleger" level="2" type="L"/>
+                <concept code="36" codeSystem="1.3.6.1.4.1.19376.3.276.1.5.11" displayName="Fachkraft Pflegeassistenz" level="2" type="L"/>
+                <concept code="37" codeSystem="1.3.6.1.4.1.19376.3.276.1.5.11" displayName="Gesundheits- und Kinderkrankenpfleger" level="2" type="L"/>
+                <concept code="38" codeSystem="1.3.6.1.4.1.19376.3.276.1.5.11" displayName="Gesundheits- und Krankenpflegehelfer" level="2" type="L"/>
+                <concept code="39" codeSystem="1.3.6.1.4.1.19376.3.276.1.5.11" displayName="Gesundheits- und Krankenpfleger" level="2" type="L"/>
+                <concept code="40" codeSystem="1.3.6.1.4.1.19376.3.276.1.5.11" displayName="Haus- und Familienpfleger" level="2" type="L"/>
+                <concept code="41" codeSystem="1.3.6.1.4.1.19376.3.276.1.5.11" displayName="Hebamme / Entbindungspfleger" level="2" type="L"/>
+                <concept code="42" codeSystem="1.3.6.1.4.1.19376.3.276.1.5.11" displayName="Heilerziehungspfleger" level="2" type="L"/>
+                <concept code="43" codeSystem="1.3.6.1.4.1.19376.3.276.1.5.11" displayName="Helfer Altenpflege" level="2" type="L"/>
+                <concept code="44" codeSystem="1.3.6.1.4.1.19376.3.276.1.5.11" displayName="Helfer station&#xE4;re Krankenpflege" level="2" type="L"/>
+                <concept code="45" codeSystem="1.3.6.1.4.1.19376.3.276.1.5.11" displayName="Heilerziehungspflegehelfer" level="2" type="L"/>
+                <concept code="46" codeSystem="1.3.6.1.4.1.19376.3.276.1.5.11" displayName="Pflegewissenschaftler" level="2" type="L"/>
+                <concept code="175" codeSystem="1.3.6.1.4.1.19376.3.276.1.5.11" displayName="Fachgesundheits- und krankenpfleger f&#xFC;r Intensivpflege und An&#xE4;sthesie" level="2" type="L"/>
+                <concept code="176" codeSystem="1.3.6.1.4.1.19376.3.276.1.5.11" displayName="Fachgesundheits- und krankenpfleger im Operations-/Endoskopiedienst" level="2" type="L"/>
+                <concept code="177" codeSystem="1.3.6.1.4.1.19376.3.276.1.5.11" displayName="Fachgesundheits- und krankenpfleger f&#xFC;r Hygiene" level="2" type="L"/>
+                <concept code="178" codeSystem="1.3.6.1.4.1.19376.3.276.1.5.11" displayName="Fachgesundheits- und krankenpfleger f&#xFC;r Palliativ- und Hospizpflege" level="2" type="L"/>
+                <concept code="186" codeSystem="1.3.6.1.4.1.19376.3.276.1.5.11" displayName="Pflegefachmann/Pflegefachfrau" level="2" type="L"/>
+                <concept code="187" codeSystem="1.3.6.1.4.1.19376.3.276.1.5.11" displayName="Fachgesundheits- und krankenpfleger f&#xFC;r Onkologie" level="2" type="L"/>
+                <concept code="188" codeSystem="1.3.6.1.4.1.19376.3.276.1.5.11" displayName="Fachgesundheits- und krankenpfleger f&#xFC;r Psychiatrie" level="2" type="L"/>
+                <concept code="47" codeSystem="1.3.6.1.4.1.19376.3.276.1.5.11" displayName="Nicht&#xE4;rztliche Behandlung, Therapie (au&#xDF;er Psychotherapie)" level="1" type="S"/>
+                <concept code="48" codeSystem="1.3.6.1.4.1.19376.3.276.1.5.11" displayName="Akademischer Sprachtherapeut" level="2" type="L"/>
+                <concept code="49" codeSystem="1.3.6.1.4.1.19376.3.276.1.5.11" displayName="Atem-, Sprech- und Stimmlehrer" level="2" type="L"/>
+                <concept code="50" codeSystem="1.3.6.1.4.1.19376.3.276.1.5.11" displayName="Ergotherapeut" level="2" type="L"/>
+                <concept code="51" codeSystem="1.3.6.1.4.1.19376.3.276.1.5.11" displayName="Fachangestellter f&#xFC;r B&#xE4;derbetriebe" level="2" type="L"/>
+                <concept code="52" codeSystem="1.3.6.1.4.1.19376.3.276.1.5.11" displayName="Heilpraktiker" level="2" type="L"/>
+                <concept code="53" codeSystem="1.3.6.1.4.1.19376.3.276.1.5.11" displayName="Klinischer Linguist" level="2" type="L"/>
+                <concept code="54" codeSystem="1.3.6.1.4.1.19376.3.276.1.5.11" displayName="Kunsttherapeut" level="2" type="L"/>
+                <concept code="55" codeSystem="1.3.6.1.4.1.19376.3.276.1.5.11" displayName="Logop&#xE4;de" level="2" type="L"/>
+                <concept code="56" codeSystem="1.3.6.1.4.1.19376.3.276.1.5.11" displayName="Masseur und medizinische Bademeister" level="2" type="L"/>
+                <concept code="57" codeSystem="1.3.6.1.4.1.19376.3.276.1.5.11" displayName="Motologe" level="2" type="L"/>
+                <concept code="58" codeSystem="1.3.6.1.4.1.19376.3.276.1.5.11" displayName="Musiktherapeut" level="2" type="L"/>
+                <concept code="59" codeSystem="1.3.6.1.4.1.19376.3.276.1.5.11" displayName="Orthoptist" level="2" type="L"/>
+                <concept code="60" codeSystem="1.3.6.1.4.1.19376.3.276.1.5.11" displayName="Physiotherapeut" level="2" type="L"/>
+                <concept code="61" codeSystem="1.3.6.1.4.1.19376.3.276.1.5.11" displayName="Podologe" level="2" type="L"/>
+                <concept code="62" codeSystem="1.3.6.1.4.1.19376.3.276.1.5.11" displayName="Sporttherapeut" level="2" type="L"/>
+                <concept code="63" codeSystem="1.3.6.1.4.1.19376.3.276.1.5.11" displayName="Sprechwissenschaftler" level="2" type="L"/>
+                <concept code="64" codeSystem="1.3.6.1.4.1.19376.3.276.1.5.11" displayName="Staatlich anerkannter Sprachtherapeut" level="2" type="L"/>
+                <concept code="65" codeSystem="1.3.6.1.4.1.19376.3.276.1.5.11" displayName="Stomatherapeut" level="2" type="L"/>
+                <concept code="66" codeSystem="1.3.6.1.4.1.19376.3.276.1.5.11" displayName="Tanz- und Bewegungstherapeut" level="2" type="L"/>
+                <concept code="67" codeSystem="1.3.6.1.4.1.19376.3.276.1.5.11" displayName="obsolet" level="2" type="D">
+                    <designation language="de-DE" type="synonym" displayName="Tierheilpraktiker"/>
+                </concept>
+                <concept code="68" codeSystem="1.3.6.1.4.1.19376.3.276.1.5.11" displayName="Sozialtherapeut" level="2" type="L"/>
+                <concept code="69" codeSystem="1.3.6.1.4.1.19376.3.276.1.5.11" displayName="Pharmazeutische Beratung, Pharmavertrieb" level="1" type="S"/>
+                <concept code="70" codeSystem="1.3.6.1.4.1.19376.3.276.1.5.11" displayName="Apotheker /Fachapotheker" level="2" type="L"/>
+                <concept code="71" codeSystem="1.3.6.1.4.1.19376.3.276.1.5.11" displayName="Pharmazeut" level="2" type="L"/>
+                <concept code="72" codeSystem="1.3.6.1.4.1.19376.3.276.1.5.11" displayName="Pharmazeutisch-technischer Assistent &#x2013; PTA" level="2" type="L"/>
+                <concept code="73" codeSystem="1.3.6.1.4.1.19376.3.276.1.5.11" displayName="Pharmazeutisch-kaufm&#xE4;nnischer Angestellter" level="2" type="L"/>
+                <concept code="180" codeSystem="1.3.6.1.4.1.19376.3.276.1.5.11" displayName="Pharmazieingenieur" level="2" type="L"/>
+                <concept code="181" codeSystem="1.3.6.1.4.1.19376.3.276.1.5.11" displayName="Apothekenassistent" level="2" type="L">
+                    <desc language="de-DE">Der Apothekenassistent hat ein zweijähriges Studium an der Ingenieurschule für Pharmazie in Leipzig absolviert.</desc>
+                </concept>
+                <concept code="182" codeSystem="1.3.6.1.4.1.19376.3.276.1.5.11" displayName="Apothekerassistent" level="2" type="L">
+                    <desc language="de-DE">Personen, die die pharmazeutische Vorprüfung nach der „Prüfungsordnung für Apotheker“ vom 18. Mai 1904 oder nach der „Prüfungsordnung für Apotheker“ vom 8. Dezember 1934 bestanden haben (vorgeprüfte Apothekeranwärter), dürfen eine Tätigkeit unter der Berufsbezeichnung „Apothekerassistentin“ oder „Apothekerassistent“ ausüben (§ 1 Abs. 1 ApoAnwRstG).</desc>
+                </concept>
+                <concept code="74" codeSystem="1.3.6.1.4.1.19376.3.276.1.5.11" displayName="Psychologische Analyse, Beratung, Therapie" level="1" type="S"/>
+                <concept code="75" codeSystem="1.3.6.1.4.1.19376.3.276.1.5.11" displayName="Gesundheits- und Rehabilitationspsychologe" level="2" type="L"/>
+                <concept code="76" codeSystem="1.3.6.1.4.1.19376.3.276.1.5.11" displayName="Kinder- und Jugendlichenpsychotherapeut" level="2" type="L"/>
+                <concept code="77" codeSystem="1.3.6.1.4.1.19376.3.276.1.5.11" displayName="Klinischer Psychologe" level="2" type="L"/>
+                <concept code="78" codeSystem="1.3.6.1.4.1.19376.3.276.1.5.11" displayName="Kommunikationspsychologe" level="2" type="L"/>
+                <concept code="79" codeSystem="1.3.6.1.4.1.19376.3.276.1.5.11" displayName="P&#xE4;dagogischer Psychologe" level="2" type="L"/>
+                <concept code="80" codeSystem="1.3.6.1.4.1.19376.3.276.1.5.11" displayName="Psychoanalytiker" level="2" type="L"/>
+                <concept code="81" codeSystem="1.3.6.1.4.1.19376.3.276.1.5.11" displayName="Psychologe" level="2" type="L"/>
+                <concept code="82" codeSystem="1.3.6.1.4.1.19376.3.276.1.5.11" displayName="Psychologischer Psychotherapeut" level="2" type="L"/>
+                <concept code="183" codeSystem="1.3.6.1.4.1.19376.3.276.1.5.11" displayName="Psychotherapeut" level="2" type="S"/>
+                <concept code="184" codeSystem="1.3.6.1.4.1.19376.3.276.1.5.11" displayName="Fachpsychotherapeut f&#xFC;r Kinder und Jugendliche" level="3" type="L"/>
+                <concept code="185" codeSystem="1.3.6.1.4.1.19376.3.276.1.5.11" displayName="Fachpsychotherapeut f&#xFC;r Erwachsene" level="3" type="L"/>
+                <concept code="83" codeSystem="1.3.6.1.4.1.19376.3.276.1.5.11" displayName="Sportpsychologe" level="2" type="L"/>
+                <concept code="84" codeSystem="1.3.6.1.4.1.19376.3.276.1.5.11" displayName="Verkehrspsychologe" level="2" type="L"/>
+                <concept code="85" codeSystem="1.3.6.1.4.1.19376.3.276.1.5.11" displayName="Wirtschaftspsychologe" level="2" type="L"/>
+                <concept code="86" codeSystem="1.3.6.1.4.1.19376.3.276.1.5.11" displayName="Rettungsdienst" level="1" type="S"/>
+                <concept code="87" codeSystem="1.3.6.1.4.1.19376.3.276.1.5.11" displayName="Ingenieur Rettungswesen" level="2" type="L"/>
+                <concept code="88" codeSystem="1.3.6.1.4.1.19376.3.276.1.5.11" displayName="Notfallsanit&#xE4;ter" level="2" type="L"/>
+                <concept code="89" codeSystem="1.3.6.1.4.1.19376.3.276.1.5.11" displayName="Rettungsassistent" level="2" type="L"/>
+                <concept code="90" codeSystem="1.3.6.1.4.1.19376.3.276.1.5.11" displayName="Rettungshelfer" level="2" type="L"/>
+                <concept code="91" codeSystem="1.3.6.1.4.1.19376.3.276.1.5.11" displayName="Rettungssanit&#xE4;ter" level="2" type="L"/>
+                <concept code="92" codeSystem="1.3.6.1.4.1.19376.3.276.1.5.11" displayName="med. Datenverarbeitung" level="0" type="S"/>
+                <concept code="93" codeSystem="1.3.6.1.4.1.19376.3.276.1.5.11" displayName="obsolet" level="1" type="D">
+                    <designation language="de-DE" type="synonym" displayName="Medizinische Datenerhebung"/>
+                    <desc language="de-DE">Gelöscht, da unnötige Hierarchiestufe.</desc>
+                </concept>
+                <concept code="94" codeSystem="1.3.6.1.4.1.19376.3.276.1.5.11" displayName="Medizinischer Dokumentar" level="1" type="L"/>
+                <concept code="95" codeSystem="1.3.6.1.4.1.19376.3.276.1.5.11" displayName="Medizinischer Dokumentationsassistent" level="1" type="L"/>
+                <concept code="173" codeSystem="1.3.6.1.4.1.19376.3.276.1.5.11" displayName="Fachangestellter f. Medien- und Informationsdienste - Medizinische Dokumentation" level="1" type="L"/>
+                <concept code="174" codeSystem="1.3.6.1.4.1.19376.3.276.1.5.11" displayName="Medizinischer Informationsmanager" level="1" type="L"/>
+                <concept code="96" codeSystem="1.3.6.1.4.1.19376.3.276.1.5.11" displayName="Soziales, P&#xE4;dagogik" level="0" type="S"/>
+                <concept code="97" codeSystem="1.3.6.1.4.1.19376.3.276.1.5.11" displayName="Kinderbetreuung, -erziehung" level="1" type="S"/>
+                <concept code="98" codeSystem="1.3.6.1.4.1.19376.3.276.1.5.11" displayName="P&#xE4;dagoge" level="2" type="L"/>
+                <concept code="99" codeSystem="1.3.6.1.4.1.19376.3.276.1.5.11" displayName="Kinderdorfmutter, -vater" level="2" type="L"/>
+                <concept code="100" codeSystem="1.3.6.1.4.1.19376.3.276.1.5.11" displayName="Kinderpfleger" level="2" type="L"/>
+                <concept code="101" codeSystem="1.3.6.1.4.1.19376.3.276.1.5.11" displayName="Erzieher" level="2" type="L"/>
+                <concept code="102" codeSystem="1.3.6.1.4.1.19376.3.276.1.5.11" displayName="Erzieher Jugend- und Heimerziehung" level="2" type="L"/>
+                <concept code="103" codeSystem="1.3.6.1.4.1.19376.3.276.1.5.11" displayName="Lehrer" level="1" type="S"/>
+                <concept code="104" codeSystem="1.3.6.1.4.1.19376.3.276.1.5.11" displayName="Orientierungs- und Mobilit&#xE4;tslehrer" level="2" type="L"/>
+                <concept code="105" codeSystem="1.3.6.1.4.1.19376.3.276.1.5.11" displayName="Medien-, Kulturp&#xE4;dagogik" level="1" type="S"/>
+                <concept code="106" codeSystem="1.3.6.1.4.1.19376.3.276.1.5.11" displayName="Musikp&#xE4;dagoge" level="2" type="L"/>
+                <concept code="107" codeSystem="1.3.6.1.4.1.19376.3.276.1.5.11" displayName="Sozialberatung, -arbeit" level="1" type="S"/>
+                <concept code="108" codeSystem="1.3.6.1.4.1.19376.3.276.1.5.11" displayName="Sozialarbeiter / Sozialp&#xE4;dagoge" level="2" type="L"/>
+                <concept code="109" codeSystem="1.3.6.1.4.1.19376.3.276.1.5.11" displayName="Betreuungskraft / Alltagsbegleiter" level="2" type="L"/>
+                <concept code="110" codeSystem="1.3.6.1.4.1.19376.3.276.1.5.11" displayName="Gerontologe" level="2" type="L"/>
+                <concept code="111" codeSystem="1.3.6.1.4.1.19376.3.276.1.5.11" displayName="Psychosozialer Prozessbegleiter" level="2" type="L"/>
+                <concept code="112" codeSystem="1.3.6.1.4.1.19376.3.276.1.5.11" displayName="Rehabilitationsp&#xE4;dagoge" level="2" type="L"/>
+                <concept code="113" codeSystem="1.3.6.1.4.1.19376.3.276.1.5.11" displayName="Sozialassistent" level="2" type="L"/>
+                <concept code="114" codeSystem="1.3.6.1.4.1.19376.3.276.1.5.11" displayName="Seelsorge" level="1" type="S"/>
+                <concept code="115" codeSystem="1.3.6.1.4.1.19376.3.276.1.5.11" displayName="Religionsp&#xE4;dagoge" level="2" type="L"/>
+                <concept code="116" codeSystem="1.3.6.1.4.1.19376.3.276.1.5.11" displayName="Gemeindehelfer, Gemeindediakon" level="2" type="L"/>
+                <concept code="117" codeSystem="1.3.6.1.4.1.19376.3.276.1.5.11" displayName="Theologe" level="2" type="L"/>
+                <concept code="118" codeSystem="1.3.6.1.4.1.19376.3.276.1.5.11" displayName="Medizintechnik, Laboranalyse" level="0" type="S"/>
+                <concept code="119" codeSystem="1.3.6.1.4.1.19376.3.276.1.5.11" displayName="Medizin-, Orthop&#xE4;die- und Rehatechnik" level="1" type="S"/>
+                <concept code="120" codeSystem="1.3.6.1.4.1.19376.3.276.1.5.11" displayName="Assistent Medizinische Ger&#xE4;tetechnik" level="2" type="L"/>
+                <concept code="121" codeSystem="1.3.6.1.4.1.19376.3.276.1.5.11" displayName="Augenoptiker" level="2" type="L"/>
+                <concept code="122" codeSystem="1.3.6.1.4.1.19376.3.276.1.5.11" displayName="H&#xF6;rakustiker / H&#xF6;rger&#xE4;teakustiker" level="2" type="L"/>
+                <concept code="123" codeSystem="1.3.6.1.4.1.19376.3.276.1.5.11" displayName="H&#xF6;rger&#xE4;teakustikermeister" level="2" type="L"/>
+                <concept code="124" codeSystem="1.3.6.1.4.1.19376.3.276.1.5.11" displayName="Ingenieur Augenoptik" level="2" type="L"/>
+                <concept code="125" codeSystem="1.3.6.1.4.1.19376.3.276.1.5.11" displayName="Ingenieur - H&#xF6;rtechnik und Audiologie" level="2" type="L"/>
+                <concept code="126" codeSystem="1.3.6.1.4.1.19376.3.276.1.5.11" displayName="Ingenieur - Medizintechnik" level="2" type="L"/>
+                <concept code="127" codeSystem="1.3.6.1.4.1.19376.3.276.1.5.11" displayName="Ingenieur - Orthop&#xE4;die- und Rehatechnik" level="2" type="L"/>
+                <concept code="128" codeSystem="1.3.6.1.4.1.19376.3.276.1.5.11" displayName="Medizinphysiker (z.B. in Strahlenmedizin)" level="2" type="L"/>
+                <concept code="129" codeSystem="1.3.6.1.4.1.19376.3.276.1.5.11" displayName="Orthop&#xE4;dieschuhmacher" level="2" type="L"/>
+                <concept code="130" codeSystem="1.3.6.1.4.1.19376.3.276.1.5.11" displayName="Orthop&#xE4;dietechnik-Mechaniker" level="2" type="L"/>
+                <concept code="131" codeSystem="1.3.6.1.4.1.19376.3.276.1.5.11" displayName="Zahntechniker" level="2" type="L"/>
+                <concept code="132" codeSystem="1.3.6.1.4.1.19376.3.276.1.5.11" displayName="Glasbl&#xE4;ser (Fachrichtung Kunstaugen)" level="2" type="L"/>
+                <concept code="133" codeSystem="1.3.6.1.4.1.19376.3.276.1.5.11" displayName="staatlich gepr&#xFC;fter Techniker der Fachrichtung Medizintechnik" level="2" type="L"/>
+                <concept code="134" codeSystem="1.3.6.1.4.1.19376.3.276.1.5.11" displayName="Medizinisch-technische Assistenz" level="1" type="S"/>
+                <concept code="135" codeSystem="1.3.6.1.4.1.19376.3.276.1.5.11" displayName="An&#xE4;sthesietechnischer Assistent" level="2" type="L"/>
+                <concept code="136" codeSystem="1.3.6.1.4.1.19376.3.276.1.5.11" displayName="HNO Audiologieassistent" level="2" type="L"/>
+                <concept code="137" codeSystem="1.3.6.1.4.1.19376.3.276.1.5.11" displayName="Medizinisch-Technischer Assistent Funktionsdiagnostik &#x2013; MTA-F" level="2" type="L"/>
+                <concept code="138" codeSystem="1.3.6.1.4.1.19376.3.276.1.5.11" displayName="Medizinisch-Technischer Laboratoriumsassistent &#x2013; MTA-L" level="2" type="L"/>
+                <concept code="139" codeSystem="1.3.6.1.4.1.19376.3.276.1.5.11" displayName="Medizinisch-Technischer Radiologieassistent &#x2013; MTA-R" level="2" type="L"/>
+                <concept code="140" codeSystem="1.3.6.1.4.1.19376.3.276.1.5.11" displayName="Operationstechnischer Angestellter" level="2" type="L"/>
+                <concept code="141" codeSystem="1.3.6.1.4.1.19376.3.276.1.5.11" displayName="Operationstechnischer Assistent" level="2" type="L"/>
+                <concept code="142" codeSystem="1.3.6.1.4.1.19376.3.276.1.5.11" displayName="obsolet" level="2" type="D">
+                    <designation language="de-DE" type="synonym" displayName="Veterin&#xE4;rmedizinischer-technischer Assistent"/>
+                </concept>
+                <concept code="143" codeSystem="1.3.6.1.4.1.19376.3.276.1.5.11" displayName="Zytologieassistent" level="2" type="L"/>
+                <concept code="144" codeSystem="1.3.6.1.4.1.19376.3.276.1.5.11" displayName="Chemie, naturwissenschaftliche Laboranalyse (au&#xDF;er MTA)" level="1" type="S"/>
+                <concept code="145" codeSystem="1.3.6.1.4.1.19376.3.276.1.5.11" displayName="Biochemiker (z.B. klinische Chemie)" level="2" type="L"/>
+                <concept code="146" codeSystem="1.3.6.1.4.1.19376.3.276.1.5.11" displayName="Chemiker (z.B. klinische Chemie)" level="2" type="L"/>
+                <concept code="147" codeSystem="1.3.6.1.4.1.19376.3.276.1.5.11" displayName="Humangenetiker" level="2" type="L"/>
+                <concept code="148" codeSystem="1.3.6.1.4.1.19376.3.276.1.5.11" displayName="Mikrobiologe" level="2" type="L"/>
+                <concept code="149" codeSystem="1.3.6.1.4.1.19376.3.276.1.5.11" displayName="Dienstleistungen am Menschen (au&#xDF;er medizinische)" level="0" type="S"/>
+                <concept code="150" codeSystem="1.3.6.1.4.1.19376.3.276.1.5.11" displayName="K&#xF6;rperpflege" level="1" type="S"/>
+                <concept code="151" codeSystem="1.3.6.1.4.1.19376.3.276.1.5.11" displayName="Fachkraft Beauty und Wellness" level="2" type="L"/>
+                <concept code="152" codeSystem="1.3.6.1.4.1.19376.3.276.1.5.11" displayName="Friseur" level="2" type="L"/>
+                <concept code="153" codeSystem="1.3.6.1.4.1.19376.3.276.1.5.11" displayName="Kosmetiker" level="2" type="L"/>
+                <concept code="154" codeSystem="1.3.6.1.4.1.19376.3.276.1.5.11" displayName="Bestattungswesen" level="1" type="S"/>
+                <concept code="155" codeSystem="1.3.6.1.4.1.19376.3.276.1.5.11" displayName="Bestattungsfachkraft" level="2" type="L"/>
+                <concept code="156" codeSystem="1.3.6.1.4.1.19376.3.276.1.5.11" displayName="Berufe aus sonstigen Berufsfeldern" level="0" type="S"/>
+                <concept code="157" codeSystem="1.3.6.1.4.1.19376.3.276.1.5.11" displayName="Umwelt" level="1" type="L"/>
+                <concept code="158" codeSystem="1.3.6.1.4.1.19376.3.276.1.5.11" displayName="obsolet" level="1" type="D">
+                    <designation language="de-DE" type="synonym" displayName="Medien, Kultur, Gestaltung, Kunst (au&#xDF;er P&#xE4;dagogen)"/>
+                </concept>
+                <concept code="159" codeSystem="1.3.6.1.4.1.19376.3.276.1.5.11" displayName="obsolet" level="1" type="D">
+                    <designation language="de-DE" type="synonym" displayName="Schutz und Sicherheit"/>
+                </concept>
+                <concept code="162" codeSystem="1.3.6.1.4.1.19376.3.276.1.5.11" displayName="obsolet" level="1" type="D">
+                    <designation language="de-DE" type="synonym" displayName="Verfahrens- und Produktentwicklung, technisches Zeichnen, Konstruktion"/>
+                </concept>
+                <concept code="163" codeSystem="1.3.6.1.4.1.19376.3.276.1.5.11" displayName="obsolet" level="1" type="D">
+                    <designation language="de-DE" type="synonym" displayName="Sprachen"/>
+                </concept>
+                <concept code="164" codeSystem="1.3.6.1.4.1.19376.3.276.1.5.11" displayName="obsolet" level="1" type="D">
+                    <designation language="de-DE" type="synonym" displayName="Produktion, Produktionsplanung, Produktionssteuerung, Instandhaltung"/>
+                </concept>
+                <concept code="165" codeSystem="1.3.6.1.4.1.19376.3.276.1.5.11" displayName="Jurist" level="1" type="L"/>
+                <concept code="166" codeSystem="1.3.6.1.4.1.19376.3.276.1.5.11" displayName="obsolet" level="1" type="D">
+                    <designation language="de-DE" type="synonym" displayName="Reinigung"/>
+                </concept>
+                <concept code="167" codeSystem="1.3.6.1.4.1.19376.3.276.1.5.11" displayName="obsolet" level="1" type="D">
+                    <designation language="de-DE" type="synonym" displayName="Bau, Architektur, Rohstoffe"/>
+                </concept>
+                <concept code="168" codeSystem="1.3.6.1.4.1.19376.3.276.1.5.11" displayName="obsolet" level="1" type="D">
+                    <designation language="de-DE" type="synonym" displayName="Verwaltungsberufe (au&#xDF;er medizinische), kaufm&#xE4;nnische Berufe, Verkehr"/>
+                </concept>
+                <concept code="169" codeSystem="1.3.6.1.4.1.19376.3.276.1.5.11" displayName="Taxifahrer bei Krankentransport" level="1" type="L"/>
+                <concept code="170" codeSystem="1.3.6.1.4.1.19376.3.276.1.5.11" displayName="obsolet" level="1" type="D">
+                    <designation language="de-DE" type="synonym" displayName="Elektro, Energie, Ver- und Entsorgung"/>
+                </concept>
+                <concept code="171" codeSystem="1.3.6.1.4.1.19376.3.276.1.5.11" displayName="obsolet" level="1" type="D">
+                    <designation language="de-DE" type="synonym" displayName="Gastgewerbe und Tourismus, Veranstaltungsmanagement und Hauswirtschaft"/>
+                </concept>
+                <concept code="172" codeSystem="1.3.6.1.4.1.19376.3.276.1.5.11" displayName="obsolet" level="1" type="D">
+                    <designation language="de-DE" type="synonym" displayName="IT"/>
+                </concept>
+            </conceptList>
+        </valueSet>
