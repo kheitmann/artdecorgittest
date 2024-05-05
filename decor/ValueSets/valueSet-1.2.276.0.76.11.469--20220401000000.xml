@@ -1,0 +1,16 @@
+<valueSet id="1.2.276.0.76.11.469" name="kdl-vs-2022" displayName="Klinische Dokumentenklassen-Liste" effectiveDate="2022-04-01T00:00:00" statusCode="draft" versionLabel="2022" canonicalUri="http://dvmd.de/fhir/ValueSet/kdl" lastModifiedDate="2023-02-14T11:33:05">
+            <publishingAuthority name="Der Fachverband f&#xFC;r Dokumentation und Informationsmanagement in der Medizin (DVMD)">
+                <addrLine>Der Fachverband für Dokumentation und Informationsmanagement in der Medizin (DVMD)</addrLine>
+                <addrLine type="email">dvmd@dvmd.de</addrLine>
+                <addrLine type="uri">https://www.dvmd.de</addrLine>
+                <addrLine>Leitung der Arbeitsgruppe: Annett Müller</addrLine>
+                <addrLine type="email">mueller@dvmd.de</addrLine>
+                <addrLine type="uri">https://www.dvmd.de</addrLine>
+            </publishingAuthority>
+            <copyright language="de-DE" lastTranslated="2023-02-14T11:33:05">2022 DVMD e.V.</copyright>
+            <conceptList>
+                <include codeSystem="1.2.276.0.76.5.533" codeSystemName="codesystem-kdl-2022" flexibility="2022-04-01T00:00:00">
+                    <filter property="child" op="exists" value="false"/>
+                </include>
+            </conceptList>
+        </valueSet>

@@ -1,0 +1,93 @@
+<valueSet id="1.2.276.0.76.11.30" name="IHEXDSauthorRole" displayName="IHE XDS authorRole" statusCode="final" versionLabel="v3" canonicalUri="http://ihe-d.de/ValueSets/IHEXDSauthorRole" effectiveDate="2021-06-25T13:21:07">
+            <desc language="en-US">
+            <b>authorRole (XDSDocumentEntry or XDSSubmissionSet)</b>
+            <br/>Represents the role of the author with respect to the patient at the time that an XDS Document or XDS Submission Set was created. </desc>
+            <conceptList>
+                <concept code="1" codeSystem="1.3.6.1.4.1.19376.3.276.1.5.13" displayName="Einweiser" level="0" type="L">
+                    <desc language="de-DE">Die Person, die die Einweisung veranlasst hat. (Sie wird auch als Zuweiser bezeichnet.)<br clear="none"/>
+                </desc>
+                </concept>
+                <concept code="2" codeSystem="1.3.6.1.4.1.19376.3.276.1.5.13" displayName="Entlassender" level="0" type="L">
+                    <desc language="de-DE">Die Person, die für die Entlassung verantwortlich ist.<br clear="none"/>
+                </desc>
+                </concept>
+                <concept code="3" codeSystem="1.3.6.1.4.1.19376.3.276.1.5.13" displayName="&#xDC;berweiser" level="0" type="L">
+                    <desc language="de-DE">Die Person, die die Überweisung veranlasst hat.<br clear="none"/>
+                </desc>
+                </concept>
+                <concept code="4" codeSystem="1.3.6.1.4.1.19376.3.276.1.5.13" displayName="Durchf&#xFC;hrender" level="0" type="S">
+                    <desc language="de-DE">Die Person oder das Gerät, welche(s) die dokumentierte Aktion durchgeführt hat.<br clear="none"/>
+                </desc>
+                </concept>
+                <concept code="5" codeSystem="1.3.6.1.4.1.19376.3.276.1.5.13" displayName="durchf&#xFC;hrendes Ger&#xE4;t" level="1" type="L">
+                    <desc language="de-DE">Das Gerät, welches die dokumentierte Aktion durchgeführt hat.<br clear="none"/>
+                </desc>
+                </concept>
+                <concept code="6" codeSystem="1.3.6.1.4.1.19376.3.276.1.5.13" displayName="Betreuer" level="1" type="L">
+                    <desc language="de-DE">Die Person, die den Patienten betreut, d.h. den Überblick über die Behandlung behält und als primärer Ansprechpartner während der Behandlung dient. <br clear="none"/>
+                </desc>
+                </concept>
+                <concept code="7" codeSystem="1.3.6.1.4.1.19376.3.276.1.5.13" displayName="Pflegender" level="1" type="L">
+                    <desc language="de-DE">Die Person, die den Patienten pflegerisch (aktiv) betreut.<br clear="none"/>
+                </desc>
+                </concept>
+                <concept code="17" codeSystem="1.3.6.1.4.1.19376.3.276.1.5.13" displayName="Begutachtender" level="1" type="L">
+                    <desc language="de-DE">Die Person, die ein Gutachten erstellt.</desc>
+                </concept>
+                <concept code="8" codeSystem="1.3.6.1.4.1.19376.3.276.1.5.13" displayName="Behandler" level="1" type="S">
+                    <desc language="de-DE">Die Person, die den Patienten aktiv behandelt im Sinne der Verbesserung (oder zumindest Beibehaltung) des gesundheitlichen Zustandes.<br clear="none"/>
+                </desc>
+                </concept>
+                <concept code="9" codeSystem="1.3.6.1.4.1.19376.3.276.1.5.13" displayName="Erstbehandler au&#xDF;erhalb einer Einrichtung" level="2" type="L">
+                    <desc language="de-DE">Die Person, die den Patienten außerhalb der (eigenen) Einrichtung zuerst behandelt hat. Das kann - muss aber nicht - im Rahmen einer Notfallversorgung stattgefunden haben.<br clear="none"/>
+                </desc>
+                </concept>
+                <concept code="10" codeSystem="1.3.6.1.4.1.19376.3.276.1.5.13" displayName="Bereitstellender" level="1" type="L">
+                    <desc language="de-DE">Die Person, die zusätzliche Mittel (Medikamente, Heil-/Hilfsmittel) bereitgestellt hat.<br clear="none"/>
+                </desc>
+                </concept>
+                <concept code="11" codeSystem="1.3.6.1.4.1.19376.3.276.1.5.13" displayName="Dokumentierender" level="0" type="S">
+                    <desc language="de-DE">Die Person, die übermittelte Informationen eingibt oder ein Gerät, das erzeugte Daten im System hinterlegt.<br clear="none"/>
+                </desc>
+                </concept>
+                <concept code="12" codeSystem="1.3.6.1.4.1.19376.3.276.1.5.13" displayName="dokumentierendes Ger&#xE4;t" level="1" type="L">
+                    <desc language="de-DE">Das Gerät, welches erzeugte Daten im System hinterlegt.<br clear="none"/>
+                </desc>
+                </concept>
+                <concept code="13" codeSystem="1.3.6.1.4.1.19376.3.276.1.5.13" displayName="Validierer" level="1" type="L">
+                    <desc language="de-DE">Die Person, die Korrektheit der hinterlegten Information überprüft und verifiziert hat.<br clear="none"/>
+                </desc>
+                </concept>
+                <concept code="14" codeSystem="1.3.6.1.4.1.19376.3.276.1.5.13" displayName="Gesetzlich Verantwortlicher" level="1" type="L">
+                    <desc language="de-DE">Die Person, die vor dem Gesetz für die Korrektheit der Informationen verantwortlich ist und dafür haftet.<br clear="none"/>
+                </desc>
+                </concept>
+                <concept code="15" codeSystem="1.3.6.1.4.1.19376.3.276.1.5.13" displayName="Beratender" level="0" type="L">
+                    <desc language="de-DE">Die Person, die Auswertungen vorgenommen und beratend involviert war.<br clear="none"/>
+                </desc>
+                </concept>
+                <concept code="16" codeSystem="1.3.6.1.4.1.19376.3.276.1.5.13" displayName="Informierender" level="0" type="L">
+                    <desc language="de-DE">Eine Person, die zu den hier dokumentierten Informationen beigetragen hat.<br clear="none"/>
+                </desc>
+                </concept>
+                <concept code="101" codeSystem="1.3.6.1.4.1.19376.3.276.1.5.14" displayName="Hausarzt" level="0" type="L">
+                    <desc language="de-DE">der Hausarzt (Primärversorger) des Patienten<br clear="none"/>
+                </desc>
+                </concept>
+                <concept code="102" codeSystem="1.3.6.1.4.1.19376.3.276.1.5.14" displayName="Patient" level="0" type="L">
+                    <desc language="de-DE">der Patient selbst<br clear="none"/>
+                </desc>
+                </concept>
+                <concept code="103" codeSystem="1.3.6.1.4.1.19376.3.276.1.5.14" displayName="Arbeitgebervertreter" level="0" type="L">
+                    <desc language="de-DE">ein Vertreter des Arbeitgebers des Patienten<br clear="none"/>
+                </desc>
+                </concept>
+                <concept code="104" codeSystem="1.3.6.1.4.1.19376.3.276.1.5.14" displayName="Prim&#xE4;rbetreuer (langfristig)" level="0" type="L">
+                    <desc language="de-DE">Die Person, die den Patienten normalerweise primär betreut. Beispiele: Langzeitpflege, Stammapotheke<br clear="none"/>
+                </desc>
+                </concept>
+                <concept code="105" codeSystem="1.3.6.1.4.1.19376.3.276.1.5.14" displayName="Kostentr&#xE4;gerverteter" level="0" type="L">
+                    <desc language="de-DE">ein Vertreter des Kostenträgers</desc>
+                </concept>
+            </conceptList>
+        </valueSet>
