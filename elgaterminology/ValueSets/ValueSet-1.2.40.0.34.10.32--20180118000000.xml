@@ -1,0 +1,395 @@
+<ValueSet xmlns="http://hl7.org/fhir">
+                <id value="1.2.40.0.34.10.32--20180118000000"/>
+                <meta>
+                    <source value="http://localhost:8877/exist/apps/fhir/4.0/elgabbr-"/>
+                    <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/><!--<profile value="http://hl7.org/fhir/4.0/StructureDefinition/ValueSet"/>-->
+                    <tag>
+                        <system value="http://hl7.org/fhir/FHIR-version"/>
+                        <code value="4.0.1"/>
+                    </tag>
+                </meta>
+                <extension url="http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod">
+                    <valuePeriod>
+                        <start value="2018-01-18T00:00:00+02:00"/>
+                    </valuePeriod>
+                </extension>
+                <url value="http://localhost:8877/exist/apps/fhir/ValueSet/1.2.40.0.34.10.32--20180118000000"/>
+                <identifier>
+                    <use value="official"/>
+                    <system value="urn:ietf:rfc:3986"/>
+                    <value value="urn:oid:1.2.40.0.34.10.32"/>
+                </identifier>
+                <version value="4.2.0"/>
+                <name value="ELGA_MedikationMengenart_VS"/>
+                <title value="ELGA_MedikationMengenart_VS"/>
+                <status value="active"/>
+                <experimental value="false"/>
+                <publisher value="ELGA GmbH"/>
+                <description value="ELGA ValueSet f&#xFC;r Mengenarten in der e-Medikation. Die Spalte &quot;deutsche Sprachvariante&quot; enth&#xE4;lt die Schreibweise f&#xFC;r den narrativen Text."/>
+                <immutable value="false"/>
+                <compose>
+                    <include>
+                        <system value="http://unitsofmeasure.org"/>
+                        <concept>
+                            <code value="%"/>
+                            <display value="Percent"/>
+                        </concept>
+                        <concept>
+                            <code value="/d"/>
+                            <display value="PerDay"/>
+                        </concept>
+                        <concept>
+                            <code value="/g"/>
+                            <display value="PerGram"/>
+                        </concept>
+                        <concept>
+                            <code value="/h"/>
+                            <display value="PerHour"/>
+                        </concept>
+                        <concept>
+                            <code value="/kg"/>
+                            <display value="PerKiloGram"/>
+                        </concept>
+                        <concept>
+                            <code value="/kg{body`wt}"/>
+                            <display value="PerKiloGramBodyWeight"/>
+                        </concept>
+                        <concept>
+                            <code value="/min"/>
+                            <display value="PerMinute"/>
+                        </concept>
+                        <concept>
+                            <code value="/s"/>
+                            <display value="PerSecond"/>
+                        </concept>
+                        <concept>
+                            <code value="1"/>
+                            <display value="Unit"/>
+                        </concept>
+                        <concept>
+                            <code value="a"/>
+                            <display value="Year"/>
+                        </concept>
+                        <concept>
+                            <code value="bar"/>
+                            <display value="Bar"/>
+                        </concept>
+                        <concept>
+                            <code value="cal"/>
+                            <display value="Calorie"/>
+                        </concept>
+                        <concept>
+                            <code value="cal/d"/>
+                            <display value="CaloriesPerDay"/>
+                        </concept>
+                        <concept>
+                            <code value="cal/g"/>
+                            <display value="CaloriesPerGram"/>
+                        </concept>
+                        <concept>
+                            <code value="cal/h"/>
+                            <display value="CaloriesPerHour"/>
+                        </concept>
+                        <concept>
+                            <code value="cal/mL"/>
+                            <display value="CaloriesPerMilliLiter"/>
+                        </concept>
+                        <concept>
+                            <code value="Cel"/>
+                            <display value="DegreesCelsius"/>
+                        </concept>
+                        <concept>
+                            <code value="cm"/>
+                            <display value="CentiMeter"/>
+                        </concept>
+                        <concept>
+                            <code value="cm2"/>
+                            <display value="SquareCentiMeter"/>
+                        </concept>
+                        <concept>
+                            <code value="cm3"/>
+                            <display value="CubicCentimeter"/>
+                        </concept>
+                        <concept>
+                            <code value="d"/>
+                            <display value="Day"/>
+                        </concept>
+                        <concept>
+                            <code value="g"/>
+                            <display value="Gram"/>
+                        </concept>
+                        <concept>
+                            <code value="g/kg"/>
+                            <display value="GramsPerKiloGram"/>
+                        </concept>
+                        <concept>
+                            <code value="g/L"/>
+                            <display value="GramsPerLiter"/>
+                        </concept>
+                        <concept>
+                            <code value="g/mL"/>
+                            <display value="GramsPerMilliLiter"/>
+                        </concept>
+                        <concept>
+                            <code value="GBq"/>
+                            <display value="GBq"/>
+                        </concept>
+                        <concept>
+                            <code value="h"/>
+                            <display value="Hour"/>
+                        </concept>
+                        <concept>
+                            <code value="J"/>
+                            <display value="Joule"/>
+                        </concept>
+                        <concept>
+                            <code value="kat"/>
+                            <display value="Katal"/>
+                        </concept>
+                        <concept>
+                            <code value="kcal"/>
+                            <display value="KiloCalorie"/>
+                        </concept>
+                        <concept>
+                            <code value="kcal/d"/>
+                            <display value="KiloCaloriesPerDay"/>
+                        </concept>
+                        <concept>
+                            <code value="kcal/g"/>
+                            <display value="KiloCaloriesPerGram"/>
+                        </concept>
+                        <concept>
+                            <code value="kcal/h"/>
+                            <display value="KiloCaloriesPerHour"/>
+                        </concept>
+                        <concept>
+                            <code value="kcal/mL"/>
+                            <display value="KiloCaloriesPerMilliliter"/>
+                        </concept>
+                        <concept>
+                            <code value="kg"/>
+                            <display value="KiloGram"/>
+                        </concept>
+                        <concept>
+                            <code value="kg/m2"/>
+                            <display value="KiloGramsPerSquareMeter"/>
+                        </concept>
+                        <concept>
+                            <code value="kg/m3"/>
+                            <display value="KiloGramsPerCubicMeter"/>
+                        </concept>
+                        <concept>
+                            <code value="kJ"/>
+                            <display value="KiloJoule"/>
+                        </concept>
+                        <concept>
+                            <code value="kPa"/>
+                            <display value="KiloPascal"/>
+                        </concept>
+                        <concept>
+                            <code value="k[iU]"/>
+                            <display value="KiloInternationalUnits"/>
+                        </concept>
+                        <concept>
+                            <code value="k[iU]/L"/>
+                            <display value="KiloInternationalUnitsPerLiter"/>
+                        </concept>
+                        <concept>
+                            <code value="L"/>
+                            <display value="Liter"/>
+                        </concept>
+                        <concept>
+                            <code value="L/s"/>
+                            <display value="LitersPerSecond"/>
+                        </concept>
+                        <concept>
+                            <code value="m"/>
+                            <display value="Meter"/>
+                        </concept>
+                        <concept>
+                            <code value="m2"/>
+                            <display value="SquareMeter"/>
+                        </concept>
+                        <concept>
+                            <code value="mbar"/>
+                            <display value="MilliBar"/>
+                        </concept>
+                        <concept>
+                            <code value="mg"/>
+                            <display value="MilliGram"/>
+                        </concept>
+                        <concept>
+                            <code value="mg/L"/>
+                            <display value="MilliGramsPerLiter"/>
+                        </concept>
+                        <concept>
+                            <code value="min"/>
+                            <display value="Minute"/>
+                        </concept>
+                        <concept>
+                            <code value="mL"/>
+                            <display value="MilliLiter"/>
+                        </concept>
+                        <concept>
+                            <code value="mL/s"/>
+                            <display value="MilliLitersPerSecond"/>
+                        </concept>
+                        <concept>
+                            <code value="mm"/>
+                            <display value="MilliMeter"/>
+                        </concept>
+                        <concept>
+                            <code value="mm2"/>
+                            <display value="SquareMilliMeter"/>
+                        </concept>
+                        <concept>
+                            <code value="mmol"/>
+                            <display value="MilliMole"/>
+                        </concept>
+                        <concept>
+                            <code value="mmol/L"/>
+                            <display value="MilliMolesPerLiter"/>
+                        </concept>
+                        <concept>
+                            <code value="mm[Hg]"/>
+                            <display value="MilliMetersOfMercury"/>
+                        </concept>
+                        <concept>
+                            <code value="mo"/>
+                            <display value="Month"/>
+                        </concept>
+                        <concept>
+                            <code value="mol/L"/>
+                            <display value="MolesPerLiter"/>
+                        </concept>
+                        <concept>
+                            <code value="m[iU]"/>
+                            <display value="MilliInternationalUnit"/>
+                        </concept>
+                        <concept>
+                            <code value="m[iU]/L"/>
+                            <display value="MilliInternationalUnitsPerLiter"/>
+                        </concept>
+                        <concept>
+                            <code value="ng"/>
+                            <display value="NanoGram"/>
+                        </concept>
+                        <concept>
+                            <code value="ng/L"/>
+                            <display value="NanoGramsPerLiter"/>
+                        </concept>
+                        <concept>
+                            <code value="nmol/L"/>
+                            <display value="NanoMolesPerLiter"/>
+                        </concept>
+                        <concept>
+                            <code value="s"/>
+                            <display value="Second"/>
+                        </concept>
+                        <concept>
+                            <code value="ug"/>
+                            <display value="MicroGram"/>
+                        </concept>
+                        <concept>
+                            <code value="ug/(kg.min)"/>
+                            <display value="MicroGramsPerKiloGramAndMinute"/>
+                        </concept>
+                        <concept>
+                            <code value="ug/L"/>
+                            <display value="MicroGramsPerLiter"/>
+                        </concept>
+                        <concept>
+                            <code value="ukat"/>
+                            <display value="MicroKatal"/>
+                        </concept>
+                        <concept>
+                            <code value="ukat/L"/>
+                            <display value="MicroKatalsPerLiter"/>
+                        </concept>
+                        <concept>
+                            <code value="ukat/mL"/>
+                            <display value="MicroKatalsPerMilliLiter"/>
+                        </concept>
+                        <concept>
+                            <code value="uL"/>
+                            <display value="MicroLiter"/>
+                        </concept>
+                        <concept>
+                            <code value="umol"/>
+                            <display value="MicroMole"/>
+                        </concept>
+                        <concept>
+                            <code value="umol/L"/>
+                            <display value="MicroMolesPerLiter"/>
+                        </concept>
+                        <concept>
+                            <code value="wk"/>
+                            <display value="Week"/>
+                        </concept>
+                        <concept>
+                            <code value="[iU]"/>
+                            <display value="InternationalUnit"/>
+                        </concept>
+                        <concept>
+                            <code value="[iU]/g"/>
+                            <display value="InternationalUnitsPerGram"/>
+                        </concept>
+                        <concept>
+                            <code value="[iU]/mL"/>
+                            <display value="InternationalUnitsPerMilliLiter"/>
+                        </concept>
+                        <concept>
+                            <code value="[pH]"/>
+                            <display value="pH"/>
+                        </concept>
+                        <concept>
+                            <code value="{Beutel/Aufgussbeutel}"/>
+                            <display value="Beutel/Aufgussbeutel"/>
+                        </concept>
+                        <concept>
+                            <code value="{Broteinheiten}"/>
+                            <display value="Broteinheit(en)"/>
+                        </concept>
+                        <concept>
+                            <code value="{Essloeffel}"/>
+                            <display value="Essl&#xF6;ffel"/>
+                        </concept>
+                        <concept>
+                            <code value="{Flaschen}"/>
+                            <display value="Flasche(n)"/>
+                        </concept>
+                        <concept>
+                            <code value="{Globuli}"/>
+                            <display value="Globuli"/>
+                        </concept>
+                        <concept>
+                            <code value="{Hub}"/>
+                            <display value="Hub/H&#xFC;be"/>
+                        </concept>
+                        <concept>
+                            <code value="{Messloeffel}"/>
+                            <display value="Messl&#xF6;ffel"/>
+                        </concept>
+                        <concept>
+                            <code value="{Packungsbeutel}"/>
+                            <display value="Packungsbeutel"/>
+                        </concept>
+                        <concept>
+                            <code value="{Packung}"/>
+                            <display value="Packung(en)"/>
+                        </concept>
+                        <concept>
+                            <code value="{Stueck}"/>
+                            <display value="St&#xFC;ck"/>
+                        </concept>
+                        <concept>
+                            <code value="{Teeloeffel}"/>
+                            <display value="Teel&#xF6;ffel"/>
+                        </concept>
+                        <concept>
+                            <code value="{Tropfen}"/>
+                            <display value="Tropfen"/>
+                        </concept>
+                    </include>
+                </compose>
+            </ValueSet>

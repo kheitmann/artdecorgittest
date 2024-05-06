@@ -1,0 +1,145 @@
+<ValueSet xmlns="http://hl7.org/fhir">
+                <id value="1.2.40.0.34.10.13--20180621000000"/>
+                <meta>
+                    <source value="http://localhost:8877/exist/apps/fhir/4.0/elgabbr-"/>
+                    <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/><!--<profile value="http://hl7.org/fhir/4.0/StructureDefinition/ValueSet"/>-->
+                    <tag>
+                        <system value="http://hl7.org/fhir/FHIR-version"/>
+                        <code value="4.0.1"/>
+                    </tag>
+                </meta>
+                <extension url="http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod">
+                    <valuePeriod>
+                        <start value="2018-06-21T00:00:00+02:00"/>
+                    </valuePeriod>
+                </extension>
+                <url value="http://localhost:8877/exist/apps/fhir/ValueSet/1.2.40.0.34.10.13--20180621000000"/>
+                <identifier>
+                    <use value="official"/>
+                    <system value="urn:ietf:rfc:3986"/>
+                    <value value="urn:oid:1.2.40.0.34.10.13"/>
+                </identifier>
+                <version value="4.0.0"/>
+                <name value="ELGA_ObservationInterpretation"/>
+                <title value="ELGA_ObservationInterpretation"/>
+                <status value="active"/>
+                <experimental value="false"/>
+                <publisher value="ELGA GmbH"/>
+                <description value="Klassifiziert das Ergebnis einer Messung (zB eines Laborwertes) oder einer Beobachtung"/>
+                <immutable value="false"/>
+                <compose>
+                    <include>
+                        <system value="urn:oid:1.2.40.0.34.5.179"/>
+                        <concept>
+                            <code value="Refna"/>
+                            <display value="Referenzbereich nicht anwendbar"/>
+                        </concept>
+                    </include>
+                    <include>
+                        <system value="urn:oid:1.2.40.0.34.5.104"/>
+                        <concept>
+                            <code value="RAST0"/>
+                            <display value="&lt; 0.35 kU/l (absent or undetectable allergen specific IgE)"/>
+                        </concept>
+                        <concept>
+                            <code value="RAST1"/>
+                            <display value="0.35 &#x2013; 0.69 kU/l (low level of allergen specific IgE)"/>
+                        </concept>
+                        <concept>
+                            <code value="RAST2"/>
+                            <display value="0.70 &#x2013; 3.49 kU/l (moderate level of allergen specific IgE)"/>
+                        </concept>
+                        <concept>
+                            <code value="RAST3"/>
+                            <display value="3.50 &#x2013; 17.49 kU/l (high level of allergen specific IgE)"/>
+                        </concept>
+                        <concept>
+                            <code value="RAST4"/>
+                            <display value="17.50 &#x2013; 49.99 kU/l (very high level of allergen specific IgE)"/>
+                        </concept>
+                        <concept>
+                            <code value="RAST5"/>
+                            <display value="50.00 &#x2013; 100.00 kU/l (ultra high level of allergen specific IgE)"/>
+                        </concept>
+                        <concept>
+                            <code value="RAST6"/>
+                            <display value="&gt; 100.00 kU/l (extremely high level of allergen specific ige)"/>
+                        </concept>
+                    </include>
+                    <include>
+                        <system value="http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation"/>
+                        <concept>
+                            <code value="I"/>
+                            <display value="intermediate"/>
+                        </concept>
+                        <concept>
+                            <code value="R"/>
+                            <display value="resistent"/>
+                        </concept>
+                        <concept>
+                            <code value="S"/>
+                            <display value="susceptible"/>
+                        </concept>
+                        <concept>
+                            <code value="N"/>
+                            <display value="Normal"/>
+                        </concept>
+                        <concept>
+                            <code value="H"/>
+                            <display value="High"/>
+                        </concept>
+                        <concept>
+                            <code value="HH"/>
+                            <display value="High alert"/>
+                        </concept>
+                        <concept>
+                            <code value="L"/>
+                            <display value="Low"/>
+                        </concept>
+                        <concept>
+                            <code value="LL"/>
+                            <display value="Low alert"/>
+                        </concept>
+                        <concept>
+                            <code value="A"/>
+                            <display value="Abnormal"/>
+                        </concept>
+                        <concept>
+                            <code value="AA"/>
+                            <display value="Abnormal alert"/>
+                        </concept>
+                        <concept>
+                            <code value="U"/>
+                            <display value="increased"/>
+                        </concept>
+                        <concept>
+                            <code value="D"/>
+                            <display value="decreased"/>
+                        </concept>
+                        <concept>
+                            <code value="EX"/>
+                            <display value="outside threshold"/>
+                        </concept>
+                        <concept>
+                            <code value="&gt;"/>
+                            <display value="high off scale"/>
+                        </concept>
+                        <concept>
+                            <code value="&lt;"/>
+                            <display value="low off scale"/>
+                        </concept>
+                        <concept>
+                            <code value="IND"/>
+                            <display value="Indeterminate"/>
+                        </concept>
+                        <concept>
+                            <code value="NEG"/>
+                            <display value="Negative"/>
+                        </concept>
+                        <concept>
+                            <code value="POS"/>
+                            <display value="Positive"/>
+                        </concept>
+                    </include>
+                </compose>
+            </ValueSet>

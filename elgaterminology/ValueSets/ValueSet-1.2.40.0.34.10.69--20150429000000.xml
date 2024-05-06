@@ -1,0 +1,47 @@
+<ValueSet xmlns="http://hl7.org/fhir">
+                <id value="1.2.40.0.34.10.69--20150429000000"/>
+                <meta>
+                    <source value="http://localhost:8877/exist/apps/fhir/4.0/elgabbr-"/>
+                    <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/><!--<profile value="http://hl7.org/fhir/4.0/StructureDefinition/ValueSet"/>-->
+                    <tag>
+                        <system value="http://hl7.org/fhir/FHIR-version"/>
+                        <code value="4.0.1"/>
+                    </tag>
+                </meta>
+                <extension url="http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod">
+                    <valuePeriod>
+                        <start value="2015-04-29T00:00:00+02:00"/>
+                    </valuePeriod>
+                </extension>
+                <url value="http://localhost:8877/exist/apps/fhir/ValueSet/1.2.40.0.34.10.69--20150429000000"/>
+                <identifier>
+                    <use value="official"/>
+                    <system value="urn:ietf:rfc:3986"/>
+                    <value value="urn:oid:1.2.40.0.34.10.69"/>
+                </identifier>
+                <version value="3.0.0"/>
+                <name value="ELGA_MedikationFrequenz"/>
+                <title value="ELGA_MedikationFrequenz"/>
+                <status value="active"/>
+                <experimental value="false"/>
+                <publisher value="ELGA GmbH"/>
+                <description value="ELGA_MedikationFrequenz"/>
+                <immutable value="false"/>
+                <compose>
+                    <include>
+                        <system value="http://unitsofmeasure.org"/>
+                        <concept>
+                            <code value="d"/>
+                            <display value="Day"/>
+                        </concept>
+                        <concept>
+                            <code value="mo"/>
+                            <display value="Month"/>
+                        </concept>
+                        <concept>
+                            <code value="wk"/>
+                            <display value="Week"/>
+                        </concept>
+                    </include>
+                </compose>
+            </ValueSet>

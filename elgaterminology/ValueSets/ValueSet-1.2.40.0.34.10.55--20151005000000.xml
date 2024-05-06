@@ -1,0 +1,75 @@
+<ValueSet xmlns="http://hl7.org/fhir">
+                <id value="1.2.40.0.34.10.55--20151005000000"/>
+                <meta>
+                    <source value="http://localhost:8877/exist/apps/fhir/4.0/elgabbr-"/>
+                    <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/><!--<profile value="http://hl7.org/fhir/4.0/StructureDefinition/ValueSet"/>-->
+                    <tag>
+                        <system value="http://hl7.org/fhir/FHIR-version"/>
+                        <code value="4.0.1"/>
+                    </tag>
+                </meta>
+                <extension url="http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod">
+                    <valuePeriod>
+                        <start value="2015-10-05T00:00:00+02:00"/>
+                    </valuePeriod>
+                </extension>
+                <url value="http://localhost:8877/exist/apps/fhir/ValueSet/1.2.40.0.34.10.55--20151005000000"/>
+                <identifier>
+                    <use value="official"/>
+                    <system value="urn:ietf:rfc:3986"/>
+                    <value value="urn:oid:1.2.40.0.34.10.55"/>
+                </identifier>
+                <version value="3.3.0"/>
+                <name value="ELGA_MammogramAssessment"/>
+                <title value="ELGA_MammogramAssessment"/>
+                <status value="active"/>
+                <experimental value="false"/>
+                <publisher value="ELGA GmbH"/>
+                <description value="ELGA_MammogramAssessment"/>
+                <immutable value="false"/>
+                <compose>
+                    <include>
+                        <system value="urn:oid:1.2.40.0.34.5.49"/>
+                        <concept>
+                            <code value="II.AC.a"/>
+                            <display value="0 - Need additional imaging evaluation"/>
+                        </concept>
+                        <concept>
+                            <code value="II.AC.b.1"/>
+                            <display value="1 &#x2013; Negative"/>
+                        </concept>
+                        <concept>
+                            <code value="II.AC.b.2"/>
+                            <display value="2 &#x2013; Benign Finding"/>
+                        </concept>
+                        <concept>
+                            <code value="II.AC.b.3"/>
+                            <display value="3 - Probably Benign Finding &#x2013; short interval followup"/>
+                        </concept>
+                        <concept>
+                            <code value="II.AC.b.4"/>
+                            <display value="4 - Suspicious abnormality, biopsy should be considered"/>
+                        </concept>
+                        <concept>
+                            <code value="MA.II.A.5.4A"/>
+                            <display value="4A &#x2013; Low suspicion"/>
+                        </concept>
+                        <concept>
+                            <code value="MA.II.A.5.4B"/>
+                            <display value="4B &#x2013; Intermediate suspicion"/>
+                        </concept>
+                        <concept>
+                            <code value="MA.II.A.5.4C"/>
+                            <display value="4C &#x2013; Moderate suspicion"/>
+                        </concept>
+                        <concept>
+                            <code value="II.AC.b.5"/>
+                            <display value="5 - Highly suggestive of malignancy, take appropriate action"/>
+                        </concept>
+                        <concept>
+                            <code value="MA.II.A.5.6"/>
+                            <display value="6 - Known biopsy proven malignancy"/>
+                        </concept>
+                    </include>
+                </compose>
+            </ValueSet>

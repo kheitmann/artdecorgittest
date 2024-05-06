@@ -1,0 +1,62 @@
+<ValueSet xmlns="http://hl7.org/fhir">
+                <id value="1.2.40.0.34.10.176--20170217000000"/>
+                <meta>
+                    <source value="http://localhost:8877/exist/apps/fhir/4.0/elgabbr-"/>
+                    <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/><!--<profile value="http://hl7.org/fhir/4.0/StructureDefinition/ValueSet"/>-->
+                    <tag>
+                        <system value="http://hl7.org/fhir/FHIR-version"/>
+                        <code value="4.0.1"/>
+                    </tag>
+                </meta>
+                <extension url="http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod">
+                    <valuePeriod>
+                        <start value="2017-02-17T00:00:00+02:00"/>
+                    </valuePeriod>
+                </extension>
+                <url value="http://localhost:8877/exist/apps/fhir/ValueSet/1.2.40.0.34.10.176--20170217000000"/>
+                <identifier>
+                    <use value="official"/>
+                    <system value="urn:ietf:rfc:3986"/>
+                    <value value="urn:oid:1.2.40.0.34.10.176"/>
+                </identifier>
+                <version value="4.0.0"/>
+                <name value="ELGA_Seitenlokalisation"/>
+                <title value="ELGA_Seitenlokalisation"/>
+                <status value="active"/>
+                <experimental value="false"/>
+                <publisher value="ELGA GmbH"/>
+                <description value="ELGA_Seitenlokalisation"/>
+                <immutable value="false"/>
+                <compose>
+                    <include>
+                        <system value="http://terminology.hl7.org/CodeSystem/v3-NullFlavor"/>
+                        <concept>
+                            <code value="NA"/>
+                            <display value="nicht zutreffend"/>
+                        </concept>
+                        <concept>
+                            <code value="UNK"/>
+                            <display value="unbekannt"/>
+                        </concept>
+                    </include>
+                    <include>
+                        <system value="urn:oid:2.16.840.1.113883.3.7.1.7"/>
+                        <concept>
+                            <code value="R"/>
+                            <display value="rechts"/>
+                        </concept>
+                        <concept>
+                            <code value="L"/>
+                            <display value="links"/>
+                        </concept>
+                        <concept>
+                            <code value="B"/>
+                            <display value="beidseits"/>
+                        </concept>
+                        <concept>
+                            <code value="M"/>
+                            <display value="Mittellinienzone"/>
+                        </concept>
+                    </include>
+                </compose>
+            </ValueSet>

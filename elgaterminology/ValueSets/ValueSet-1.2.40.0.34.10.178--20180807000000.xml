@@ -1,0 +1,47 @@
+<ValueSet xmlns="http://hl7.org/fhir">
+                <id value="1.2.40.0.34.10.178--20180807000000"/>
+                <meta>
+                    <source value="http://localhost:8877/exist/apps/fhir/4.0/at-cda-bbr-"/>
+                    <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/><!--<profile value="http://hl7.org/fhir/4.0/StructureDefinition/ValueSet"/>-->
+                    <tag>
+                        <system value="http://hl7.org/fhir/FHIR-version"/>
+                        <code value="4.0.1"/>
+                    </tag>
+                </meta>
+                <extension url="http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod">
+                    <valuePeriod>
+                        <start value="2018-08-07T00:00:00+02:00"/>
+                    </valuePeriod>
+                </extension>
+                <url value="urn:oid:1.2.40.0.34.10.178"/>
+                <identifier>
+                    <use value="official"/>
+                    <system value="urn:ietf:rfc:3986"/>
+                    <value value="urn:oid:1.2.40.0.34.10.178"/>
+                </identifier>
+                <version value="2018-08-07T00:00:00"/>
+                <name value="Atcdabbr_AbsentOrUnknownAllergies_VS"/>
+                <title value="atcdabbr_AbsentOrUnknownAllergies_VS"/>
+                <status value="draft"/>
+                <experimental value="false"/>
+                <publisher value="HL7 Austria"/>
+                <description value="Absent Allergy Or Intolerance"/>
+                <immutable value="false"/>
+                <copyright value="This artefact includes content from SNOMED Clinical Terms&#xAE; (SNOMED CT&#xAE;) which is copyright of the International Health Terminology Standards Development Organisation (IHTSDO). Implementers of these artefacts must have the appropriate SNOMED CT Affiliate license - for more information contact http://www.snomed.org/snomed-ct/getsnomed-ct or info@snomed.org."/>
+                <compose>
+                    <include>
+                        <system value="urn:oid:2.16.840.1.113883.3.1937.777.13.5.999.1"/>
+                        <concept>
+                            <code value="716186003"/>
+                            <display value="No known allergy"/>
+                        </concept>
+                    </include>
+                    <include>
+                        <system value="http://snomed.info/sct"/>
+                        <concept>
+                            <code value="X-AllergicDispositionNotKnown"/>
+                            <display value="Allergic disposition not known"/>
+                        </concept>
+                    </include>
+                </compose>
+            </ValueSet>

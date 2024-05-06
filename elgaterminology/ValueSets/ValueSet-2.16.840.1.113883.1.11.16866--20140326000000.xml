@@ -1,0 +1,83 @@
+<ValueSet xmlns="http://hl7.org/fhir">
+                <id value="2.16.840.1.113883.1.11.16866--20140326000000"/>
+                <meta>
+                    <source value="http://localhost:8877/exist/apps/fhir/4.0/ad2bbr-"/>
+                    <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/><!--<profile value="http://hl7.org/fhir/4.0/StructureDefinition/ValueSet"/>-->
+                    <tag>
+                        <system value="http://hl7.org/fhir/FHIR-version"/>
+                        <code value="4.0.1"/>
+                    </tag>
+                </meta>
+                <extension url="http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod">
+                    <valuePeriod>
+                        <start value="2014-03-26T00:00:00+02:00"/>
+                    </valuePeriod>
+                </extension>
+                <url value="http://terminology.hl7.org/ValueSet/v3-ActPriority"/>
+                <identifier>
+                    <use value="official"/>
+                    <system value="urn:ietf:rfc:3986"/>
+                    <value value="urn:oid:2.16.840.1.113883.1.11.16866"/>
+                </identifier>
+                <version value="2014-03-26T00:00:00"/>
+                <name value="ActPriority"/>
+                <title value="ActPriority"/>
+                <status value="active"/>
+                <experimental value="false"/>
+                <publisher value="HL7"/>
+                <description value="**History description 2014-03-26: **Lock all vaue sets untouched since 2014-03-26 to trackingId 2014T1_2014_03_26&#10;**description: **                 &#10;A code or set of codes (e.g., for routine, emergency,) specifying the urgency under which the Act happened, can happen, is happening, is intended to happen, or is requested/demanded to happen.&#10;                 &#10;*Discussion:* This attribute is used in orders to indicate the ordered priority, and in event documentation it indicates the actual priority used to perform the act. In definition mood it indicates the available priorities."/>
+                <immutable value="false"/>
+                <compose>
+                    <include>
+                        <system value="http://terminology.hl7.org/CodeSystem/v3-ActPriority"/>
+                        <concept>
+                            <code value="A"/>
+                            <display value="ASAP"/>
+                        </concept>
+                        <concept>
+                            <code value="CR"/>
+                            <display value="callback results"/>
+                        </concept>
+                        <concept>
+                            <code value="EL"/>
+                            <display value="elective"/>
+                        </concept>
+                        <concept>
+                            <code value="EM"/>
+                            <display value="emergency"/>
+                        </concept>
+                        <concept>
+                            <code value="P"/>
+                            <display value="preop"/>
+                        </concept>
+                        <concept>
+                            <code value="PRN"/>
+                            <display value="as needed"/>
+                        </concept>
+                        <concept>
+                            <code value="R"/>
+                            <display value="routine"/>
+                        </concept>
+                        <concept>
+                            <code value="RR"/>
+                            <display value="rush reporting"/>
+                        </concept>
+                        <concept>
+                            <code value="S"/>
+                            <display value="stat"/>
+                        </concept>
+                        <concept>
+                            <code value="T"/>
+                            <display value="timing critical"/>
+                        </concept>
+                        <concept>
+                            <code value="UD"/>
+                            <display value="use as directed"/>
+                        </concept>
+                        <concept>
+                            <code value="UR"/>
+                            <display value="urgent"/>
+                        </concept>
+                    </include>
+                </compose>
+            </ValueSet>

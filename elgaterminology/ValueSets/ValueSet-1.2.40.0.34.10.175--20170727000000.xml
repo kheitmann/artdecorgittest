@@ -1,0 +1,51 @@
+<ValueSet xmlns="http://hl7.org/fhir">
+                <id value="1.2.40.0.34.10.175--20170727000000"/>
+                <meta>
+                    <source value="http://localhost:8877/exist/apps/fhir/4.0/elgabbr-"/>
+                    <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/><!--<profile value="http://hl7.org/fhir/4.0/StructureDefinition/ValueSet"/>-->
+                    <tag>
+                        <system value="http://hl7.org/fhir/FHIR-version"/>
+                        <code value="4.0.1"/>
+                    </tag>
+                </meta>
+                <extension url="http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod">
+                    <valuePeriod>
+                        <start value="2017-07-27T00:00:00+02:00"/>
+                    </valuePeriod>
+                </extension>
+                <url value="http://localhost:8877/exist/apps/fhir/ValueSet/1.2.40.0.34.10.175--20170727000000"/>
+                <identifier>
+                    <use value="official"/>
+                    <system value="urn:ietf:rfc:3986"/>
+                    <value value="urn:oid:1.2.40.0.34.10.175"/>
+                </identifier>
+                <version value="4.2.0"/>
+                <name value="ELGA_LanguageAbilityMode"/>
+                <title value="ELGA_LanguageAbilityMode"/>
+                <status value="active"/>
+                <experimental value="false"/>
+                <publisher value="ELGA GmbH"/>
+                <description value="Codes zur Angabe der Sprachf&#xE4;higkeit von Patienten (Methode zum Ausdruck von Spache)"/>
+                <immutable value="false"/>
+                <compose>
+                    <include>
+                        <system value="http://terminology.hl7.org/CodeSystem/v3-LanguageAbilityMode"/>
+                        <concept>
+                            <code value="ESP"/>
+                            <display value="Expressed spoken"/>
+                        </concept>
+                        <concept>
+                            <code value="EWR"/>
+                            <display value="Expressed written"/>
+                        </concept>
+                        <concept>
+                            <code value="RSP"/>
+                            <display value="Received spoken"/>
+                        </concept>
+                        <concept>
+                            <code value="RWR"/>
+                            <display value="Received written"/>
+                        </concept>
+                    </include>
+                </compose>
+            </ValueSet>

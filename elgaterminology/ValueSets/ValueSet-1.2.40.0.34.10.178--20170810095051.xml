@@ -1,0 +1,32 @@
+<ValueSet xmlns="http://hl7.org/fhir">
+                <id value="1.2.40.0.34.10.178--20170810095051"/>
+                <meta>
+                    <lastUpdated value="2022-11-14T14:07:52Z"/>
+                    <source value="http://localhost:8877/exist/apps/fhir/4.0/elgaps-"/>
+                    <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/><!--<profile value="http://hl7.org/fhir/4.0/StructureDefinition/ValueSet"/>-->
+                    <tag>
+                        <system value="http://hl7.org/fhir/FHIR-version"/>
+                        <code value="4.0.1"/>
+                    </tag>
+                </meta>
+                <extension url="http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod">
+                    <valuePeriod>
+                        <start value="2017-08-10T09:50:51+02:00"/>
+                    </valuePeriod>
+                </extension>
+                <url value="urn:oid:1.2.40.0.34.10.178"/>
+                <identifier>
+                    <use value="official"/>
+                    <system value="urn:ietf:rfc:3986"/>
+                    <value value="urn:oid:1.2.40.0.34.10.178"/>
+                </identifier>
+                <version value="2017-08-10T09:50:51"/>
+                <name value="ELGA_AbsentOrUnknownAllergies"/>
+                <title value="ELGA_AbsentOrUnknownAllergies"/>
+                <status value="retired"/>
+                <experimental value="false"/>
+                <publisher value="ELGA GmbH"/>
+                <description value="ELGA_AbsentOrUnknownAllergies"/>
+                <immutable value="false"/>
+                <compose/>
+            </ValueSet>

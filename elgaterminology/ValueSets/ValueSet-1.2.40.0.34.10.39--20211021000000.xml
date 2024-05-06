@@ -1,0 +1,359 @@
+<ValueSet xmlns="http://hl7.org/fhir">
+                <id value="1.2.40.0.34.10.39--20211021000000"/>
+                <meta>
+                    <source value="http://localhost:8877/exist/apps/fhir/4.0/elgabbr-"/>
+                    <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/><!--<profile value="http://hl7.org/fhir/4.0/StructureDefinition/ValueSet"/>-->
+                    <tag>
+                        <system value="http://hl7.org/fhir/FHIR-version"/>
+                        <code value="4.0.1"/>
+                    </tag>
+                </meta>
+                <extension url="http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod">
+                    <valuePeriod>
+                        <start value="2021-10-21T00:00:00+02:00"/>
+                    </valuePeriod>
+                </extension>
+                <url value="http://localhost:8877/exist/apps/fhir/ValueSet/1.2.40.0.34.10.39--20211021000000"/>
+                <identifier>
+                    <use value="official"/>
+                    <system value="urn:ietf:rfc:3986"/>
+                    <value value="urn:oid:1.2.40.0.34.10.39"/>
+                </identifier>
+                <version value="2021-10-21T00:00:00"/>
+                <name value="ELGA_Dokumentenklassen"/>
+                <title value="ELGA_Dokumentenklassen"/>
+                <status value="draft"/>
+                <experimental value="false"/>
+                <publisher value="ELGA GmbH"/>
+                <description value="ELGA_Dokumentenklassen"/>
+                <immutable value="false"/>
+                <compose>
+                    <include>
+                        <system value="http://loinc.org"/>
+                        <concept>
+                            <code value="18842-5"/>
+                            <display value="Discharge summary"/>
+                        </concept>
+                        <concept>
+                            <code value="11490-0"/>
+                            <display value="Physician Discharge summary"/>
+                        </concept>
+                        <concept>
+                            <code value="34745-0"/>
+                            <display value="Nurse Discharge summary"/>
+                        </concept>
+                        <concept>
+                            <code value="28651-8"/>
+                            <display value="Nurse Transfer note"/>
+                        </concept>
+                        <concept>
+                            <code value="11502-2"/>
+                            <display value="Laboratory report"/>
+                        </concept>
+                        <concept>
+                            <code value="18725-2"/>
+                            <display value="Microbiology studies (set)"/>
+                        </concept>
+                        <concept>
+                            <code value="18748-4"/>
+                            <display value="Diagnostic imaging study"/>
+                        </concept>
+                        <concept>
+                            <code value="25045-6"/>
+                            <display value="CT Unspecified body region"/>
+                        </concept>
+                        <concept>
+                            <code value="25056-3"/>
+                            <display value="MR Unspecified body region"/>
+                        </concept>
+                        <concept>
+                            <code value="25061-3"/>
+                            <display value="US Unspecified body region"/>
+                        </concept>
+                        <concept>
+                            <code value="49118-3"/>
+                            <display value="NM Unspecified body region Views"/>
+                        </concept>
+                        <concept>
+                            <code value="44136-0"/>
+                            <display value="PT Unspecified body region"/>
+                        </concept>
+                        <concept>
+                            <code value="18745-0"/>
+                            <display value="Cardiac catheterization study"/>
+                        </concept>
+                        <concept>
+                            <code value="42148-7"/>
+                            <display value="US Heart"/>
+                        </concept>
+                        <concept>
+                            <code value="18782-3"/>
+                            <display value="Radiology Study observation (narrative)"/>
+                        </concept>
+                        <concept>
+                            <code value="18746-8"/>
+                            <display value="Colonoscopy study"/>
+                        </concept>
+                        <concept>
+                            <code value="18751-8"/>
+                            <display value="Endoscopy study"/>
+                        </concept>
+                        <concept>
+                            <code value="11525-3"/>
+                            <display value="US Pelvis Fetus for pregnancy"/>
+                        </concept>
+                        <concept>
+                            <code value="55113-5"/>
+                            <display value="Key images Document Radiology"/>
+                        </concept>
+                        <concept>
+                            <code value="52471-0"/>
+                            <display value="Medications"/>
+                        </concept>
+                        <concept>
+                            <code value="57833-6"/>
+                            <display value="Prescription for medication"/>
+                        </concept>
+                        <concept>
+                            <code value="60593-1"/>
+                            <display value="Medication dispensed.extended Document"/>
+                        </concept>
+                        <concept>
+                            <code value="56445-0"/>
+                            <display value="Medication summary Document"/>
+                        </concept>
+                        <concept>
+                            <code value="61356-2"/>
+                            <display value="Medication pharmaceutical advice.extended Document"/>
+                        </concept>
+                        <concept>
+                            <code value="11369-6"/>
+                            <display value="History of Immunization"/>
+                        </concept>
+                        <concept>
+                            <code value="82593-5"/>
+                            <display value="Immunization summary report"/>
+                        </concept>
+                        <concept>
+                            <code value="87273-9"/>
+                            <display value="Immunization note"/>
+                        </concept>
+                        <concept>
+                            <code value="75496-0"/>
+                            <display value="Telehealth Note"/>
+                        </concept>
+                        <concept>
+                            <code value="75497-8"/>
+                            <display value="Telehealth Progress Note"/>
+                        </concept>
+                        <concept>
+                            <code value="75498-6"/>
+                            <display value="Telehealth Summary Note"/>
+                        </concept>
+                        <concept>
+                            <code value="42348-3"/>
+                            <display value="Advance directives"/>
+                        </concept>
+                        <concept>
+                            <code value="75476-2"/>
+                            <display value="Physician note"/>
+                        </concept>
+                        <concept>
+                            <code value="34764-1"/>
+                            <display value="General medicine Consult note"/>
+                        </concept>
+                        <concept>
+                            <code value="34131-3"/>
+                            <display value="Outpatient Progress note"/>
+                        </concept>
+                        <concept>
+                            <code value="77403-4"/>
+                            <display value="Anesthesiology Consult note"/>
+                        </concept>
+                        <concept>
+                            <code value="34803-7"/>
+                            <display value="Occupational medicine Consult note"/>
+                        </concept>
+                        <concept>
+                            <code value="34807-8"/>
+                            <display value="Ophthalmology Consult note"/>
+                        </concept>
+                        <concept>
+                            <code value="33720-4"/>
+                            <display value="Blood bank consult"/>
+                        </concept>
+                        <concept>
+                            <code value="34847-4"/>
+                            <display value="Surgery Consult note"/>
+                        </concept>
+                        <concept>
+                            <code value="34760-9"/>
+                            <display value="Diabetology Consult note"/>
+                        </concept>
+                        <concept>
+                            <code value="34879-7"/>
+                            <display value="Endocrinology Consult note"/>
+                        </concept>
+                        <concept>
+                            <code value="34777-3"/>
+                            <display value="Obstetrics and Gynecology Consult note"/>
+                        </concept>
+                        <concept>
+                            <code value="34761-7"/>
+                            <display value="Gastroenterology Consult note"/>
+                        </concept>
+                        <concept>
+                            <code value="34853-2"/>
+                            <display value="Vascular surgery Consult note"/>
+                        </concept>
+                        <concept>
+                            <code value="34776-5"/>
+                            <display value="Geriatric medicine Consult note"/>
+                        </concept>
+                        <concept>
+                            <code value="69438-0"/>
+                            <display value="Forensic medicine Referral note"/>
+                        </concept>
+                        <concept>
+                            <code value="34816-9"/>
+                            <display value="Otolaryngology Consult note"/>
+                        </concept>
+                        <concept>
+                            <code value="34779-9"/>
+                            <display value="Hematology+Medical Oncology Consult note"/>
+                        </concept>
+                        <concept>
+                            <code value="34758-3"/>
+                            <display value="Dermatology Consult note"/>
+                        </concept>
+                        <concept>
+                            <code value="80575-4"/>
+                            <display value="Cardiac surgery Consult note"/>
+                        </concept>
+                        <concept>
+                            <code value="77429-9"/>
+                            <display value="Allergy and immunology Consult note"/>
+                        </concept>
+                        <concept>
+                            <code value="34781-5"/>
+                            <display value="Infectious disease Consult note"/>
+                        </concept>
+                        <concept>
+                            <code value="85238-4"/>
+                            <display value="Internal medicine Consult note"/>
+                        </concept>
+                        <concept>
+                            <code value="34099-2"/>
+                            <display value="Cardiology Consult note"/>
+                        </concept>
+                        <concept>
+                            <code value="68881-2"/>
+                            <display value="Pediatric surgery Note"/>
+                        </concept>
+                        <concept>
+                            <code value="78726-7"/>
+                            <display value="Pediatrics Consult Note"/>
+                        </concept>
+                        <concept>
+                            <code value="68645-1"/>
+                            <display value="Child and adolescent psychiatry Note"/>
+                        </concept>
+                        <concept>
+                            <code value="34103-2"/>
+                            <display value="Pulmonary Consult note"/>
+                        </concept>
+                        <concept>
+                            <code value="78254-0"/>
+                            <display value="Clinical genetics Consult note"/>
+                        </concept>
+                        <concept>
+                            <code value="34812-8"/>
+                            <display value="Oral and Maxillofacial Surgery Consult note"/>
+                        </concept>
+                        <concept>
+                            <code value="34795-5"/>
+                            <display value="Nephrology Consult note"/>
+                        </concept>
+                        <concept>
+                            <code value="34798-9"/>
+                            <display value="Neurological surgery Consult note"/>
+                        </concept>
+                        <concept>
+                            <code value="34797-1"/>
+                            <display value="Neurology Consult note"/>
+                        </concept>
+                        <concept>
+                            <code value="34878-9"/>
+                            <display value="Emergency medicine Note"/>
+                        </concept>
+                        <concept>
+                            <code value="34805-2"/>
+                            <display value="Oncology Consult note"/>
+                        </concept>
+                        <concept>
+                            <code value="34814-4"/>
+                            <display value="Orthopaedic surgery Consult note"/>
+                        </concept>
+                        <concept>
+                            <code value="78568-3"/>
+                            <display value="Palliative care Consult Note"/>
+                        </concept>
+                        <concept>
+                            <code value="34820-1"/>
+                            <display value="Pharmacology Consult note"/>
+                        </concept>
+                        <concept>
+                            <code value="34822-7"/>
+                            <display value="Physical medicine and rehabilitation Consult note"/>
+                        </concept>
+                        <concept>
+                            <code value="34826-8"/>
+                            <display value="Plastic surgery Consult note"/>
+                        </concept>
+                        <concept>
+                            <code value="34788-0"/>
+                            <display value="Psychiatry Consult note"/>
+                        </concept>
+                        <concept>
+                            <code value="82359-1"/>
+                            <display value="Reproductive endocrinology and infertility Consult note"/>
+                        </concept>
+                        <concept>
+                            <code value="34839-1"/>
+                            <display value="Rheumatology Consult note"/>
+                        </concept>
+                        <concept>
+                            <code value="85866-2"/>
+                            <display value="Sleep medicine Consult note"/>
+                        </concept>
+                        <concept>
+                            <code value="78738-2"/>
+                            <display value="Sports medicine Consult note"/>
+                        </concept>
+                        <concept>
+                            <code value="34831-8"/>
+                            <display value="Radiation oncology Consult note"/>
+                        </concept>
+                        <concept>
+                            <code value="34849-0"/>
+                            <display value="Thoracic surgery Consult note"/>
+                        </concept>
+                        <concept>
+                            <code value="78732-5"/>
+                            <display value="Trauma Consult note"/>
+                        </concept>
+                        <concept>
+                            <code value="34851-6"/>
+                            <display value="Urology Consult note"/>
+                        </concept>
+                        <concept>
+                            <code value="34756-7"/>
+                            <display value="Dentistry Consult note"/>
+                        </concept>
+                        <concept>
+                            <code value="67862-3"/>
+                            <display value="Preoperative evaluation and management Note"/>
+                        </concept>
+                    </include>
+                </compose>
+            </ValueSet>

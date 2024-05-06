@@ -1,0 +1,95 @@
+<ValueSet xmlns="http://hl7.org/fhir">
+                <id value="2.16.840.1.113883.1.11.16866--20130131000000"/>
+                <meta>
+                    <source value="http://localhost:8877/exist/apps/fhir/4.0/ccda-"/>
+                    <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/><!--<profile value="http://hl7.org/fhir/4.0/StructureDefinition/ValueSet"/>-->
+                    <tag>
+                        <system value="http://hl7.org/fhir/FHIR-version"/>
+                        <code value="4.0.1"/>
+                    </tag>
+                </meta>
+                <extension url="http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod">
+                    <valuePeriod>
+                        <start value="2013-01-31T00:00:00+02:00"/>
+                    </valuePeriod>
+                </extension>
+                <url value="http://terminology.hl7.org/ValueSet/v3-ActPriority"/>
+                <identifier>
+                    <use value="official"/>
+                    <system value="urn:ietf:rfc:3986"/>
+                    <value value="urn:oid:2.16.840.1.113883.1.11.16866"/>
+                </identifier>
+                <version value="2013-01-31T00:00:00"/>
+                <name value="ActPriority"/>
+                <title value="Act Priority"/>
+                <status value="active"/>
+                <experimental value="false"/>
+                <publisher value="HL7 International"/>
+                <description value="Act Priority"/>
+                <immutable value="false"/>
+                <compose>
+                    <include>
+                        <system value="http://terminology.hl7.org/CodeSystem/v3-ActPriority"/>
+                        <concept>
+                            <code value="A"/>
+                            <display value="ASAP"/>
+                        </concept>
+                        <concept>
+                            <code value="CR"/>
+                            <display value="Callback results"/>
+                        </concept>
+                        <concept>
+                            <code value="CS"/>
+                            <display value="Callback for scheduling"/>
+                        </concept>
+                        <concept>
+                            <code value="CSP"/>
+                            <display value="Callback placer for scheduling"/>
+                        </concept>
+                        <concept>
+                            <code value="CSR"/>
+                            <display value="Contact recipient for scheduling"/>
+                        </concept>
+                        <concept>
+                            <code value="EL"/>
+                            <display value="Elective"/>
+                        </concept>
+                        <concept>
+                            <code value="EM"/>
+                            <display value="Emergency"/>
+                        </concept>
+                        <concept>
+                            <code value="P"/>
+                            <display value="Preoperative"/>
+                        </concept>
+                        <concept>
+                            <code value="PRN"/>
+                            <display value="As needed"/>
+                        </concept>
+                        <concept>
+                            <code value="R"/>
+                            <display value="Routine"/>
+                        </concept>
+                        <concept>
+                            <code value="RR"/>
+                            <display value="Rush reporting"/>
+                        </concept>
+                        <concept>
+                            <code value="S"/>
+                            <display value="Stat"/>
+                        </concept>
+                        <concept>
+                            <code value="T"/>
+                            <display value="Timing critical"/>
+                        </concept>
+                        <concept>
+                            <code value="UD"/>
+                            <display value="Use as directed"/>
+                        </concept>
+                        <concept>
+                            <code value="UR"/>
+                            <display value="Urgent"/>
+                        </concept>
+                    </include>
+                </compose>
+            </ValueSet>

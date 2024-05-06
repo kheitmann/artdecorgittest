@@ -1,0 +1,478 @@
+<ValueSet xmlns="http://hl7.org/fhir">
+                <id value="1.2.40.0.34.10.6--20200918092304"/>
+                <meta>
+                    <source value="http://localhost:8877/exist/apps/fhir/4.0/elgabbr-"/>
+                    <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/><!--<profile value="http://hl7.org/fhir/4.0/StructureDefinition/ValueSet"/>-->
+                    <tag>
+                        <system value="http://hl7.org/fhir/FHIR-version"/>
+                        <code value="4.0.1"/>
+                    </tag>
+                </meta>
+                <extension url="http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod">
+                    <valuePeriod>
+                        <start value="2020-09-18T09:23:04+02:00"/>
+                    </valuePeriod>
+                </extension>
+                <url value="http://localhost:8877/exist/apps/fhir/ValueSet/1.2.40.0.34.10.6--20200918092304"/>
+                <identifier>
+                    <use value="official"/>
+                    <system value="urn:ietf:rfc:3986"/>
+                    <value value="urn:oid:1.2.40.0.34.10.6"/>
+                </identifier>
+                <version value="2020-09-18T09:23:04"/>
+                <name value="Elga_authorspeciality"/>
+                <title value="ELGA_AuthorSpeciality"/>
+                <status value="draft"/>
+                <experimental value="false"/>
+                <publisher value="ELGA GmbH"/>
+                <description value="Medizinische Fachrichtung der Person, welche ein Dokument verfasst. Verwendung in CDA: AssignedAuthor.code. Verwendung in XDS-Metadaten: authorSpeciality&#10;Wird &#xFC;ber eine Verordnung zum GTelG ver&#xF6;ffentlicht"/>
+                <immutable value="false"/>
+                <compose>
+                    <include>
+                        <system value="urn:oid:1.2.40.0.34.5.2"/>
+                        <concept>
+                            <code value="100"/>
+                            <display value="&#xC4;rztin/Arzt f&#xFC;r Allgemeinmedizin"/>
+                        </concept>
+                        <concept>
+                            <code value="101"/>
+                            <display value="Approbierte &#xC4;rztin/Approbierter Arzt"/>
+                        </concept>
+                        <concept>
+                            <code value="158"/>
+                            <display value="Fach&#xE4;rztin/Facharzt"/>
+                        </concept>
+                        <concept>
+                            <code value="154"/>
+                            <display value="Fach&#xE4;rztin/Facharzt f&#xFC;r Zahn-, Mund- und Kieferheilkunde"/>
+                        </concept>
+                        <concept>
+                            <code value="155"/>
+                            <display value="Zahn&#xE4;rztin/Zahnarzt"/>
+                        </concept>
+                        <concept>
+                            <code value="156"/>
+                            <display value="Dentistin/Dentist"/>
+                        </concept>
+                        <concept>
+                            <code value="200"/>
+                            <display value="Psychotherapeutin/Psychotherapeut"/>
+                        </concept>
+                        <concept>
+                            <code value="201"/>
+                            <display value="Klinische Psychologin/Klinischer Psychologe"/>
+                        </concept>
+                        <concept>
+                            <code value="202"/>
+                            <display value="Gesundheitspsychologin/Gesundheitspsychologe"/>
+                        </concept>
+                        <concept>
+                            <code value="203"/>
+                            <display value="Musiktherapeutin/Musiktherapeut"/>
+                        </concept>
+                        <concept>
+                            <code value="204"/>
+                            <display value="Hebamme"/>
+                        </concept>
+                        <concept>
+                            <code value="205"/>
+                            <display value="Physiotherapeutin/Physiotherapeut"/>
+                        </concept>
+                        <concept>
+                            <code value="206"/>
+                            <display value="Biomedizinische Analytikerin/Biomedizinischer Analytiker"/>
+                        </concept>
+                        <concept>
+                            <code value="207"/>
+                            <display value="Radiologietechnologin/Radiologietechnologe"/>
+                        </concept>
+                        <concept>
+                            <code value="208"/>
+                            <display value="Di&#xE4;tologin/Di&#xE4;tologe"/>
+                        </concept>
+                        <concept>
+                            <code value="209"/>
+                            <display value="Ergotherapeutin/Ergotherapeut"/>
+                        </concept>
+                        <concept>
+                            <code value="210"/>
+                            <display value="Logop&#xE4;din/Logop&#xE4;de"/>
+                        </concept>
+                        <concept>
+                            <code value="211"/>
+                            <display value="Orthoptistin/Orthoptist"/>
+                        </concept>
+                        <concept>
+                            <code value="212"/>
+                            <display value="Diplomierte Gesundheits- und Krankenschwester/Diplomierter Gesundheits- und Krankenpfleger"/>
+                        </concept>
+                        <concept>
+                            <code value="213"/>
+                            <display value="Diplomierte Kinderkrankenschwester/Diplomierter Kinderkrankenpfleger"/>
+                        </concept>
+                        <concept>
+                            <code value="214"/>
+                            <display value="Diplomierte psychiatrische Gesundheits- und Krankenschwester/Diplomierter psychiatrischer Gesundheits- und Krankenpfleger"/>
+                        </concept>
+                        <concept>
+                            <code value="215"/>
+                            <display value="Heilmasseurin/Heilmasseur"/>
+                        </concept>
+                        <concept>
+                            <code value="216"/>
+                            <display value="Diplomierte Kardiotechnikerin/Diplomierter Kardiotechniker"/>
+                        </concept>
+                        <concept>
+                            <code value="300"/>
+                            <display value="Allgemeine Krankenanstalt"/>
+                        </concept>
+                        <concept>
+                            <code value="301"/>
+                            <display value="Sonderkrankenanstalt"/>
+                        </concept>
+                        <concept>
+                            <code value="302"/>
+                            <display value="Pflegeanstalt"/>
+                        </concept>
+                        <concept>
+                            <code value="303"/>
+                            <display value="Sanatorium"/>
+                        </concept>
+                        <concept>
+                            <code value="304"/>
+                            <display value="Selbstst&#xE4;ndiges Ambulatorium"/>
+                        </concept>
+                        <concept>
+                            <code value="305"/>
+                            <display value="Pflegeeinrichtung"/>
+                        </concept>
+                        <concept>
+                            <code value="306"/>
+                            <display value="Mobile Pflege"/>
+                        </concept>
+                        <concept>
+                            <code value="307"/>
+                            <display value="Kuranstalt"/>
+                        </concept>
+                        <concept>
+                            <code value="309"/>
+                            <display value="Straf- und Ma&#xDF;nahmenvollzug"/>
+                        </concept>
+                        <concept>
+                            <code value="310"/>
+                            <display value="Untersuchungsanstalt"/>
+                        </concept>
+                        <concept>
+                            <code value="311"/>
+                            <display value="&#xD6;ffentliche Apotheke"/>
+                        </concept>
+                        <concept>
+                            <code value="312"/>
+                            <display value="Gewebebank"/>
+                        </concept>
+                        <concept>
+                            <code value="313"/>
+                            <display value="Blutspendeeinrichtung"/>
+                        </concept>
+                        <concept>
+                            <code value="314"/>
+                            <display value="Augen- und Kontaktlinsenoptik"/>
+                        </concept>
+                        <concept>
+                            <code value="315"/>
+                            <display value="H&#xF6;rger&#xE4;teakustik"/>
+                        </concept>
+                        <concept>
+                            <code value="316"/>
+                            <display value="Orthop&#xE4;dische Produkte"/>
+                        </concept>
+                        <concept>
+                            <code value="317"/>
+                            <display value="Zahntechnik"/>
+                        </concept>
+                        <concept>
+                            <code value="318"/>
+                            <display value="Rettungsdienst"/>
+                        </concept>
+                        <concept>
+                            <code value="319"/>
+                            <display value="Zahn&#xE4;rztliche Gruppenpraxis"/>
+                        </concept>
+                        <concept>
+                            <code value="320"/>
+                            <display value="&#xC4;rztliche Gruppenpraxis"/>
+                        </concept>
+                        <concept>
+                            <code value="321"/>
+                            <display value="Gewebeentnahmeeinrichtung"/>
+                        </concept>
+                        <concept>
+                            <code value="322"/>
+                            <display value="Arbeitsmedizinisches Zentrum"/>
+                        </concept>
+                        <concept>
+                            <code value="400"/>
+                            <display value="Gesundheitsmanagement"/>
+                        </concept>
+                        <concept>
+                            <code value="401"/>
+                            <display value="&#xD6;ffentlicher Gesundheitsdienst"/>
+                        </concept>
+                        <concept>
+                            <code value="403"/>
+                            <display value="ELGA-Ombudsstelle"/>
+                        </concept>
+                        <concept>
+                            <code value="404"/>
+                            <display value="Widerspruchstelle"/>
+                        </concept>
+                        <concept>
+                            <code value="405"/>
+                            <display value="Patientenvertretung"/>
+                        </concept>
+                        <concept>
+                            <code value="406"/>
+                            <display value="Sozialversicherung"/>
+                        </concept>
+                        <concept>
+                            <code value="407"/>
+                            <display value="Krankenf&#xFC;rsorge"/>
+                        </concept>
+                        <concept>
+                            <code value="408"/>
+                            <display value="Gesundheitsversicherung"/>
+                        </concept>
+                        <concept>
+                            <code value="500"/>
+                            <display value="IKT-Gesundheitsservice"/>
+                        </concept>
+                        <concept>
+                            <code value="501"/>
+                            <display value="Verrechnungsservice"/>
+                        </concept>
+                        <concept>
+                            <code value="157"/>
+                            <display value="&#xC4;rztin/Arzt in Ausbildung"/>
+                        </concept>
+                        <concept>
+                            <code value="217"/>
+                            <display value="Pflegeassistentin/Pflegeassistent"/>
+                        </concept>
+                        <concept>
+                            <code value="218"/>
+                            <display value="Pflegefachassistentin/Pflegefachassistent"/>
+                        </concept>
+                    </include>
+                    <include>
+                        <system value="urn:oid:1.2.40.0.34.5.160"/>
+                        <concept>
+                            <code value="102"/>
+                            <display value="Fach&#xE4;rztin/Facharzt f&#xFC;r An&#xE4;sthesiologie und Intensivmedizin"/>
+                        </concept>
+                        <concept>
+                            <code value="103"/>
+                            <display value="Fach&#xE4;rztin/Facharzt f&#xFC;r Anatomie"/>
+                        </concept>
+                        <concept>
+                            <code value="104"/>
+                            <display value="Fach&#xE4;rztin/Facharzt f&#xFC;r Arbeitsmedizin"/>
+                        </concept>
+                        <concept>
+                            <code value="105"/>
+                            <display value="Fach&#xE4;rztin/Facharzt f&#xFC;r Augenheilkunde und Optometrie"/>
+                        </concept>
+                        <concept>
+                            <code value="106"/>
+                            <display value="Fach&#xE4;rztin/Facharzt f&#xFC;r Blutgruppenserologie und Transfusionsmedizin"/>
+                        </concept>
+                        <concept>
+                            <code value="107"/>
+                            <display value="Fach&#xE4;rztin/Facharzt f&#xFC;r Chirurgie"/>
+                        </concept>
+                        <concept>
+                            <code value="108"/>
+                            <display value="Fach&#xE4;rztin/Facharzt f&#xFC;r Frauenheilkunde und Geburtshilfe"/>
+                        </concept>
+                        <concept>
+                            <code value="109"/>
+                            <display value="Fach&#xE4;rztin/Facharzt f&#xFC;r Gerichtsmedizin"/>
+                        </concept>
+                        <concept>
+                            <code value="110"/>
+                            <display value="Fach&#xE4;rztin/Facharzt f&#xFC;r Hals-, Nasen- und Ohrenkrankheiten"/>
+                        </concept>
+                        <concept>
+                            <code value="111"/>
+                            <display value="Fach&#xE4;rztin/Facharzt f&#xFC;r Haut- und Geschlechtskrankheiten"/>
+                        </concept>
+                        <concept>
+                            <code value="112"/>
+                            <display value="Fach&#xE4;rztin/Facharzt f&#xFC;r Herzchirurgie"/>
+                        </concept>
+                        <concept>
+                            <code value="113"/>
+                            <display value="Fach&#xE4;rztin/Facharzt f&#xFC;r Histologie und Embryologie"/>
+                        </concept>
+                        <concept>
+                            <code value="114"/>
+                            <display value="Fach&#xE4;rztin/Facharzt f&#xFC;r Hygiene und Mikrobiologie"/>
+                        </concept>
+                        <concept>
+                            <code value="115"/>
+                            <display value="Fach&#xE4;rztin/Facharzt f&#xFC;r Immunologie"/>
+                        </concept>
+                        <concept>
+                            <code value="116"/>
+                            <display value="Fach&#xE4;rztin/Facharzt f&#xFC;r Innere Medizin"/>
+                        </concept>
+                        <concept>
+                            <code value="117"/>
+                            <display value="Fach&#xE4;rztin/Facharzt f&#xFC;r Kinder- und Jugendchirurgie"/>
+                        </concept>
+                        <concept>
+                            <code value="118"/>
+                            <display value="Fach&#xE4;rztin/Facharzt f&#xFC;r Kinder- und Jugendheilkunde"/>
+                        </concept>
+                        <concept>
+                            <code value="119"/>
+                            <display value="Fach&#xE4;rztin/Facharzt f&#xFC;r Kinder- und Jugendpsychiatrie"/>
+                        </concept>
+                        <concept>
+                            <code value="120"/>
+                            <display value="Fach&#xE4;rztin/Facharzt f&#xFC;r Lungenkrankheiten"/>
+                        </concept>
+                        <concept>
+                            <code value="121"/>
+                            <display value="Fach&#xE4;rztin/Facharzt f&#xFC;r Medizinische Biologie"/>
+                        </concept>
+                        <concept>
+                            <code value="122"/>
+                            <display value="Fach&#xE4;rztin/Facharzt f&#xFC;r Medizinische Biophysik"/>
+                        </concept>
+                        <concept>
+                            <code value="123"/>
+                            <display value="Fach&#xE4;rztin/Facharzt f&#xFC;r Medizinische Genetik"/>
+                        </concept>
+                        <concept>
+                            <code value="124"/>
+                            <display value="Fach&#xE4;rztin/Facharzt f&#xFC;r Medizinische und Chemische Labordiagnostik"/>
+                        </concept>
+                        <concept>
+                            <code value="125"/>
+                            <display value="Fach&#xE4;rztin/Facharzt f&#xFC;r Medizinische Leistungsphysiologie"/>
+                        </concept>
+                        <concept>
+                            <code value="126"/>
+                            <display value="Fach&#xE4;rztin/Facharzt f&#xFC;r Mikrobiologisch-Serologische Labordiagnostik"/>
+                        </concept>
+                        <concept>
+                            <code value="127"/>
+                            <display value="Fach&#xE4;rztin/Facharzt f&#xFC;r Mund-, Kiefer- und Gesichtschirurgie"/>
+                        </concept>
+                        <concept>
+                            <code value="128"/>
+                            <display value="Fach&#xE4;rztin/Facharzt f&#xFC;r Neurobiologie"/>
+                        </concept>
+                        <concept>
+                            <code value="129"/>
+                            <display value="Fach&#xE4;rztin/Facharzt f&#xFC;r Neurochirurgie"/>
+                        </concept>
+                        <concept>
+                            <code value="130"/>
+                            <display value="Fach&#xE4;rztin/Facharzt f&#xFC;r Neurologie"/>
+                        </concept>
+                        <concept>
+                            <code value="131"/>
+                            <display value="Fach&#xE4;rztin/Facharzt f&#xFC;r Neurologie und Psychiatrie"/>
+                        </concept>
+                        <concept>
+                            <code value="132"/>
+                            <display value="Fach&#xE4;rztin/Facharzt f&#xFC;r Neuropathologie"/>
+                        </concept>
+                        <concept>
+                            <code value="133"/>
+                            <display value="Fach&#xE4;rztin/Facharzt f&#xFC;r Nuklearmedizin"/>
+                        </concept>
+                        <concept>
+                            <code value="134"/>
+                            <display value="Fach&#xE4;rztin/Facharzt f&#xFC;r Orthop&#xE4;die und Orthop&#xE4;dische Chirurgie"/>
+                        </concept>
+                        <concept>
+                            <code value="135"/>
+                            <display value="Fach&#xE4;rztin/Facharzt f&#xFC;r Pathologie"/>
+                        </concept>
+                        <concept>
+                            <code value="136"/>
+                            <display value="Fach&#xE4;rztin/Facharzt f&#xFC;r Pathophysiologie"/>
+                        </concept>
+                        <concept>
+                            <code value="137"/>
+                            <display value="Fach&#xE4;rztin/Facharzt f&#xFC;r Pharmakologie und Toxikologie"/>
+                        </concept>
+                        <concept>
+                            <code value="138"/>
+                            <display value="Fach&#xE4;rztin/Facharzt f&#xFC;r Physikalische Medizin und Allgemeine Rehabilitation"/>
+                        </concept>
+                        <concept>
+                            <code value="139"/>
+                            <display value="Fach&#xE4;rztin/Facharzt f&#xFC;r Physiologie"/>
+                        </concept>
+                        <concept>
+                            <code value="140"/>
+                            <display value="Fach&#xE4;rztin/Facharzt f&#xFC;r Plastische, &#xC4;sthetische und Rekonstruktive Chirurgie"/>
+                        </concept>
+                        <concept>
+                            <code value="141"/>
+                            <display value="Fach&#xE4;rztin/Facharzt f&#xFC;r Psychiatrie"/>
+                        </concept>
+                        <concept>
+                            <code value="142"/>
+                            <display value="Fach&#xE4;rztin/Facharzt f&#xFC;r Psychiatrie und Neurologie"/>
+                        </concept>
+                        <concept>
+                            <code value="143"/>
+                            <display value="Fach&#xE4;rztin/Facharzt f&#xFC;r Psychiatrie und Psychotherapeutische Medizin"/>
+                        </concept>
+                        <concept>
+                            <code value="144"/>
+                            <display value="Fach&#xE4;rztin/Facharzt f&#xFC;r Radiologie"/>
+                        </concept>
+                        <concept>
+                            <code value="145"/>
+                            <display value="Fach&#xE4;rztin/Facharzt f&#xFC;r Sozialmedizin"/>
+                        </concept>
+                        <concept>
+                            <code value="146"/>
+                            <display value="Fach&#xE4;rztin/Facharzt f&#xFC;r Spezifische Prophylaxe und Tropenmedizin"/>
+                        </concept>
+                        <concept>
+                            <code value="147"/>
+                            <display value="Fach&#xE4;rztin/Facharzt f&#xFC;r Strahlentherapie-Radioonkologie"/>
+                        </concept>
+                        <concept>
+                            <code value="148"/>
+                            <display value="Fach&#xE4;rztin/Facharzt f&#xFC;r Theoretische Sonderf&#xE4;cher"/>
+                        </concept>
+                        <concept>
+                            <code value="149"/>
+                            <display value="Fach&#xE4;rztin/Facharzt f&#xFC;r Thoraxchirurgie"/>
+                        </concept>
+                        <concept>
+                            <code value="150"/>
+                            <display value="Fach&#xE4;rztin/Facharzt f&#xFC;r Tumorbiologie"/>
+                        </concept>
+                        <concept>
+                            <code value="151"/>
+                            <display value="Fach&#xE4;rztin/Facharzt f&#xFC;r Unfallchirurgie"/>
+                        </concept>
+                        <concept>
+                            <code value="152"/>
+                            <display value="Fach&#xE4;rztin/Facharzt f&#xFC;r Urologie"/>
+                        </concept>
+                        <concept>
+                            <code value="153"/>
+                            <display value="Fach&#xE4;rztin/Facharzt f&#xFC;r Virologie"/>
+                        </concept>
+                    </include>
+                </compose>
+            </ValueSet>

@@ -1,0 +1,403 @@
+<ValueSet xmlns="http://hl7.org/fhir">
+                <id value="1.2.40.0.34.10.47--20180118000000"/>
+                <meta>
+                    <source value="http://localhost:8877/exist/apps/fhir/4.0/elgabbr-"/>
+                    <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/><!--<profile value="http://hl7.org/fhir/4.0/StructureDefinition/ValueSet"/>-->
+                    <tag>
+                        <system value="http://hl7.org/fhir/FHIR-version"/>
+                        <code value="4.0.1"/>
+                    </tag>
+                </meta>
+                <extension url="http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod">
+                    <valuePeriod>
+                        <start value="2018-01-18T00:00:00+02:00"/>
+                    </valuePeriod>
+                </extension>
+                <url value="http://localhost:8877/exist/apps/fhir/ValueSet/1.2.40.0.34.10.47--20180118000000"/>
+                <identifier>
+                    <use value="official"/>
+                    <system value="urn:ietf:rfc:3986"/>
+                    <value value="urn:oid:1.2.40.0.34.10.47"/>
+                </identifier>
+                <version value="4.3.0"/>
+                <name value="ELGA_Laborstruktur"/>
+                <title value="ELGA_Laborstruktur"/>
+                <status value="active"/>
+                <experimental value="false"/>
+                <publisher value="ELGA GmbH"/>
+                <description value="Struktur eines &#xF6;sterreichischen Laborbefundes. Drei Hierarchiebenenen: 'Allgemeiner Befund', 'Bereiche' und 'Gruppen'"/>
+                <immutable value="false"/>
+                <compose>
+                    <include>
+                        <system value="urn:oid:1.2.40.0.34.5.11"/>
+                        <concept>
+                            <code value="1"/>
+                            <display value="Allgemeiner Laborbefund"/>
+                        </concept>
+                        <concept>
+                            <code value="10"/>
+                            <display value="Probeninformation"/>
+                        </concept>
+                        <concept>
+                            <code value="100"/>
+                            <display value="Blutgruppenserologie"/>
+                        </concept>
+                        <concept>
+                            <code value="01850"/>
+                            <display value="Blutgruppenserologie"/>
+                        </concept>
+                        <concept>
+                            <code value="01860"/>
+                            <display value="HLA-Diagnostik"/>
+                        </concept>
+                        <concept>
+                            <code value="01870"/>
+                            <display value="HPA-Diagnostik"/>
+                        </concept>
+                        <concept>
+                            <code value="200"/>
+                            <display value="Blutgasanalytik"/>
+                        </concept>
+                        <concept>
+                            <code value="02060"/>
+                            <display value="Blutgasanalyse arteriell"/>
+                        </concept>
+                        <concept>
+                            <code value="02070"/>
+                            <display value="Hb-Derivate arteriell"/>
+                        </concept>
+                        <concept>
+                            <code value="02080"/>
+                            <display value="Blutgasanalyse ven&#xF6;s"/>
+                        </concept>
+                        <concept>
+                            <code value="02090"/>
+                            <display value="Hb-Derivate ven&#xF6;s"/>
+                        </concept>
+                        <concept>
+                            <code value="02100"/>
+                            <display value="Blutgasanalyse kapill&#xE4;r"/>
+                        </concept>
+                        <concept>
+                            <code value="02110"/>
+                            <display value="Hb-Derivate kapill&#xE4;r"/>
+                        </concept>
+                        <concept>
+                            <code value="02120"/>
+                            <display value="Hb-Derivate, gemischtven&#xF6;s (Rechtsherzkatheter)"/>
+                        </concept>
+                        <concept>
+                            <code value="02130"/>
+                            <display value="BGA Sonstiges"/>
+                        </concept>
+                        <concept>
+                            <code value="300"/>
+                            <display value="H&#xE4;matologie"/>
+                        </concept>
+                        <concept>
+                            <code value="03010"/>
+                            <display value="Blutbild"/>
+                        </concept>
+                        <concept>
+                            <code value="03020"/>
+                            <display value="Knochenmark Morphologie"/>
+                        </concept>
+                        <concept>
+                            <code value="03030"/>
+                            <display value="Immunph&#xE4;notypisierung"/>
+                        </concept>
+                        <concept>
+                            <code value="03050"/>
+                            <display value="H&#xE4;matologie Sonstiges"/>
+                        </concept>
+                        <concept>
+                            <code value="400"/>
+                            <display value="Gerinnung/H&#xE4;mostaseologie"/>
+                        </concept>
+                        <concept>
+                            <code value="04140"/>
+                            <display value="H&#xE4;mostaseologie Globaltests"/>
+                        </concept>
+                        <concept>
+                            <code value="04150"/>
+                            <display value="Einzelfaktoranalysen"/>
+                        </concept>
+                        <concept>
+                            <code value="04160"/>
+                            <display value="Thrombophilie Tests"/>
+                        </concept>
+                        <concept>
+                            <code value="04170"/>
+                            <display value="Gerinnung Sonstiges"/>
+                        </concept>
+                        <concept>
+                            <code value="500"/>
+                            <display value="Klinische Chemie/Proteindiagnostik"/>
+                        </concept>
+                        <concept>
+                            <code value="05180"/>
+                            <display value="Klinische Chemie"/>
+                        </concept>
+                        <concept>
+                            <code value="05190"/>
+                            <display value="Proteindiagnostik"/>
+                        </concept>
+                        <concept>
+                            <code value="05200"/>
+                            <display value="Spurenelemente"/>
+                        </concept>
+                        <concept>
+                            <code value="05210"/>
+                            <display value="Sondermaterialien"/>
+                        </concept>
+                        <concept>
+                            <code value="05220"/>
+                            <display value="Unters. bei Stoffwechselerkrankungen"/>
+                        </concept>
+                        <concept>
+                            <code value="600"/>
+                            <display value="Hormone/Vitamine/Tumormarker"/>
+                        </concept>
+                        <concept>
+                            <code value="06330"/>
+                            <display value="Hormone"/>
+                        </concept>
+                        <concept>
+                            <code value="06340"/>
+                            <display value="Vitamine"/>
+                        </concept>
+                        <concept>
+                            <code value="06350"/>
+                            <display value="Tumormarker"/>
+                        </concept>
+                        <concept>
+                            <code value="900"/>
+                            <display value="Toxikologie"/>
+                        </concept>
+                        <concept>
+                            <code value="07230"/>
+                            <display value="Urin-Screening"/>
+                        </concept>
+                        <concept>
+                            <code value="07240"/>
+                            <display value="Blut"/>
+                        </concept>
+                        <concept>
+                            <code value="07250"/>
+                            <display value="Toxikologie Sonstiges"/>
+                        </concept>
+                        <concept>
+                            <code value="1000"/>
+                            <display value="Medikamente"/>
+                        </concept>
+                        <concept>
+                            <code value="08260"/>
+                            <display value="Antibiotika"/>
+                        </concept>
+                        <concept>
+                            <code value="08270"/>
+                            <display value="Virostatika"/>
+                        </concept>
+                        <concept>
+                            <code value="08280"/>
+                            <display value="Antiepileptika"/>
+                        </concept>
+                        <concept>
+                            <code value="08290"/>
+                            <display value="Psychopharmaka"/>
+                        </concept>
+                        <concept>
+                            <code value="08300"/>
+                            <display value="Kardiaka"/>
+                        </concept>
+                        <concept>
+                            <code value="08310"/>
+                            <display value="Immunsuppressiva"/>
+                        </concept>
+                        <concept>
+                            <code value="08320"/>
+                            <display value="Medikamente Sonstiges"/>
+                        </concept>
+                        <concept>
+                            <code value="1100"/>
+                            <display value="Infektionsdiagnostik"/>
+                        </concept>
+                        <concept>
+                            <code value="10780"/>
+                            <display value="Virologie"/>
+                        </concept>
+                        <concept>
+                            <code value="10790"/>
+                            <display value="Bakteriologie"/>
+                        </concept>
+                        <concept>
+                            <code value="10800"/>
+                            <display value="Mykologie"/>
+                        </concept>
+                        <concept>
+                            <code value="10810"/>
+                            <display value="Parasitologie"/>
+                        </concept>
+                        <concept>
+                            <code value="10820"/>
+                            <display value="Makroskopie/Mikroskopie"/>
+                        </concept>
+                        <concept>
+                            <code value="1300"/>
+                            <display value="Autoimmundiagnostik"/>
+                        </concept>
+                        <concept>
+                            <code value="11360"/>
+                            <display value="Rheumatoide Arthritis-assoziierte Autoantik&#xF6;rper"/>
+                        </concept>
+                        <concept>
+                            <code value="11370"/>
+                            <display value="Kollagenose-assoziierte Autoantik&#xF6;rper"/>
+                        </concept>
+                        <concept>
+                            <code value="11380"/>
+                            <display value="Myositis-assoziierte Autoantik&#xF6;rper"/>
+                        </concept>
+                        <concept>
+                            <code value="11390"/>
+                            <display value="Lebererkrankungen-assoziierte Autoantik&#xF6;rper"/>
+                        </concept>
+                        <concept>
+                            <code value="11400"/>
+                            <display value="Pernizi&#xF6;se An&#xE4;mie assoziierte Autoantik&#xF6;rper"/>
+                        </concept>
+                        <concept>
+                            <code value="11410"/>
+                            <display value="Vasculitis-assoziierte Antik&#xF6;rper"/>
+                        </concept>
+                        <concept>
+                            <code value="11420"/>
+                            <display value="Goodpasture Syndrom assoziierte Autoantik&#xF6;rper"/>
+                        </concept>
+                        <concept>
+                            <code value="11430"/>
+                            <display value="IBD assoziierte Autoantik&#xF6;rper"/>
+                        </concept>
+                        <concept>
+                            <code value="11440"/>
+                            <display value="Z&#xF6;liakie assoziierte Autoantik&#xF6;rper"/>
+                        </concept>
+                        <concept>
+                            <code value="11450"/>
+                            <display value="Diabetes Mellitus assoziierte Autoantik&#xF6;rper"/>
+                        </concept>
+                        <concept>
+                            <code value="11460"/>
+                            <display value="Paraneoplasie assoziierte Autoantik&#xF6;rper"/>
+                        </concept>
+                        <concept>
+                            <code value="11470"/>
+                            <display value="Sonstige Autoantik&#xF6;rper"/>
+                        </concept>
+                        <concept>
+                            <code value="1800"/>
+                            <display value="Allergiediagnostik"/>
+                        </concept>
+                        <concept>
+                            <code value="12010"/>
+                            <display value="Globalmarker"/>
+                        </concept>
+                        <concept>
+                            <code value="12020"/>
+                            <display value="Inhalationsallergene IgE"/>
+                        </concept>
+                        <concept>
+                            <code value="12030"/>
+                            <display value="Nahrungsmittelallergene IgE"/>
+                        </concept>
+                        <concept>
+                            <code value="12040"/>
+                            <display value="Umwelt- und Berufsallergene IgE"/>
+                        </concept>
+                        <concept>
+                            <code value="12050"/>
+                            <display value="Medikamente IgE"/>
+                        </concept>
+                        <concept>
+                            <code value="12060"/>
+                            <display value="Insekten und Insektengifte IgE"/>
+                        </concept>
+                        <concept>
+                            <code value="12070"/>
+                            <display value="Sonstige IgE"/>
+                        </concept>
+                        <concept>
+                            <code value="12080"/>
+                            <display value="Allergiechip IgE"/>
+                        </concept>
+                        <concept>
+                            <code value="12090"/>
+                            <display value="IgG Antigene"/>
+                        </concept>
+                        <concept>
+                            <code value="1400"/>
+                            <display value="Urindiagnostik"/>
+                        </concept>
+                        <concept>
+                            <code value="13730"/>
+                            <display value="Urinstreifen"/>
+                        </concept>
+                        <concept>
+                            <code value="13740"/>
+                            <display value="Urinsediment"/>
+                        </concept>
+                        <concept>
+                            <code value="13750"/>
+                            <display value="Urinchemie"/>
+                        </concept>
+                        <concept>
+                            <code value="1500"/>
+                            <display value="Stuhldiagnostik"/>
+                        </concept>
+                        <concept>
+                            <code value="14760"/>
+                            <display value="Stuhldiagnostik"/>
+                        </concept>
+                        <concept>
+                            <code value="1600"/>
+                            <display value="Liquordiagnostik"/>
+                        </concept>
+                        <concept>
+                            <code value="15770"/>
+                            <display value="Liquordiagnostik"/>
+                        </concept>
+                        <concept>
+                            <code value="2300"/>
+                            <display value="Genetische Diagnostik"/>
+                        </concept>
+                        <concept>
+                            <code value="16830"/>
+                            <display value="Pharmakogenetik"/>
+                        </concept>
+                        <concept>
+                            <code value="16840"/>
+                            <display value="Humangenetik"/>
+                        </concept>
+                        <concept>
+                            <code value="16841"/>
+                            <display value="H&#xE4;matologische Genetik"/>
+                        </concept>
+                        <concept>
+                            <code value="2500"/>
+                            <display value="Sonstige"/>
+                        </concept>
+                        <concept>
+                            <code value="17880"/>
+                            <display value="Zytologie"/>
+                        </concept>
+                        <concept>
+                            <code value="17890"/>
+                            <display value="Sonstige"/>
+                        </concept>
+                        <concept>
+                            <code value="20"/>
+                            <display value="Befundbewertung"/>
+                        </concept>
+                    </include>
+                </compose>
+            </ValueSet>

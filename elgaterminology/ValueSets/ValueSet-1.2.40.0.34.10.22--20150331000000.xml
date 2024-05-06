@@ -1,0 +1,110 @@
+<ValueSet xmlns="http://hl7.org/fhir">
+                <id value="1.2.40.0.34.10.22--20150331000000"/>
+                <meta>
+                    <source value="http://localhost:8877/exist/apps/fhir/4.0/elgabbr-"/>
+                    <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/><!--<profile value="http://hl7.org/fhir/4.0/StructureDefinition/ValueSet"/>-->
+                    <tag>
+                        <system value="http://hl7.org/fhir/FHIR-version"/>
+                        <code value="4.0.1"/>
+                    </tag>
+                </meta>
+                <extension url="http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod">
+                    <valuePeriod>
+                        <start value="2015-03-31T00:00:00+02:00"/>
+                    </valuePeriod>
+                </extension>
+                <url value="http://localhost:8877/exist/apps/fhir/ValueSet/1.2.40.0.34.10.22--20150331000000"/>
+                <identifier>
+                    <use value="official"/>
+                    <system value="urn:ietf:rfc:3986"/>
+                    <value value="urn:oid:1.2.40.0.34.10.22"/>
+                </identifier>
+                <version value="2015-03-31T00:00:00"/>
+                <name value="ELGA_ServiceEventsLabor"/>
+                <title value="ELGA_ServiceEventsLabor"/>
+                <status value="active"/>
+                <experimental value="false"/>
+                <publisher value="ELGA GmbH"/>
+                <description value="ELGA_ServiceEventsLabor"/>
+                <immutable value="false"/>
+                <compose>
+                    <include>
+                        <system value="urn:oid:1.2.40.0.34.5.11"/>
+                        <concept>
+                            <code value="1"/>
+                            <display value="Allgemeiner Laborbefund"/>
+                        </concept>
+                        <concept>
+                            <code value="300"/>
+                            <display value="H&#xE4;matologie"/>
+                        </concept>
+                        <concept>
+                            <code value="200"/>
+                            <display value="Blutgasanalytik"/>
+                        </concept>
+                        <concept>
+                            <code value="400"/>
+                            <display value="Gerinnung/H&#xE4;mostaseologie"/>
+                        </concept>
+                        <concept>
+                            <code value="500"/>
+                            <display value="Klinische Chemie/Proteindiagnostik"/>
+                        </concept>
+                        <concept>
+                            <code value="900"/>
+                            <display value="Toxikologie"/>
+                        </concept>
+                        <concept>
+                            <code value="1000"/>
+                            <display value="Medikamente"/>
+                        </concept>
+                        <concept>
+                            <code value="600"/>
+                            <display value="Hormone/Vitamine/Tumormarker"/>
+                        </concept>
+                        <concept>
+                            <code value="1300"/>
+                            <display value="Autoimmundiagnostik"/>
+                        </concept>
+                        <concept>
+                            <code value="1800"/>
+                            <display value="Allergiediagnostik"/>
+                        </concept>
+                        <concept>
+                            <code value="1400"/>
+                            <display value="Harndiagnostik"/>
+                        </concept>
+                        <concept>
+                            <code value="1500"/>
+                            <display value="Stuhldiagnostik"/>
+                        </concept>
+                        <concept>
+                            <code value="1600"/>
+                            <display value="Liquordiagnostik"/>
+                        </concept>
+                        <concept>
+                            <code value="1100"/>
+                            <display value="Infektionsdiagnostik"/>
+                        </concept>
+                        <concept>
+                            <code value="2300"/>
+                            <display value="Molekulare Diagnostik"/>
+                        </concept>
+                        <concept>
+                            <code value="100"/>
+                            <display value="Blutgruppenserologie"/>
+                        </concept>
+                        <concept>
+                            <code value="2500"/>
+                            <display value="Sonstige"/>
+                        </concept>
+                    </include>
+                    <include>
+                        <system value="http://loinc.org"/>
+                        <concept>
+                            <code value="18725-2"/>
+                            <display value="Microbiology studies"/>
+                        </concept>
+                    </include>
+                </compose>
+            </ValueSet>

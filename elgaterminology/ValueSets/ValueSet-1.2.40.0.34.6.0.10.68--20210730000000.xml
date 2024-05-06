@@ -1,0 +1,43 @@
+<ValueSet xmlns="http://hl7.org/fhir">
+                <id value="1.2.40.0.34.6.0.10.68--20210730000000"/>
+                <meta>
+                    <source value="http://localhost:8877/exist/apps/fhir/4.0/at-cda-bbr-"/>
+                    <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/><!--<profile value="http://hl7.org/fhir/4.0/StructureDefinition/ValueSet"/>-->
+                    <tag>
+                        <system value="http://hl7.org/fhir/FHIR-version"/>
+                        <code value="4.0.1"/>
+                    </tag>
+                </meta>
+                <extension url="http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod">
+                    <valuePeriod>
+                        <start value="2021-07-30T00:00:00+02:00"/>
+                    </valuePeriod>
+                </extension>
+                <url value="urn:oid:1.2.40.0.34.6.0.10.68"/>
+                <identifier>
+                    <use value="official"/>
+                    <system value="urn:ietf:rfc:3986"/>
+                    <value value="urn:oid:1.2.40.0.34.6.0.10.68"/>
+                </identifier>
+                <version value="2021-07-30T00:00:00"/>
+                <name value="LKF_Diagnose_statAuf_VS"/>
+                <title value="LKF_Diagnose-statAuf_VS"/>
+                <status value="draft"/>
+                <experimental value="false"/>
+                <publisher value="HL7 Austria"/>
+                <description value="LKF_Diagnose-statAuf_VS"/>
+                <immutable value="false"/>
+                <compose>
+                    <include>
+                        <system value="urn:oid:1.2.40.0.34.5.208"/>
+                        <concept>
+                            <code value="J"/>
+                            <display value="Ja"/>
+                        </concept>
+                        <concept>
+                            <code value="N"/>
+                            <display value="Nein"/>
+                        </concept>
+                    </include>
+                </compose>
+            </ValueSet>

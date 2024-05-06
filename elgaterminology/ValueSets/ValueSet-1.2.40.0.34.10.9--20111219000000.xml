@@ -1,0 +1,43 @@
+<ValueSet xmlns="http://hl7.org/fhir">
+                <id value="1.2.40.0.34.10.9--20111219000000"/>
+                <meta>
+                    <source value="http://localhost:8877/exist/apps/fhir/4.0/elgabbr-"/>
+                    <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/><!--<profile value="http://hl7.org/fhir/4.0/StructureDefinition/ValueSet"/>-->
+                    <tag>
+                        <system value="http://hl7.org/fhir/FHIR-version"/>
+                        <code value="4.0.1"/>
+                    </tag>
+                </meta>
+                <extension url="http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod">
+                    <valuePeriod>
+                        <start value="2011-12-19T00:00:00+02:00"/>
+                    </valuePeriod>
+                </extension>
+                <url value="http://localhost:8877/exist/apps/fhir/ValueSet/1.2.40.0.34.10.9--20111219000000"/>
+                <identifier>
+                    <use value="official"/>
+                    <system value="urn:ietf:rfc:3986"/>
+                    <value value="urn:oid:1.2.40.0.34.10.9"/>
+                </identifier>
+                <version value="2011-12-19T00:00:00"/>
+                <name value="ELGA_InsuredAssocEntity"/>
+                <title value="ELGA_InsuredAssocEntity"/>
+                <status value="active"/>
+                <experimental value="false"/>
+                <publisher value="ELGA GmbH"/>
+                <description value="ELGA_InsuredAssocEntity"/>
+                <immutable value="false"/>
+                <compose>
+                    <include>
+                        <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+                        <concept>
+                            <code value="FAMDEP"/>
+                            <display value="family dependent"/>
+                        </concept>
+                        <concept>
+                            <code value="SELF"/>
+                            <display value="self"/>
+                        </concept>
+                    </include>
+                </compose>
+            </ValueSet>

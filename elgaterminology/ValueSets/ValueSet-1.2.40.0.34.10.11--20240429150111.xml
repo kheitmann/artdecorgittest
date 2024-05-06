@@ -1,0 +1,94 @@
+<ValueSet xmlns="http://hl7.org/fhir">
+                <id value="1.2.40.0.34.10.11--20240429150111"/>
+                <meta>
+                    <lastUpdated value="2024-04-29T15:28:36Z"/>
+                    <source value="http://localhost:8877/exist/apps/fhir/4.0/elgabbr-"/>
+                    <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/><!--<profile value="http://hl7.org/fhir/4.0/StructureDefinition/ValueSet"/>-->
+                    <tag>
+                        <system value="http://hl7.org/fhir/FHIR-version"/>
+                        <code value="4.0.1"/>
+                    </tag>
+                </meta>
+                <extension url="http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod">
+                    <valuePeriod>
+                        <start value="2024-04-29T15:01:11+02:00"/>
+                    </valuePeriod>
+                </extension>
+                <url value="urn:oid:1.2.40.0.34.10.11"/>
+                <identifier>
+                    <use value="official"/>
+                    <system value="urn:ietf:rfc:3986"/>
+                    <value value="urn:oid:1.2.40.0.34.10.11"/>
+                </identifier>
+                <version value="2024-04-29T15:01:11"/>
+                <name value="ELGA_MaritalStatus"/>
+                <title value="ELGA_MaritalStatus"/>
+                <status value="draft"/>
+                <experimental value="false"/>
+                <publisher value="ELGA GmbH"/>
+                <description value="ELGA_MaritalStatus"/>
+                <immutable value="false"/>
+                <compose>
+                    <inactive value="true"/>
+                    <include>
+                        <system value="urn:oid:1.2.40.0.34.5.227"/>
+                        <concept>
+                            <code value="E"/>
+                            <display value="In eingetragener Partnerschaft lebend"/>
+                        </concept>
+                        <concept>
+                            <code value="G"/>
+                            <display value="Aufgel&#xF6;ste eingetragene Partnerschaft"/>
+                        </concept>
+                        <concept>
+                            <code value="H"/>
+                            <display value="Hinterbliebene:r eingetragene:r Partner:in"/>
+                        </concept>
+                        <concept>
+                            <code value="B"/>
+                            <display value="Ehe aufgehoben"/>
+                        </concept>
+                        <concept>
+                            <code value="N"/>
+                            <display value="Eingetragene Partnerschaft f&#xFC;r nichtig erkl&#xE4;rt"/>
+                        </concept>
+                    </include>
+                    <include>
+                        <system value="http://terminology.hl7.org/CodeSystem/v3-NullFlavor"/>
+                        <concept>
+                            <code value="UNK"/>
+                            <display value="Unknown"/>
+                        </concept>
+                    </include>
+                    <include>
+                        <system value="http://terminology.hl7.org/CodeSystem/v3-MaritalStatus"/>
+                        <concept>
+                            <code value="D"/>
+                            <display value="Divorced"/>
+                        </concept>
+                        <concept>
+                            <code value="M"/>
+                            <display value="Married"/>
+                        </concept>
+                        <concept>
+                            <code value="S"/>
+                            <display value="Never Married"/>
+                        </concept>
+                        <concept>
+                            <extension url="http://hl7.org/fhir/StructureDefinition/valueset-deprecated">
+                                <valueBoolean value="true"/>
+                            </extension>
+                            <code value="T"/>
+                            <display value="Domestic partner"/>
+                        </concept>
+                        <concept>
+                            <code value="W"/>
+                            <display value="Widowed"/>
+                        </concept>
+                        <concept>
+                            <code value="A"/>
+                            <display value="Annulled"/>
+                        </concept>
+                    </include>
+                </compose>
+            </ValueSet>

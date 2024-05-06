@@ -1,0 +1,31 @@
+<ValueSet xmlns="http://hl7.org/fhir">
+                <id value="1.2.40.0.34.6.0.10.67--20210722125905"/>
+                <meta>
+                    <source value="http://localhost:8877/exist/apps/fhir/4.0/at-cda-bbr-"/>
+                    <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/><!--<profile value="http://hl7.org/fhir/4.0/StructureDefinition/ValueSet"/>-->
+                    <tag>
+                        <system value="http://hl7.org/fhir/FHIR-version"/>
+                        <code value="4.0.1"/>
+                    </tag>
+                </meta>
+                <extension url="http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod">
+                    <valuePeriod>
+                        <start value="2021-07-22T12:59:05+02:00"/>
+                    </valuePeriod>
+                </extension>
+                <url value="urn:oid:1.2.40.0.34.6.0.10.67"/>
+                <identifier>
+                    <use value="official"/>
+                    <system value="urn:ietf:rfc:3986"/>
+                    <value value="urn:oid:1.2.40.0.34.6.0.10.67"/>
+                </identifier>
+                <version value="2021-07-22T12:59:05"/>
+                <name value="LKF_Diagnose_Art_VS"/>
+                <title value="LKF_Diagnose-Art_VS"/>
+                <status value="draft"/>
+                <experimental value="false"/>
+                <publisher value="HL7 Austria"/>
+                <description value="LKF_Diagnose-Art_VS"/>
+                <immutable value="false"/>
+                <compose/>
+            </ValueSet>

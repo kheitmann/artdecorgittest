@@ -1,0 +1,47 @@
+<ValueSet xmlns="http://hl7.org/fhir">
+                <id value="1.2.40.0.34.10.43--20150331000000"/>
+                <meta>
+                    <source value="http://localhost:8877/exist/apps/fhir/4.0/elgabbr-"/>
+                    <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/><!--<profile value="http://hl7.org/fhir/4.0/StructureDefinition/ValueSet"/>-->
+                    <tag>
+                        <system value="http://hl7.org/fhir/FHIR-version"/>
+                        <code value="4.0.1"/>
+                    </tag>
+                </meta>
+                <extension url="http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod">
+                    <valuePeriod>
+                        <start value="2015-03-31T00:00:00+02:00"/>
+                    </valuePeriod>
+                </extension>
+                <url value="http://localhost:8877/exist/apps/fhir/ValueSet/1.2.40.0.34.10.43--20150331000000"/>
+                <identifier>
+                    <use value="official"/>
+                    <system value="urn:ietf:rfc:3986"/>
+                    <value value="urn:oid:1.2.40.0.34.10.43"/>
+                </identifier>
+                <version value="2015-03-31T00:00:00"/>
+                <name value="ELGA_ServiceEventPerformer"/>
+                <title value="ELGA_ServiceEventPerformer"/>
+                <status value="active"/>
+                <experimental value="false"/>
+                <publisher value="ELGA GmbH"/>
+                <description value="Codes to distinguish performer(s) of an event"/>
+                <immutable value="false"/>
+                <compose>
+                    <include>
+                        <system value="http://terminology.hl7.org/CodeSystem/v3-ParticipationType"/>
+                        <concept>
+                            <code value="PRF"/>
+                            <display value="Performer"/>
+                        </concept>
+                        <concept>
+                            <code value="PPRF"/>
+                            <display value="Primary Performer"/>
+                        </concept>
+                        <concept>
+                            <code value="SPRF"/>
+                            <display value="Secondary Performer"/>
+                        </concept>
+                    </include>
+                </compose>
+            </ValueSet>

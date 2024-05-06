@@ -1,0 +1,43 @@
+<ValueSet xmlns="http://hl7.org/fhir">
+                <id value="1.2.40.0.34.10.192--20170906212347"/>
+                <meta>
+                    <source value="http://localhost:8877/exist/apps/fhir/4.0/elgaps-"/>
+                    <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/><!--<profile value="http://hl7.org/fhir/4.0/StructureDefinition/ValueSet"/>-->
+                    <tag>
+                        <system value="http://hl7.org/fhir/FHIR-version"/>
+                        <code value="4.0.1"/>
+                    </tag>
+                </meta>
+                <extension url="http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod">
+                    <valuePeriod>
+                        <start value="2017-09-06T21:23:47+02:00"/>
+                    </valuePeriod>
+                </extension>
+                <url value="urn:oid:1.2.40.0.34.10.192"/>
+                <identifier>
+                    <use value="official"/>
+                    <system value="urn:ietf:rfc:3986"/>
+                    <value value="urn:oid:1.2.40.0.34.10.192"/>
+                </identifier>
+                <version value="2017-09-06T21:23:47"/>
+                <name value="ELGA_AbsentOrUnknownDevices"/>
+                <title value="ELGA_AbsentOrUnknownDevices"/>
+                <status value="draft"/>
+                <experimental value="false"/>
+                <publisher value="ELGA GmbH"/>
+                <description value="Value Set Absent Or Unknown Medical Devices"/>
+                <immutable value="false"/>
+                <compose>
+                    <include>
+                        <system value="http://hl7.org/fhir/uv/ips/CodeSystem/absent-unknown"/>
+                        <concept>
+                            <code value="no-device-info"/>
+                            <display value="No information about device"/>
+                        </concept>
+                        <concept>
+                            <code value="no-known-devices"/>
+                            <display value="No known devices in use"/>
+                        </concept>
+                    </include>
+                </compose>
+            </ValueSet>

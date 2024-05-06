@@ -1,0 +1,67 @@
+<ValueSet xmlns="http://hl7.org/fhir">
+                <id value="1.2.40.0.34.10.42--20230413174423"/>
+                <meta>
+                    <source value="http://localhost:8877/exist/apps/fhir/4.0/elgabbr-"/>
+                    <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/><!--<profile value="http://hl7.org/fhir/4.0/StructureDefinition/ValueSet"/>-->
+                    <tag>
+                        <system value="http://hl7.org/fhir/FHIR-version"/>
+                        <code value="4.0.1"/>
+                    </tag>
+                </meta>
+                <extension url="http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod">
+                    <valuePeriod>
+                        <start value="2023-04-13T17:44:23+02:00"/>
+                    </valuePeriod>
+                </extension>
+                <url value="http://localhost:8877/exist/apps/fhir/ValueSet/1.2.40.0.34.10.42--20230413174423"/>
+                <identifier>
+                    <use value="official"/>
+                    <system value="urn:ietf:rfc:3986"/>
+                    <value value="urn:oid:1.2.40.0.34.10.42"/>
+                </identifier>
+                <version value="3.3.0"/>
+                <name value="Elga_medientyp"/>
+                <title value="ELGA_Medientyp"/>
+                <status value="draft"/>
+                <experimental value="false"/>
+                <publisher value="ELGA GmbH"/>
+                <description value="ELGA_Medientyp"/>
+                <immutable value="false"/>
+                <compose>
+                    <include>
+                        <system value="urn:oid:1.2.840.10003.5.109"/>
+                        <concept>
+                            <code value="application/dicom"/>
+                            <display value="Mime Type application/dicom"/>
+                        </concept>
+                        <concept>
+                            <code value="application/pdf"/>
+                            <display value="Mime Type application/pdf"/>
+                        </concept>
+                        <concept>
+                            <code value="audio/mpeg"/>
+                            <display value="Mime Type audio/mpeg"/>
+                        </concept>
+                        <concept>
+                            <code value="image/gif"/>
+                            <display value="Mime Type image/gif"/>
+                        </concept>
+                        <concept>
+                            <code value="image/jpeg"/>
+                            <display value="Mime Type image/jpeg"/>
+                        </concept>
+                        <concept>
+                            <code value="image/png"/>
+                            <display value="Mime Type image/png"/>
+                        </concept>
+                        <concept>
+                            <code value="text/xml"/>
+                            <display value="Mime Type text/xml"/>
+                        </concept>
+                        <concept>
+                            <code value="video/mpeg"/>
+                            <display value="Mime Type video/mpeg"/>
+                        </concept>
+                    </include>
+                </compose>
+            </ValueSet>

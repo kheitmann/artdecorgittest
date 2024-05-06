@@ -1,0 +1,40 @@
+<ValueSet xmlns="http://hl7.org/fhir">
+                <id value="1.2.40.0.34.10.196--20170906212648"/>
+                <meta>
+                    <source value="http://localhost:8877/exist/apps/fhir/4.0/elgaps-"/>
+                    <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/><!--<profile value="http://hl7.org/fhir/4.0/StructureDefinition/ValueSet"/>-->
+                    <tag>
+                        <system value="http://hl7.org/fhir/FHIR-version"/>
+                        <code value="4.0.1"/>
+                    </tag>
+                </meta>
+                <extension url="http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod">
+                    <valuePeriod>
+                        <start value="2017-09-06T21:26:48+02:00"/>
+                    </valuePeriod>
+                </extension>
+                <url value="urn:oid:1.2.40.0.34.10.196"/>
+                <identifier>
+                    <use value="official"/>
+                    <system value="urn:ietf:rfc:3986"/>
+                    <value value="urn:oid:1.2.40.0.34.10.196"/>
+                </identifier>
+                <version value="2017-09-06T21:26:48"/>
+                <name value="ELGA_ProcedureTargetSite"/>
+                <title value="ELGA_TargetSite"/>
+                <status value="draft"/>
+                <experimental value="false"/>
+                <publisher value="ELGA GmbH"/>
+                <description value="ELGA_TargetSite"/>
+                <immutable value="false"/>
+                <compose>
+                    <include>
+                        <system value="urn:oid:2.16.840.1.1138836.96"/>
+                        <filter>
+                            <property value="concept"/>
+                            <op value="descendent-of"/>
+                            <value value="442083009"/>
+                        </filter>
+                    </include>
+                </compose>
+            </ValueSet>

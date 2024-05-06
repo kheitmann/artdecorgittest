@@ -1,0 +1,59 @@
+<ValueSet xmlns="http://hl7.org/fhir">
+                <id value="1.2.40.0.34.10.166--20150715000000"/>
+                <meta>
+                    <source value="http://localhost:8877/exist/apps/fhir/4.0/elgabbr-"/>
+                    <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/><!--<profile value="http://hl7.org/fhir/4.0/StructureDefinition/ValueSet"/>-->
+                    <tag>
+                        <system value="http://hl7.org/fhir/FHIR-version"/>
+                        <code value="4.0.1"/>
+                    </tag>
+                </meta>
+                <extension url="http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod">
+                    <valuePeriod>
+                        <start value="2015-07-15T00:00:00+02:00"/>
+                    </valuePeriod>
+                </extension>
+                <url value="http://localhost:8877/exist/apps/fhir/ValueSet/1.2.40.0.34.10.166--20150715000000"/>
+                <identifier>
+                    <use value="official"/>
+                    <system value="urn:ietf:rfc:3986"/>
+                    <value value="urn:oid:1.2.40.0.34.10.166"/>
+                </identifier>
+                <version value="2015-07-15T00:00:00"/>
+                <name value="ELGA_Dosisparameter"/>
+                <title value="ELGA_Dosisparameter"/>
+                <status value="retired"/>
+                <experimental value="false"/>
+                <publisher value="ELGA GmbH"/>
+                <description value="Codes f&#xFC;r Dosisparameter zur Ermittlung der Patientendosis"/>
+                <immutable value="false"/>
+                <compose>
+                    <include>
+                        <system value="http://dicom.nema.org/resources/ontology/DCM"/>
+                        <concept>
+                            <code value="113507"/>
+                            <display value="Administered activity"/>
+                        </concept>
+                        <concept>
+                            <code value="111636"/>
+                            <display value="Entrance Exposure at RP"/>
+                        </concept>
+                        <concept>
+                            <code value="111637"/>
+                            <display value="Accumulated Average Glandular Dose"/>
+                        </concept>
+                        <concept>
+                            <code value="113722"/>
+                            <display value="Dose Area Product Total"/>
+                        </concept>
+                        <concept>
+                            <code value="113813"/>
+                            <display value="CT Dose Length Product Total"/>
+                        </concept>
+                        <concept>
+                            <code value="113839"/>
+                            <display value="Effective Dose"/>
+                        </concept>
+                    </include>
+                </compose>
+            </ValueSet>

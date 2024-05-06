@@ -1,0 +1,299 @@
+<ValueSet xmlns="http://hl7.org/fhir">
+                <id value="1.2.40.0.34.10.58--20150331000000"/>
+                <meta>
+                    <source value="http://localhost:8877/exist/apps/fhir/4.0/elgabbr-"/>
+                    <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/><!--<profile value="http://hl7.org/fhir/4.0/StructureDefinition/ValueSet"/>-->
+                    <tag>
+                        <system value="http://hl7.org/fhir/FHIR-version"/>
+                        <code value="4.0.1"/>
+                    </tag>
+                </meta>
+                <extension url="http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod">
+                    <valuePeriod>
+                        <start value="2015-03-31T00:00:00+02:00"/>
+                    </valuePeriod>
+                </extension>
+                <url value="http://localhost:8877/exist/apps/fhir/ValueSet/1.2.40.0.34.10.58--20150331000000"/>
+                <identifier>
+                    <use value="official"/>
+                    <system value="urn:ietf:rfc:3986"/>
+                    <value value="urn:oid:1.2.40.0.34.10.58"/>
+                </identifier>
+                <version value="2015-03-31T00:00:00"/>
+                <name value="ELGA_SignificantPathogens"/>
+                <title value="ELGA_SignificantPathogens"/>
+                <status value="active"/>
+                <experimental value="false"/>
+                <publisher value="ELGA GmbH"/>
+                <description value="Value Set of significant pathogens listed in &quot;&quot;Epidemiologisches Meldesystem Benutzerhandbuch Fachlicher Teil&quot;&quot;, 1. edition, October 2008, BMGFJ"/>
+                <immutable value="false"/>
+                <compose>
+                    <include>
+                        <system value="urn:oid:1.2.40.0.34.5.45"/>
+                        <concept>
+                            <code value="SP001"/>
+                            <display value="Adenovirus im Konjunktivalabstrich (*)"/>
+                        </concept>
+                        <concept>
+                            <code value="SP002"/>
+                            <display value="HIV"/>
+                        </concept>
+                        <concept>
+                            <code value="SP003"/>
+                            <display value="Bacillus anthracis"/>
+                        </concept>
+                        <concept>
+                            <code value="SP004"/>
+                            <display value="Influenza A/H5"/>
+                        </concept>
+                        <concept>
+                            <code value="SP005"/>
+                            <display value="Influenza A/H5N1"/>
+                        </concept>
+                        <concept>
+                            <code value="SP006"/>
+                            <display value="Clostridium botulinum"/>
+                        </concept>
+                        <concept>
+                            <code value="SP007"/>
+                            <display value="Brucella spp."/>
+                        </concept>
+                        <concept>
+                            <code value="SP008"/>
+                            <display value="Campylobacter spp."/>
+                        </concept>
+                        <concept>
+                            <code value="SP009"/>
+                            <display value="Chlamydia trachomatis"/>
+                        </concept>
+                        <concept>
+                            <code value="SP010"/>
+                            <display value="Vibrio cholerae"/>
+                        </concept>
+                        <concept>
+                            <code value="SP011"/>
+                            <display value="Denguevirus"/>
+                        </concept>
+                        <concept>
+                            <code value="SP012"/>
+                            <display value="Corynebacterium diphtheriae"/>
+                        </concept>
+                        <concept>
+                            <code value="SP013"/>
+                            <display value="Corynebacterium ulcerans"/>
+                        </concept>
+                        <concept>
+                            <code value="SP014"/>
+                            <display value="Ebolavirus"/>
+                        </concept>
+                        <concept>
+                            <code value="SP015"/>
+                            <display value="Escherichia coli, sonstige darmpathogene St&#xE4;mme"/>
+                        </concept>
+                        <concept>
+                            <code value="SP016"/>
+                            <display value="Echinococcus spp."/>
+                        </concept>
+                        <concept>
+                            <code value="SP017"/>
+                            <display value="Rickettsia prowazekii"/>
+                        </concept>
+                        <concept>
+                            <code value="SP018"/>
+                            <display value="FSME-Virus"/>
+                        </concept>
+                        <concept>
+                            <code value="SP019"/>
+                            <display value="Gelbfieber-Virus"/>
+                        </concept>
+                        <concept>
+                            <code value="SP020"/>
+                            <display value="Giardia lamblia"/>
+                        </concept>
+                        <concept>
+                            <code value="SP021"/>
+                            <display value="Neisseria gonorrhoeae"/>
+                        </concept>
+                        <concept>
+                            <code value="SP022"/>
+                            <display value="Haemophilus influenzae"/>
+                        </concept>
+                        <concept>
+                            <code value="SP023"/>
+                            <display value="Hantavirus"/>
+                        </concept>
+                        <concept>
+                            <code value="SP024"/>
+                            <display value="Hepatitis-A-Virus"/>
+                        </concept>
+                        <concept>
+                            <code value="SP025"/>
+                            <display value="Hepatitis-B-Virus"/>
+                        </concept>
+                        <concept>
+                            <code value="SP026"/>
+                            <display value="Hepatitis-C-Virus"/>
+                        </concept>
+                        <concept>
+                            <code value="SP027"/>
+                            <display value="HDV - Hepatitis-D-Virus akut"/>
+                        </concept>
+                        <concept>
+                            <code value="SP028"/>
+                            <display value="HEV - akute Virushepatitis E"/>
+                        </concept>
+                        <concept>
+                            <code value="SP029"/>
+                            <display value="Influenzavirus"/>
+                        </concept>
+                        <concept>
+                            <code value="SP030"/>
+                            <display value="Bordetella pertussis"/>
+                        </concept>
+                        <concept>
+                            <code value="SP031"/>
+                            <display value="Cryptosporidium spp."/>
+                        </concept>
+                        <concept>
+                            <code value="SP032"/>
+                            <display value="Lassavirus"/>
+                        </concept>
+                        <concept>
+                            <code value="SP033"/>
+                            <display value="Borrelia recurrentis"/>
+                        </concept>
+                        <concept>
+                            <code value="SP034"/>
+                            <display value="Legionella spp."/>
+                        </concept>
+                        <concept>
+                            <code value="SP035"/>
+                            <display value="Mycobacterium leprae"/>
+                        </concept>
+                        <concept>
+                            <code value="SP036"/>
+                            <display value="Leptospira interrogans"/>
+                        </concept>
+                        <concept>
+                            <code value="SP037"/>
+                            <display value="Listeria monocytogenes"/>
+                        </concept>
+                        <concept>
+                            <code value="SP038"/>
+                            <display value="Plasmodium spp."/>
+                        </concept>
+                        <concept>
+                            <code value="SP039"/>
+                            <display value="Marburgvirus"/>
+                        </concept>
+                        <concept>
+                            <code value="SP040"/>
+                            <display value="Masernvirus"/>
+                        </concept>
+                        <concept>
+                            <code value="SP041"/>
+                            <display value="Neisseria meningitidis"/>
+                        </concept>
+                        <concept>
+                            <code value="SP042"/>
+                            <display value="Mumpsvirus"/>
+                        </concept>
+                        <concept>
+                            <code value="SP043"/>
+                            <display value="Norovirus"/>
+                        </concept>
+                        <concept>
+                            <code value="SP044"/>
+                            <display value="Chlamydophila psittaci"/>
+                        </concept>
+                        <concept>
+                            <code value="SP045"/>
+                            <display value="Yersinia pestis"/>
+                        </concept>
+                        <concept>
+                            <code value="SP046"/>
+                            <display value="Streptococcus pneumoniae"/>
+                        </concept>
+                        <concept>
+                            <code value="SP047"/>
+                            <display value="Variola-Virus"/>
+                        </concept>
+                        <concept>
+                            <code value="SP048"/>
+                            <display value="Poliovirus"/>
+                        </concept>
+                        <concept>
+                            <code value="SP049"/>
+                            <display value="Coxiella burnetii"/>
+                        </concept>
+                        <concept>
+                            <code value="SP050"/>
+                            <display value="Rotavirus"/>
+                        </concept>
+                        <concept>
+                            <code value="SP051"/>
+                            <display value="Rubella-Virus"/>
+                        </concept>
+                        <concept>
+                            <code value="SP053"/>
+                            <display value="Salmonella spp. au&#xDF;er S. Typhi und S. Paratyphi"/>
+                        </concept>
+                        <concept>
+                            <code value="SP054"/>
+                            <display value="SARS-Coronavirus, SARS-CoV"/>
+                        </concept>
+                        <concept>
+                            <code value="SP055"/>
+                            <display value="Shigella spp."/>
+                        </concept>
+                        <concept>
+                            <code value="SP056"/>
+                            <display value="Treponema pallidum"/>
+                        </concept>
+                        <concept>
+                            <code value="SP057"/>
+                            <display value="Clostridium tetani"/>
+                        </concept>
+                        <concept>
+                            <code value="SP058"/>
+                            <display value="Lyssa-Virus"/>
+                        </concept>
+                        <concept>
+                            <code value="SP059"/>
+                            <display value="Toxoplasma gondii"/>
+                        </concept>
+                        <concept>
+                            <code value="SP060"/>
+                            <display value="Trichinella spp."/>
+                        </concept>
+                        <concept>
+                            <code value="SP061"/>
+                            <display value="Mycobacterium-tuberculosis-Komplex"/>
+                        </concept>
+                        <concept>
+                            <code value="SP062"/>
+                            <display value="Francisella tularensis"/>
+                        </concept>
+                        <concept>
+                            <code value="SP063"/>
+                            <display value="Salmonella typhi"/>
+                        </concept>
+                        <concept>
+                            <code value="SP064"/>
+                            <display value="Salmonella paratyphi"/>
+                        </concept>
+                        <concept>
+                            <code value="SP065"/>
+                            <display value="West-Nil-Virus"/>
+                        </concept>
+                        <concept>
+                            <code value="SP066"/>
+                            <display value="Yersinia enterocolitica"/>
+                        </concept>
+                        <concept>
+                            <code value="SP067"/>
+                            <display value="Yersinia pseudotuberculosis"/>
+                        </concept>
+                    </include>
+                </compose>
+            </ValueSet>

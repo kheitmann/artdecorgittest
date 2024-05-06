@@ -1,0 +1,165 @@
+<ValueSet xmlns="http://hl7.org/fhir">
+                <id value="1.2.40.0.34.10.22--20230831000000"/>
+                <meta>
+                    <source value="http://localhost:8877/exist/apps/fhir/4.0/elgabbr-"/>
+                    <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/><!--<profile value="http://hl7.org/fhir/4.0/StructureDefinition/ValueSet"/>-->
+                    <tag>
+                        <system value="http://hl7.org/fhir/FHIR-version"/>
+                        <code value="4.0.1"/>
+                    </tag>
+                </meta>
+                <extension url="http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod">
+                    <valuePeriod>
+                        <start value="2023-08-31T00:00:00+02:00"/>
+                    </valuePeriod>
+                </extension>
+                <url value="urn:oid:1.2.40.0.34.10.22"/>
+                <identifier>
+                    <use value="official"/>
+                    <system value="urn:ietf:rfc:3986"/>
+                    <value value="urn:oid:1.2.40.0.34.10.22"/>
+                </identifier>
+                <version value="2023-08-31T00:00:00"/>
+                <name value="ELGA_ServiceEventsLabor"/>
+                <title value="ELGA_ServiceEventsLabor"/>
+                <status value="draft"/>
+                <experimental value="false"/>
+                <publisher value="ELGA GmbH"/>
+                <description value="Codes der erlaubten ServiceEvents f&#xFC;r den Laborbefund. (nicht hierarchische Liste)"/>
+                <immutable value="false"/>
+                <copyright value="This artefact includes content from SNOMED Clinical Terms&#xAE; (SNOMED CT&#xAE;) which is copyright of the International Health Terminology Standards Development Organisation (IHTSDO). Implementers of these artefacts must have the appropriate SNOMED CT Affiliate license - for more information contact http://www.snomed.org/snomed-ct/getsnomed-ct or info@snomed.org."/>
+                <compose>
+                    <inactive value="true"/>
+                    <include>
+                        <system value="urn:oid:1.2.40.0.34.5.11"/>
+                        <concept>
+                            <extension url="http://hl7.org/fhir/StructureDefinition/valueset-deprecated">
+                                <valueBoolean value="true"/>
+                            </extension>
+                            <code value="1"/>
+                            <display value="Allgemeiner Laborbefund"/>
+                        </concept>
+                        <concept>
+                            <code value="100"/>
+                            <display value="Transfusions-/Transplantationsdiagnostik/Immungenetik"/>
+                        </concept>
+                        <concept>
+                            <code value="200"/>
+                            <display value="Blutgasanalytik"/>
+                        </concept>
+                        <concept>
+                            <code value="300"/>
+                            <display value="H&#xE4;matologie"/>
+                        </concept>
+                        <concept>
+                            <code value="400"/>
+                            <display value="Gerinnung/H&#xE4;mostaseologie"/>
+                        </concept>
+                        <concept>
+                            <code value="500"/>
+                            <display value="Klinische Chemie/Proteindiagnostik"/>
+                        </concept>
+                        <concept>
+                            <code value="600"/>
+                            <display value="Hormone/Vitamine/Tumormarker"/>
+                        </concept>
+                        <concept>
+                            <code value="900"/>
+                            <display value="Toxikologie"/>
+                        </concept>
+                        <concept>
+                            <code value="1000"/>
+                            <display value="Medikamente"/>
+                        </concept>
+                        <concept>
+                            <code value="1100"/>
+                            <display value="Infektionsdiagnostik"/>
+                        </concept>
+                        <concept>
+                            <code value="1300"/>
+                            <display value="Autoimmundiagnostik"/>
+                        </concept>
+                        <concept>
+                            <code value="1800"/>
+                            <display value="Allergiediagnostik"/>
+                        </concept>
+                        <concept>
+                            <code value="1400"/>
+                            <display value="Urindiagnostik"/>
+                        </concept>
+                        <concept>
+                            <code value="1500"/>
+                            <display value="Stuhldiagnostik"/>
+                        </concept>
+                        <concept>
+                            <code value="1600"/>
+                            <display value="Liquordiagnostik"/>
+                        </concept>
+                        <concept>
+                            <code value="2300"/>
+                            <display value="Genetische Diagnostik"/>
+                        </concept>
+                        <concept>
+                            <code value="2500"/>
+                            <display value="Sonstige"/>
+                        </concept>
+                        <concept>
+                            <code value="20"/>
+                            <display value="Befundbewertung"/>
+                        </concept>
+                        <concept>
+                            <code value="10"/>
+                            <display value="Probeninformation"/>
+                        </concept>
+                    </include>
+                    <include>
+                        <system value="http://loinc.org"/>
+                        <concept>
+                            <code value="18725-2"/>
+                            <display value="Microbiology studies (set)"/>
+                        </concept>
+                        <concept>
+                            <code value="10164-2"/>
+                            <display value="Anamnese"/>
+                        </concept>
+                        <concept>
+                            <code value="46239-0"/>
+                            <display value="&#xDC;berweisungsgrund"/>
+                        </concept>
+                    </include>
+                    <include>
+                        <system value="urn:oid:1.2.40.0.34.5.40"/>
+                        <concept>
+                            <code value="BEIL"/>
+                            <display value="Beilagen"/>
+                        </concept>
+                    </include>
+                    <include>
+                        <system value="http://snomed.info/sct"/>
+                        <concept>
+                            <code value="400999005"/>
+                            <display value="Angeforderte Untersuchung"/>
+                        </concept>
+                        <concept>
+                            <code value="722143004"/>
+                            <display value="Infektionsserologie"/>
+                        </concept>
+                        <concept>
+                            <code value="446394004"/>
+                            <display value="Kultureller Erregernachweis"/>
+                        </concept>
+                        <concept>
+                            <code value="395538009"/>
+                            <display value="Mikroskopie"/>
+                        </concept>
+                        <concept>
+                            <code value="108262000"/>
+                            <display value="Molekularer Erregernachweis"/>
+                        </concept>
+                        <concept>
+                            <code value="15220000"/>
+                            <display value="Weitere Analysen"/>
+                        </concept>
+                    </include>
+                </compose>
+            </ValueSet>

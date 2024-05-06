@@ -1,0 +1,1098 @@
+<ValueSet xmlns="http://hl7.org/fhir">
+                <id value="1.2.40.0.34.10.46--20200428105131"/>
+                <meta>
+                    <source value="http://localhost:8877/exist/apps/fhir/4.0/elgabbr-"/>
+                    <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/><!--<profile value="http://hl7.org/fhir/4.0/StructureDefinition/ValueSet"/>-->
+                    <tag>
+                        <system value="http://hl7.org/fhir/FHIR-version"/>
+                        <code value="4.0.1"/>
+                    </tag>
+                </meta>
+                <extension url="http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod">
+                    <valuePeriod>
+                        <start value="2020-04-28T10:51:31+02:00"/>
+                    </valuePeriod>
+                </extension>
+                <url value="http://localhost:8877/exist/apps/fhir/ValueSet/1.2.40.0.34.10.46--20200428105131"/>
+                <identifier>
+                    <use value="official"/>
+                    <system value="urn:ietf:rfc:3986"/>
+                    <value value="urn:oid:1.2.40.0.34.10.46"/>
+                </identifier>
+                <version value="2020-04-28T10:51:31"/>
+                <name value="ELGA_SpecimenType"/>
+                <title value="ELGA_SpecimenType"/>
+                <status value="draft"/>
+                <experimental value="false"/>
+                <publisher value="ELGA GmbH"/>
+                <description value="Art des Specimens oder der Probe"/>
+                <immutable value="false"/>
+                <copyright value="This artefact includes content from SNOMED Clinical Terms&#xAE; (SNOMED CT&#xAE;) which is copyright of the International Health Terminology Standards Development Organisation (IHTSDO). Implementers of these artefacts must have the appropriate SNOMED CT Affiliate license - for more information contact http://www.snomed.org/snomed-ct/getsnomed-ct or info@snomed.org."/>
+                <compose>
+                    <include>
+                        <system value="http://terminology.hl7.org/CodeSystem/v3-SpecimenType"/>
+                        <concept>
+                            <code value="ABS"/>
+                            <display value="Abcess"/>
+                        </concept>
+                        <concept>
+                            <code value="AMN"/>
+                            <display value="Amniotic fluid"/>
+                        </concept>
+                        <concept>
+                            <code value="ASP"/>
+                            <display value="Aspirate"/>
+                        </concept>
+                        <concept>
+                            <code value="BBL"/>
+                            <display value="Blood bag"/>
+                        </concept>
+                        <concept>
+                            <code value="BDY"/>
+                            <display value="Whole body"/>
+                        </concept>
+                        <concept>
+                            <code value="BIFL"/>
+                            <display value="Bile fluid"/>
+                        </concept>
+                        <concept>
+                            <code value="BLD"/>
+                            <display value="Whole blood"/>
+                        </concept>
+                        <concept>
+                            <code value="BLDA"/>
+                            <display value="Blood arterial"/>
+                        </concept>
+                        <concept>
+                            <code value="BLDC"/>
+                            <display value="Blood capillary"/>
+                        </concept>
+                        <concept>
+                            <code value="BLDCO"/>
+                            <display value="Blood - cord"/>
+                        </concept>
+                        <concept>
+                            <code value="BLDV"/>
+                            <display value="Blood venous"/>
+                        </concept>
+                        <concept>
+                            <code value="BON"/>
+                            <display value="Bone"/>
+                        </concept>
+                        <concept>
+                            <code value="BPH"/>
+                            <display value="Basophils"/>
+                        </concept>
+                        <concept>
+                            <code value="BPU"/>
+                            <display value="Blood product unit"/>
+                        </concept>
+                        <concept>
+                            <code value="BRN"/>
+                            <display value="Burn"/>
+                        </concept>
+                        <concept>
+                            <code value="BRO"/>
+                            <display value="Bronchial"/>
+                        </concept>
+                        <concept>
+                            <code value="BRTH"/>
+                            <display value="Exhaled gas (=breath) Breath (use EXG)"/>
+                        </concept>
+                        <concept>
+                            <code value="CALC"/>
+                            <display value="Calculus (=Stone) Stone (use CALC)"/>
+                        </concept>
+                        <concept>
+                            <code value="CDM"/>
+                            <display value="Cardiac muscle"/>
+                        </concept>
+                        <concept>
+                            <code value="CNJT"/>
+                            <display value="Conjunctiva"/>
+                        </concept>
+                        <concept>
+                            <code value="CNL"/>
+                            <display value="Cannula"/>
+                        </concept>
+                        <concept>
+                            <code value="COL"/>
+                            <display value="Colostrum"/>
+                        </concept>
+                        <concept>
+                            <code value="CRN"/>
+                            <display value="Cornea"/>
+                        </concept>
+                        <concept>
+                            <code value="CSF"/>
+                            <display value="Cerebral spinal fluid"/>
+                        </concept>
+                        <concept>
+                            <code value="CTP"/>
+                            <display value="Catheter tip"/>
+                        </concept>
+                        <concept>
+                            <code value="CUR"/>
+                            <display value="Curettage"/>
+                        </concept>
+                        <concept>
+                            <code value="CVM"/>
+                            <display value="Cervical mucus"/>
+                        </concept>
+                        <concept>
+                            <code value="CVX"/>
+                            <display value="Cervix"/>
+                        </concept>
+                        <concept>
+                            <code value="CYST"/>
+                            <display value="Cyst"/>
+                        </concept>
+                        <concept>
+                            <code value="DIAF"/>
+                            <display value="Dialysis fluid"/>
+                        </concept>
+                        <concept>
+                            <code value="DOSE"/>
+                            <display value="Dose med or substance"/>
+                        </concept>
+                        <concept>
+                            <code value="DRN"/>
+                            <display value="Drain"/>
+                        </concept>
+                        <concept>
+                            <code value="DUFL"/>
+                            <display value="Duodenal fluid"/>
+                        </concept>
+                        <concept>
+                            <code value="EAR"/>
+                            <display value="Ear"/>
+                        </concept>
+                        <concept>
+                            <code value="EARW"/>
+                            <display value="Ear wax (cerumen)"/>
+                        </concept>
+                        <concept>
+                            <code value="ELT"/>
+                            <display value="Electrode"/>
+                        </concept>
+                        <concept>
+                            <code value="ENDC"/>
+                            <display value="Endocardium"/>
+                        </concept>
+                        <concept>
+                            <code value="ENDM"/>
+                            <display value="Endometrium"/>
+                        </concept>
+                        <concept>
+                            <code value="EOS"/>
+                            <display value="Eosinophils"/>
+                        </concept>
+                        <concept>
+                            <code value="EXG"/>
+                            <display value="Exhaled gas (=breath) Breath (use EXG)"/>
+                        </concept>
+                        <concept>
+                            <code value="EYE"/>
+                            <display value="Eye"/>
+                        </concept>
+                        <concept>
+                            <code value="FIB"/>
+                            <display value="Fibroblasts"/>
+                        </concept>
+                        <concept>
+                            <code value="FIST"/>
+                            <display value="Fistula"/>
+                        </concept>
+                        <concept>
+                            <code value="FLT"/>
+                            <display value="Filter"/>
+                        </concept>
+                        <concept>
+                            <code value="FLU"/>
+                            <display value="Body fluid, unsp"/>
+                        </concept>
+                        <concept>
+                            <code value="FOOD"/>
+                            <display value="Food sample"/>
+                        </concept>
+                        <concept>
+                            <code value="GAS"/>
+                            <display value="Gas"/>
+                        </concept>
+                        <concept>
+                            <code value="GAST"/>
+                            <display value="Gastric fluid/contents"/>
+                        </concept>
+                        <concept>
+                            <code value="GEN"/>
+                            <display value="Genital"/>
+                        </concept>
+                        <concept>
+                            <code value="GENC"/>
+                            <display value="Genital cervix"/>
+                        </concept>
+                        <concept>
+                            <code value="GENF"/>
+                            <display value="Genital fluid"/>
+                        </concept>
+                        <concept>
+                            <code value="GENL"/>
+                            <display value="Genital lochia"/>
+                        </concept>
+                        <concept>
+                            <code value="GENV"/>
+                            <display value="Genital vaginal"/>
+                        </concept>
+                        <concept>
+                            <code value="HAR"/>
+                            <display value="Hair"/>
+                        </concept>
+                        <concept>
+                            <code value="IHG"/>
+                            <display value="Inhaled Gas"/>
+                        </concept>
+                        <concept>
+                            <code value="ISLT"/>
+                            <display value="Isolate"/>
+                        </concept>
+                        <concept>
+                            <code value="IT"/>
+                            <display value="Intubation tube"/>
+                        </concept>
+                        <concept>
+                            <code value="LAM"/>
+                            <display value="Lamella"/>
+                        </concept>
+                        <concept>
+                            <code value="LIQ"/>
+                            <display value="Liquid NOS"/>
+                        </concept>
+                        <concept>
+                            <code value="LN"/>
+                            <display value="Line"/>
+                        </concept>
+                        <concept>
+                            <code value="LNA"/>
+                            <display value="Line arterial"/>
+                        </concept>
+                        <concept>
+                            <code value="LNV"/>
+                            <display value="Line venous"/>
+                        </concept>
+                        <concept>
+                            <code value="LYM"/>
+                            <display value="Lymphocytes"/>
+                        </concept>
+                        <concept>
+                            <code value="MAC"/>
+                            <display value="Macrophages"/>
+                        </concept>
+                        <concept>
+                            <code value="MAR"/>
+                            <display value="Marrow (bone)"/>
+                        </concept>
+                        <concept>
+                            <code value="MBLD"/>
+                            <display value="Menstrual blood"/>
+                        </concept>
+                        <concept>
+                            <code value="MEC"/>
+                            <display value="Meconium"/>
+                        </concept>
+                        <concept>
+                            <code value="MILK"/>
+                            <display value="Breast milk"/>
+                        </concept>
+                        <concept>
+                            <code value="MLK"/>
+                            <display value="Milk"/>
+                        </concept>
+                        <concept>
+                            <code value="NAIL"/>
+                            <display value="Nail"/>
+                        </concept>
+                        <concept>
+                            <code value="NOS"/>
+                            <display value="Nose (nasal passage)"/>
+                        </concept>
+                        <concept>
+                            <code value="PAFL"/>
+                            <display value="Pancreatic fluid"/>
+                        </concept>
+                        <concept>
+                            <code value="PAT"/>
+                            <display value="Patient"/>
+                        </concept>
+                        <concept>
+                            <code value="PLAS"/>
+                            <display value="Plasma"/>
+                        </concept>
+                        <concept>
+                            <code value="PLB"/>
+                            <display value="Plasma bag"/>
+                        </concept>
+                        <concept>
+                            <code value="PLC"/>
+                            <display value="Placenta"/>
+                        </concept>
+                        <concept>
+                            <code value="PLR"/>
+                            <display value="Pleural fluid (thoracentesis fld)"/>
+                        </concept>
+                        <concept>
+                            <code value="PMN"/>
+                            <display value="Polymorphonuclear neutrophils"/>
+                        </concept>
+                        <concept>
+                            <code value="PPP"/>
+                            <display value="Platelet poor plasma"/>
+                        </concept>
+                        <concept>
+                            <code value="PRP"/>
+                            <display value="Platelet rich plasma"/>
+                        </concept>
+                        <concept>
+                            <code value="PRT"/>
+                            <display value="Peritoneal fluid /ascites"/>
+                        </concept>
+                        <concept>
+                            <code value="PUS"/>
+                            <display value="Pus"/>
+                        </concept>
+                        <concept>
+                            <code value="RBC"/>
+                            <display value="Erythrocytes"/>
+                        </concept>
+                        <concept>
+                            <code value="SAL"/>
+                            <display value="Saliva"/>
+                        </concept>
+                        <concept>
+                            <code value="SER"/>
+                            <display value="Serum"/>
+                        </concept>
+                        <concept>
+                            <code value="SKM"/>
+                            <display value="Skeletal muscle"/>
+                        </concept>
+                        <concept>
+                            <code value="SKN"/>
+                            <display value="Skin"/>
+                        </concept>
+                        <concept>
+                            <code value="SMN"/>
+                            <display value="Seminal fluid"/>
+                        </concept>
+                        <concept>
+                            <code value="SMPLS"/>
+                            <display value="Seminal plasma"/>
+                        </concept>
+                        <concept>
+                            <code value="SNV"/>
+                            <display value="Synovial fluid (Joint fluid)"/>
+                        </concept>
+                        <concept>
+                            <code value="SPRM"/>
+                            <display value="Spermatozoa"/>
+                        </concept>
+                        <concept>
+                            <code value="SPT"/>
+                            <display value="Sputum"/>
+                        </concept>
+                        <concept>
+                            <code value="SPTC"/>
+                            <display value="Sputum - coughed"/>
+                        </concept>
+                        <concept>
+                            <code value="SPTT"/>
+                            <display value="Sputum - tracheal aspirate"/>
+                        </concept>
+                        <concept>
+                            <code value="STL"/>
+                            <display value="Stool = Fecal"/>
+                        </concept>
+                        <concept>
+                            <code value="STON"/>
+                            <display value="Calculus (=Stone) Stone (use CALC)"/>
+                        </concept>
+                        <concept>
+                            <code value="SWT"/>
+                            <display value="Sweat"/>
+                        </concept>
+                        <concept>
+                            <code value="TEAR"/>
+                            <display value="Tears"/>
+                        </concept>
+                        <concept>
+                            <code value="THRB"/>
+                            <display value="Thrombocyte (platelet)"/>
+                        </concept>
+                        <concept>
+                            <code value="THRT"/>
+                            <display value="Throat"/>
+                        </concept>
+                        <concept>
+                            <code value="TISG"/>
+                            <display value="Tissue gall bladder"/>
+                        </concept>
+                        <concept>
+                            <code value="TISPL"/>
+                            <display value="Tissue placenta"/>
+                        </concept>
+                        <concept>
+                            <code value="TISS"/>
+                            <display value="Tissue, unspecified"/>
+                        </concept>
+                        <concept>
+                            <code value="TISU"/>
+                            <display value="Tissue ulcer"/>
+                        </concept>
+                        <concept>
+                            <code value="TLGI"/>
+                            <display value="Tissue large intestine"/>
+                        </concept>
+                        <concept>
+                            <code value="TLNG"/>
+                            <display value="Tissue lung"/>
+                        </concept>
+                        <concept>
+                            <code value="TSMI"/>
+                            <display value="Tissue small intestine Tissue ulcer"/>
+                        </concept>
+                        <concept>
+                            <code value="TUB"/>
+                            <display value="Tube, unspecified"/>
+                        </concept>
+                        <concept>
+                            <code value="ULC"/>
+                            <display value="Ulcer"/>
+                        </concept>
+                        <concept>
+                            <code value="UMB"/>
+                            <display value="Umbilical blood"/>
+                        </concept>
+                        <concept>
+                            <code value="UMED"/>
+                            <display value="Unknown medicine"/>
+                        </concept>
+                        <concept>
+                            <code value="UR"/>
+                            <display value="Urine"/>
+                        </concept>
+                        <concept>
+                            <code value="URC"/>
+                            <display value="Urine clean catch"/>
+                        </concept>
+                        <concept>
+                            <code value="URNS"/>
+                            <display value="Urine sediment"/>
+                        </concept>
+                        <concept>
+                            <code value="URT"/>
+                            <display value="Urine catheter"/>
+                        </concept>
+                        <concept>
+                            <code value="URTH"/>
+                            <display value="Urethra"/>
+                        </concept>
+                        <concept>
+                            <code value="USUB"/>
+                            <display value="Unknown substance"/>
+                        </concept>
+                        <concept>
+                            <code value="VOM"/>
+                            <display value="Vomitus"/>
+                        </concept>
+                        <concept>
+                            <code value="WAT"/>
+                            <display value="Water"/>
+                        </concept>
+                        <concept>
+                            <code value="WBC"/>
+                            <display value="Leukocytes"/>
+                        </concept>
+                        <concept>
+                            <code value="WICK"/>
+                            <display value="Wick"/>
+                        </concept>
+                        <concept>
+                            <code value="WND"/>
+                            <display value="Wound"/>
+                        </concept>
+                        <concept>
+                            <code value="WNDA"/>
+                            <display value="Wound abscess"/>
+                        </concept>
+                        <concept>
+                            <code value="WNDD"/>
+                            <display value="Wound drainage"/>
+                        </concept>
+                        <concept>
+                            <code value="WNDE"/>
+                            <display value="Wound exudate"/>
+                        </concept>
+                    </include>
+                    <include>
+                        <system value="urn:oid:1.2.40.0.34.5.173"/>
+                        <concept>
+                            <code value="SWAB"/>
+                            <display value="Swab"/>
+                        </concept>
+                    </include>
+                    <include>
+                        <system value="http://snomed.info/sct"/>
+                        <concept>
+                            <code value="119297000"/>
+                            <display value="Blood specimen"/>
+                        </concept>
+                        <concept>
+                            <code value="446131002"/>
+                            <display value="Blood specimen obtained for blood culture"/>
+                        </concept>
+                        <concept>
+                            <code value="445295009"/>
+                            <display value="Blood specimen with edetic acid"/>
+                        </concept>
+                        <concept>
+                            <code value="708049000"/>
+                            <display value="Plasma specimen with ethylenediamine tetraacetic acid"/>
+                        </concept>
+                        <concept>
+                            <code value="708048008"/>
+                            <display value="Plasma specimen with citrate"/>
+                        </concept>
+                        <concept>
+                            <code value="441510007"/>
+                            <display value="Blood specimen with anticoagulant"/>
+                        </concept>
+                        <concept>
+                            <code value="119361006"/>
+                            <display value="Plasma specimen"/>
+                        </concept>
+                        <concept>
+                            <code value="122590004"/>
+                            <display value="Serum specimen from patient"/>
+                        </concept>
+                        <concept>
+                            <code value="122552005"/>
+                            <display value="Arterial blood specimen"/>
+                        </concept>
+                        <concept>
+                            <code value="122554006"/>
+                            <display value="Capillary blood specimen"/>
+                        </concept>
+                        <concept>
+                            <code value="122555007"/>
+                            <display value="Venous blood specimen"/>
+                        </concept>
+                        <concept>
+                            <code value="122556008"/>
+                            <display value="Cord blood specimen"/>
+                        </concept>
+                        <concept>
+                            <code value="788707000"/>
+                            <display value="Plasma specimen or serum specimen or whole blood specimen"/>
+                        </concept>
+                        <concept>
+                            <code value="258580003"/>
+                            <display value="Whole blood sample"/>
+                        </concept>
+                        <concept>
+                            <code value="258603007"/>
+                            <display value="Respiratory sample"/>
+                        </concept>
+                        <concept>
+                            <code value="410580001"/>
+                            <display value="Respiratory fluid specimen"/>
+                        </concept>
+                        <concept>
+                            <code value="309164002"/>
+                            <display value="Upper respiratory swab sample"/>
+                        </concept>
+                        <concept>
+                            <code value="258606004"/>
+                            <display value="Lower respiratory sample"/>
+                        </concept>
+                        <concept>
+                            <code value="258607008"/>
+                            <display value="Bronchoalveolar lavage fluid sample"/>
+                        </concept>
+                        <concept>
+                            <code value="258446004"/>
+                            <display value="Bronchial fluid sample"/>
+                        </concept>
+                        <concept>
+                            <code value="122610009"/>
+                            <display value="Specimen from lung obtained by biopsy"/>
+                        </concept>
+                        <concept>
+                            <code value="445297001"/>
+                            <display value="Swab of internal nose"/>
+                        </concept>
+                        <concept>
+                            <code value="168141000"/>
+                            <display value="Nasal fluid sample"/>
+                        </concept>
+                        <concept>
+                            <code value="258500001"/>
+                            <display value="Nasopharyngeal swab"/>
+                        </concept>
+                        <concept>
+                            <code value="258411007"/>
+                            <display value="Nasopharyngeal aspirate"/>
+                        </concept>
+                        <concept>
+                            <code value="258529004"/>
+                            <display value="Throat swab"/>
+                        </concept>
+                        <concept>
+                            <code value="258469001"/>
+                            <display value="Pharyngeal washings"/>
+                        </concept>
+                        <concept>
+                            <code value="119334006"/>
+                            <display value="Sputum specimen"/>
+                        </concept>
+                        <concept>
+                            <code value="697989009"/>
+                            <display value="Anterior nares swab"/>
+                        </concept>
+                        <concept>
+                            <code value="472867001"/>
+                            <display value="Swab from tonsil"/>
+                        </concept>
+                        <concept>
+                            <code value="445447003"/>
+                            <display value="Specimen from trachea obtained by aspiration"/>
+                        </concept>
+                        <concept>
+                            <code value="16223051000119101"/>
+                            <display value="Nasal sinus contents sample"/>
+                        </concept>
+                        <concept>
+                            <code value="433324003"/>
+                            <display value="Specimen from eye region"/>
+                        </concept>
+                        <concept>
+                            <code value="445160003"/>
+                            <display value="Swab of eye"/>
+                        </concept>
+                        <concept>
+                            <code value="472894002"/>
+                            <display value="Swab from cornea"/>
+                        </concept>
+                        <concept>
+                            <code value="258438000"/>
+                            <display value="Vitreous humor sample"/>
+                        </concept>
+                        <concept>
+                            <code value="258498002"/>
+                            <display value="Conjunctival swab"/>
+                        </concept>
+                        <concept>
+                            <code value="440473005"/>
+                            <display value="Contact lens submitted as specimen"/>
+                        </concept>
+                        <concept>
+                            <code value="472927003"/>
+                            <display value="Contact lens case submitted as specimen"/>
+                        </concept>
+                        <concept>
+                            <code value="16212771000119105"/>
+                            <display value="Specimen from eyelid obtained by biopsy"/>
+                        </concept>
+                        <concept>
+                            <code value="309165001"/>
+                            <display value="Ear sample"/>
+                        </concept>
+                        <concept>
+                            <code value="258466008"/>
+                            <display value="Middle ear fluid sample"/>
+                        </concept>
+                        <concept>
+                            <code value="472901003"/>
+                            <display value="Swab from nasal sinus"/>
+                        </concept>
+                        <concept>
+                            <code value="309166000"/>
+                            <display value="Ear swab sample"/>
+                        </concept>
+                        <concept>
+                            <code value="122580007"/>
+                            <display value="Cerumen specimen"/>
+                        </concept>
+                        <concept>
+                            <code value="258412000"/>
+                            <display value="Oropharyngeal aspirate"/>
+                        </concept>
+                        <concept>
+                            <code value="127465007"/>
+                            <display value="Specimen from gastrointestinal tract"/>
+                        </concept>
+                        <concept>
+                            <code value="258662004"/>
+                            <display value="Adhesive slide"/>
+                        </concept>
+                        <concept>
+                            <code value="258527002"/>
+                            <display value="Anal swab"/>
+                        </concept>
+                        <concept>
+                            <code value="309225009"/>
+                            <display value="Colonic biopsy sample"/>
+                        </concept>
+                        <concept>
+                            <code value="122574004"/>
+                            <display value="Duodenal fluid specimen"/>
+                        </concept>
+                        <concept>
+                            <code value="449446003"/>
+                            <display value="Specimen from gallbladder"/>
+                        </concept>
+                        <concept>
+                            <code value="119341000"/>
+                            <display value="Bile specimen"/>
+                        </concept>
+                        <concept>
+                            <code value="309211008"/>
+                            <display value="Gastric biopsy sample"/>
+                        </concept>
+                        <concept>
+                            <code value="258459007"/>
+                            <display value="Gastric fluid sample"/>
+                        </concept>
+                        <concept>
+                            <code value="418932006"/>
+                            <display value="Oral swab"/>
+                        </concept>
+                        <concept>
+                            <code value="309210009"/>
+                            <display value="Esophageal brushings sample"/>
+                        </concept>
+                        <concept>
+                            <code value="472886009"/>
+                            <display value="Swab from gastrostomy stoma"/>
+                        </concept>
+                        <concept>
+                            <code value="258525005"/>
+                            <display value="Perineal swab"/>
+                        </concept>
+                        <concept>
+                            <code value="168140004"/>
+                            <display value="Peritoneal dialysate sample"/>
+                        </concept>
+                        <concept>
+                            <code value="168139001"/>
+                            <display value="Peritoneal fluid sample"/>
+                        </concept>
+                        <concept>
+                            <code value="258528007"/>
+                            <display value="Rectal swab"/>
+                        </concept>
+                        <concept>
+                            <code value="119339001"/>
+                            <display value="Stool specimen"/>
+                        </concept>
+                        <concept>
+                            <code value="472866005"/>
+                            <display value="Swab from tongue"/>
+                        </concept>
+                        <concept>
+                            <code value="258570002"/>
+                            <display value="Genitourinary sample"/>
+                        </concept>
+                        <concept>
+                            <code value="258524009"/>
+                            <display value="Cervical swab"/>
+                        </concept>
+                        <concept>
+                            <code value="708112008"/>
+                            <display value="Retrouterine pouch fluid aspirate"/>
+                        </concept>
+                        <concept>
+                            <code value="258508008"/>
+                            <display value="Genital swab"/>
+                        </concept>
+                        <concept>
+                            <code value="258512002"/>
+                            <display value="Glans penis swab"/>
+                        </concept>
+                        <concept>
+                            <code value="119347001"/>
+                            <display value="Seminal fluid specimen"/>
+                        </concept>
+                        <concept>
+                            <code value="258511009"/>
+                            <display value="Penile urethral swab"/>
+                        </concept>
+                        <concept>
+                            <code value="258520000"/>
+                            <display value="Vaginal swab"/>
+                        </concept>
+                        <concept>
+                            <code value="258523003"/>
+                            <display value="Vulval swab"/>
+                        </concept>
+                        <concept>
+                            <code value="446130001"/>
+                            <display value="Urine specimen from bladder"/>
+                        </concept>
+                        <concept>
+                            <code value="446846006"/>
+                            <display value="Urine specimen obtained via indwelling urinary catheter"/>
+                        </concept>
+                        <concept>
+                            <code value="16221251000119108"/>
+                            <display value="Urine specimen obtained via straight catheter"/>
+                        </concept>
+                        <concept>
+                            <code value="698276005"/>
+                            <display value="First stream urine sample"/>
+                        </concept>
+                        <concept>
+                            <code value="122575003"/>
+                            <display value="Urine specimen"/>
+                        </concept>
+                        <concept>
+                            <code value="122565001"/>
+                            <display value="Urinary catheter specimen"/>
+                        </concept>
+                        <concept>
+                            <code value="258574006"/>
+                            <display value="Mid-stream urine sample"/>
+                        </concept>
+                        <concept>
+                            <code value="442173007"/>
+                            <display value="Urine specimen from nephrostomy tube"/>
+                        </concept>
+                        <concept>
+                            <code value="444937002"/>
+                            <display value="Urine specimen from ureter"/>
+                        </concept>
+                        <concept>
+                            <code value="702701006"/>
+                            <display value="Specimen from cervix or vagina"/>
+                        </concept>
+                        <concept>
+                            <code value="127476006"/>
+                            <display value="Specimen from fallopian tube"/>
+                        </concept>
+                        <concept>
+                            <code value="258548000"/>
+                            <display value="Dermatological sample"/>
+                        </concept>
+                        <concept>
+                            <code value="445364004"/>
+                            <display value="Swab of axilla"/>
+                        </concept>
+                        <concept>
+                            <code value="472896000"/>
+                            <display value="Swab from blister"/>
+                        </concept>
+                        <concept>
+                            <code value="119326000"/>
+                            <display value="Hair specimen"/>
+                        </concept>
+                        <concept>
+                            <code value="258503004"/>
+                            <display value="Skin swab"/>
+                        </concept>
+                        <concept>
+                            <code value="258549008"/>
+                            <display value="Skin scale sample"/>
+                        </concept>
+                        <concept>
+                            <code value="445444005"/>
+                            <display value="Swab of groin"/>
+                        </concept>
+                        <concept>
+                            <code value="445367006"/>
+                            <display value="Swab of umbilicus"/>
+                        </concept>
+                        <concept>
+                            <code value="119327009"/>
+                            <display value="Nail specimen"/>
+                        </concept>
+                        <concept>
+                            <code value="447098004"/>
+                            <display value="Specimen from nail obtained by scraping"/>
+                        </concept>
+                        <concept>
+                            <code value="119365002"/>
+                            <display value="Specimen from wound"/>
+                        </concept>
+                        <concept>
+                            <code value="472882006"/>
+                            <display value="Swab from superficial wound"/>
+                        </concept>
+                        <concept>
+                            <code value="472884007"/>
+                            <display value="Swab from deep wound"/>
+                        </concept>
+                        <concept>
+                            <code value="122568004"/>
+                            <display value="Fluid specimen from wound"/>
+                        </concept>
+                        <concept>
+                            <code value="258539005"/>
+                            <display value="Bone and joint sample"/>
+                        </concept>
+                        <concept>
+                            <code value="258448003"/>
+                            <display value="Bursa fluid sample"/>
+                        </concept>
+                        <concept>
+                            <code value="309124001"/>
+                            <display value="Joint biopsy sample"/>
+                        </concept>
+                        <concept>
+                            <code value="431361003"/>
+                            <display value="Joint fluid specimen"/>
+                        </concept>
+                        <concept>
+                            <code value="430268003"/>
+                            <display value="Specimen from bone"/>
+                        </concept>
+                        <concept>
+                            <code value="119359002"/>
+                            <display value="Bone marrow specimen"/>
+                        </concept>
+                        <concept>
+                            <code value="258415003"/>
+                            <display value="Biopsy sample"/>
+                        </concept>
+                        <concept>
+                            <code value="258497007"/>
+                            <display value="Abscess swab"/>
+                        </concept>
+                        <concept>
+                            <code value="446972001"/>
+                            <display value="Specimen from abscess obtained by aspiration"/>
+                        </concept>
+                        <concept>
+                            <code value="309201001"/>
+                            <display value="Ascitic fluid sample"/>
+                        </concept>
+                        <concept>
+                            <code value="119295008"/>
+                            <display value="Specimen obtained by aspiration"/>
+                        </concept>
+                        <concept>
+                            <code value="258455001"/>
+                            <display value="Drainage fluid sample"/>
+                        </concept>
+                        <concept>
+                            <code value="119373006"/>
+                            <display value="Amniotic fluid specimen"/>
+                        </concept>
+                        <concept>
+                            <code value="258588005"/>
+                            <display value="Hematoma sample"/>
+                        </concept>
+                        <concept>
+                            <code value="16211011000119108"/>
+                            <display value="Specimen from deep surgical wound"/>
+                        </concept>
+                        <concept>
+                            <code value="258450006"/>
+                            <display value="Cerebrospinal fluid sample"/>
+                        </concept>
+                        <concept>
+                            <code value="309078004"/>
+                            <display value="Lymph node tissue sample"/>
+                        </concept>
+                        <concept>
+                            <code value="122571007"/>
+                            <display value="Pericardial fluid specimen"/>
+                        </concept>
+                        <concept>
+                            <code value="418564007"/>
+                            <display value="Pleural fluid specimen"/>
+                        </concept>
+                        <concept>
+                            <code value="127454002"/>
+                            <display value="Device specimen"/>
+                        </concept>
+                        <concept>
+                            <code value="258647001"/>
+                            <display value="Drain tip"/>
+                        </concept>
+                        <concept>
+                            <code value="258540007"/>
+                            <display value="Prosthetic joint sample"/>
+                        </concept>
+                        <concept>
+                            <code value="473415003"/>
+                            <display value="Intrauterine contraceptive device submitted as specimen"/>
+                        </concept>
+                        <concept>
+                            <code value="472932002"/>
+                            <display value="Vascular catheter submitted as specimen"/>
+                        </concept>
+                        <concept>
+                            <code value="119312009"/>
+                            <display value="Catheter tip specimen"/>
+                        </concept>
+                        <concept>
+                            <code value="472919007"/>
+                            <display value="Device submitted as specimen"/>
+                        </concept>
+                        <concept>
+                            <code value="472938003"/>
+                            <display value="Tracheal tube submitted as specimen"/>
+                        </concept>
+                        <concept>
+                            <code value="123038009"/>
+                            <display value="Specimen"/>
+                        </concept>
+                        <concept>
+                            <code value="257261003"/>
+                            <display value="Swab"/>
+                        </concept>
+                        <concept>
+                            <code value="258454002"/>
+                            <display value="Dialysate sample"/>
+                        </concept>
+                        <concept>
+                            <code value="119303007"/>
+                            <display value="Microbial isolate specimen"/>
+                        </concept>
+                        <concept>
+                            <code value="119328004"/>
+                            <display value="Mother's milk specimen"/>
+                        </concept>
+                        <concept>
+                            <code value="258441009"/>
+                            <display value="Exudate sample"/>
+                        </concept>
+                        <concept>
+                            <code value="119323008"/>
+                            <display value="Pus specimen"/>
+                        </concept>
+                        <concept>
+                            <code value="258442002"/>
+                            <display value="Fluid sample"/>
+                        </concept>
+                        <concept>
+                            <code value="708317005"/>
+                            <display value="Pooled specimen from vaginal introitus and rectal swab"/>
+                        </concept>
+                        <concept>
+                            <code value="309051001"/>
+                            <display value="Body fluid sample"/>
+                        </concept>
+                        <concept>
+                            <code value="119376003"/>
+                            <display value="Tissue specimen"/>
+                        </concept>
+                        <concept>
+                            <code value="119324002"/>
+                            <display value="Specimen of unknown material&#xA0;"/>
+                        </concept>
+                        <concept>
+                            <code value="408836004"/>
+                            <display value="Sample not obtained"/>
+                        </concept>
+                    </include>
+                </compose>
+            </ValueSet>

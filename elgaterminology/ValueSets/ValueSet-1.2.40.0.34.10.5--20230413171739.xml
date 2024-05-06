@@ -1,0 +1,75 @@
+<ValueSet xmlns="http://hl7.org/fhir">
+                <id value="1.2.40.0.34.10.5--20230413171739"/>
+                <meta>
+                    <source value="http://localhost:8877/exist/apps/fhir/4.0/elgabbr-"/>
+                    <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/><!--<profile value="http://hl7.org/fhir/4.0/StructureDefinition/ValueSet"/>-->
+                    <tag>
+                        <system value="http://hl7.org/fhir/FHIR-version"/>
+                        <code value="4.0.1"/>
+                    </tag>
+                </meta>
+                <extension url="http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod">
+                    <valuePeriod>
+                        <start value="2023-04-13T17:17:39+02:00"/>
+                    </valuePeriod>
+                </extension>
+                <url value="http://localhost:8877/exist/apps/fhir/ValueSet/1.2.40.0.34.10.5--20230413171739"/>
+                <identifier>
+                    <use value="official"/>
+                    <system value="urn:ietf:rfc:3986"/>
+                    <value value="urn:oid:1.2.40.0.34.10.5"/>
+                </identifier>
+                <version value="3.1.0"/>
+                <name value="Elga_actencountercode"/>
+                <title value="ELGA_ActEncounterCode"/>
+                <status value="draft"/>
+                <experimental value="false"/>
+                <publisher value="ELGA GmbH"/>
+                <description value="ELGA_ActEncounterCode"/>
+                <immutable value="false"/>
+                <compose>
+                    <include>
+                        <system value="http://terminology.hl7.org/CodeSystem/v3-ActCode"/>
+                        <concept>
+                            <code value="AMB"/>
+                            <display value="ambulatory"/>
+                        </concept>
+                        <concept>
+                            <code value="EMER"/>
+                            <display value="emergency"/>
+                        </concept>
+                        <concept>
+                            <code value="FLD"/>
+                            <display value="field"/>
+                        </concept>
+                        <concept>
+                            <code value="HH"/>
+                            <display value="home health"/>
+                        </concept>
+                        <concept>
+                            <code value="IMP"/>
+                            <display value="inpatient encounter"/>
+                        </concept>
+                        <concept>
+                            <code value="ACUTE"/>
+                            <display value="inpatient acute"/>
+                        </concept>
+                        <concept>
+                            <code value="NONAC"/>
+                            <display value="inpatient non-acute"/>
+                        </concept>
+                        <concept>
+                            <code value="PRENC"/>
+                            <display value="pre-admission"/>
+                        </concept>
+                        <concept>
+                            <code value="SS"/>
+                            <display value="short stay"/>
+                        </concept>
+                        <concept>
+                            <code value="VR"/>
+                            <display value="virtual"/>
+                        </concept>
+                    </include>
+                </compose>
+            </ValueSet>

@@ -1,0 +1,1979 @@
+<ValueSet xmlns="http://hl7.org/fhir">
+                <id value="1.2.40.0.34.10.173--20161124000000"/>
+                <meta>
+                    <source value="http://localhost:8877/exist/apps/fhir/4.0/elgabbr-"/>
+                    <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/><!--<profile value="http://hl7.org/fhir/4.0/StructureDefinition/ValueSet"/>-->
+                    <tag>
+                        <system value="http://hl7.org/fhir/FHIR-version"/>
+                        <code value="4.0.1"/>
+                    </tag>
+                </meta>
+                <extension url="http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod">
+                    <valuePeriod>
+                        <start value="2016-11-24T00:00:00+02:00"/>
+                    </valuePeriod>
+                </extension>
+                <url value="http://localhost:8877/exist/apps/fhir/ValueSet/1.2.40.0.34.10.173--20161124000000"/>
+                <identifier>
+                    <use value="official"/>
+                    <system value="urn:ietf:rfc:3986"/>
+                    <value value="urn:oid:1.2.40.0.34.10.173"/>
+                </identifier>
+                <version value="4.0.0"/>
+                <name value="ELGA_HumanLanguage"/>
+                <title value="ELGA_HumanLanguage"/>
+                <status value="active"/>
+                <experimental value="false"/>
+                <publisher value="ELGA GmbH"/>
+                <description value="ELGA_HumanLanguage"/>
+                <immutable value="false"/>
+                <compose>
+                    <include>
+                        <system value="urn:ietf:bcp:47"/>
+                        <concept>
+                            <code value="aa"/>
+                            <display value="Danakil-Sprache"/>
+                        </concept>
+                        <concept>
+                            <code value="ab"/>
+                            <display value="Abchasisch"/>
+                        </concept>
+                        <concept>
+                            <code value="ace"/>
+                            <display value="Aceh-Sprache"/>
+                        </concept>
+                        <concept>
+                            <code value="ach"/>
+                            <display value="Acholi-Sprache"/>
+                        </concept>
+                        <concept>
+                            <code value="ada"/>
+                            <display value="Adangme-Sprache"/>
+                        </concept>
+                        <concept>
+                            <code value="ady"/>
+                            <display value="Adygisch"/>
+                        </concept>
+                        <concept>
+                            <code value="ae"/>
+                            <display value="Avestisch"/>
+                        </concept>
+                        <concept>
+                            <code value="af"/>
+                            <display value="Afrikaans"/>
+                        </concept>
+                        <concept>
+                            <code value="afa"/>
+                            <display value="Hamitosemitische Sprachen (Andere)"/>
+                        </concept>
+                        <concept>
+                            <code value="afh"/>
+                            <display value="Afrihili"/>
+                        </concept>
+                        <concept>
+                            <code value="ain"/>
+                            <display value="Ainu-Sprache"/>
+                        </concept>
+                        <concept>
+                            <code value="ak"/>
+                            <display value="Akan-Sprache"/>
+                        </concept>
+                        <concept>
+                            <code value="akk"/>
+                            <display value="Akkadisch"/>
+                        </concept>
+                        <concept>
+                            <code value="ale"/>
+                            <display value="Aleutisch"/>
+                        </concept>
+                        <concept>
+                            <code value="alg"/>
+                            <display value="Algonkin-Sprachen (Andere)"/>
+                        </concept>
+                        <concept>
+                            <code value="alt"/>
+                            <display value="Altaisch"/>
+                        </concept>
+                        <concept>
+                            <code value="am"/>
+                            <display value="Amharisch"/>
+                        </concept>
+                        <concept>
+                            <code value="an"/>
+                            <display value="Aragonesisch"/>
+                        </concept>
+                        <concept>
+                            <code value="ang"/>
+                            <display value="Altenglisch"/>
+                        </concept>
+                        <concept>
+                            <code value="anp"/>
+                            <display value="Anga-Sprache"/>
+                        </concept>
+                        <concept>
+                            <code value="apa"/>
+                            <display value="Apachen-Sprachen"/>
+                        </concept>
+                        <concept>
+                            <code value="ar"/>
+                            <display value="Arabisch"/>
+                        </concept>
+                        <concept>
+                            <code value="arc"/>
+                            <display value="Aram&#xE4;isch"/>
+                        </concept>
+                        <concept>
+                            <code value="arn"/>
+                            <display value="Arauka-Sprachen"/>
+                        </concept>
+                        <concept>
+                            <code value="arp"/>
+                            <display value="Arapaho-Sprache"/>
+                        </concept>
+                        <concept>
+                            <code value="art"/>
+                            <display value="Kunstsprachen (Andere)"/>
+                        </concept>
+                        <concept>
+                            <code value="arw"/>
+                            <display value="Arawak-Sprachen"/>
+                        </concept>
+                        <concept>
+                            <code value="as"/>
+                            <display value="Assamesisch"/>
+                        </concept>
+                        <concept>
+                            <code value="ast"/>
+                            <display value="Asturisch"/>
+                        </concept>
+                        <concept>
+                            <code value="ath"/>
+                            <display value="Athapaskische Sprachen (Andere)"/>
+                        </concept>
+                        <concept>
+                            <code value="aus"/>
+                            <display value="Australische Sprachen"/>
+                        </concept>
+                        <concept>
+                            <code value="av"/>
+                            <display value="Awarisch"/>
+                        </concept>
+                        <concept>
+                            <code value="awa"/>
+                            <display value="Awadhi"/>
+                        </concept>
+                        <concept>
+                            <code value="ay"/>
+                            <display value="Aymar&#xE1;-Sprache"/>
+                        </concept>
+                        <concept>
+                            <code value="az"/>
+                            <display value="Aserbeidschanisch"/>
+                        </concept>
+                        <concept>
+                            <code value="ba"/>
+                            <display value="Baschkirisch"/>
+                        </concept>
+                        <concept>
+                            <code value="bad"/>
+                            <display value="Banda-Sprachen (Ubangi-Sprachen)"/>
+                        </concept>
+                        <concept>
+                            <code value="bai"/>
+                            <display value="Bamileke-Sprachen"/>
+                        </concept>
+                        <concept>
+                            <code value="bal"/>
+                            <display value="Belutschisch"/>
+                        </concept>
+                        <concept>
+                            <code value="ban"/>
+                            <display value="Balinesisch"/>
+                        </concept>
+                        <concept>
+                            <code value="bas"/>
+                            <display value="Basaa-Sprache"/>
+                        </concept>
+                        <concept>
+                            <code value="bat"/>
+                            <display value="Baltische Sprachen (Andere)"/>
+                        </concept>
+                        <concept>
+                            <code value="be"/>
+                            <display value="Wei&#xDF;russisch"/>
+                        </concept>
+                        <concept>
+                            <code value="bej"/>
+                            <display value="Bedauye"/>
+                        </concept>
+                        <concept>
+                            <code value="bem"/>
+                            <display value="Bemba-Sprache"/>
+                        </concept>
+                        <concept>
+                            <code value="ber"/>
+                            <display value="Berbersprachen (Andere)"/>
+                        </concept>
+                        <concept>
+                            <code value="bg"/>
+                            <display value="Bulgarisch"/>
+                        </concept>
+                        <concept>
+                            <code value="bh"/>
+                            <display value="Bihari (Andere)"/>
+                        </concept>
+                        <concept>
+                            <code value="bho"/>
+                            <display value="Bhojpuri"/>
+                        </concept>
+                        <concept>
+                            <code value="bi"/>
+                            <display value="Beach-la-mar"/>
+                        </concept>
+                        <concept>
+                            <code value="bik"/>
+                            <display value="Bikol-Sprache"/>
+                        </concept>
+                        <concept>
+                            <code value="bin"/>
+                            <display value="Edo-Sprache"/>
+                        </concept>
+                        <concept>
+                            <code value="bla"/>
+                            <display value="Blackfoot-Sprache"/>
+                        </concept>
+                        <concept>
+                            <code value="bm"/>
+                            <display value="Bambara-Sprache"/>
+                        </concept>
+                        <concept>
+                            <code value="bn"/>
+                            <display value="Bengali"/>
+                        </concept>
+                        <concept>
+                            <code value="bnt"/>
+                            <display value="Bantusprachen (Andere)"/>
+                        </concept>
+                        <concept>
+                            <code value="bo"/>
+                            <display value="Tibetisch"/>
+                        </concept>
+                        <concept>
+                            <code value="br"/>
+                            <display value="Bretonisch"/>
+                        </concept>
+                        <concept>
+                            <code value="bra"/>
+                            <display value="Braj-Bhakha"/>
+                        </concept>
+                        <concept>
+                            <code value="bs"/>
+                            <display value="Bosnisch"/>
+                        </concept>
+                        <concept>
+                            <code value="btk"/>
+                            <display value="Batak-Sprache"/>
+                        </concept>
+                        <concept>
+                            <code value="bua"/>
+                            <display value="Burjatisch"/>
+                        </concept>
+                        <concept>
+                            <code value="bug"/>
+                            <display value="Bugi-Sprache"/>
+                        </concept>
+                        <concept>
+                            <code value="byn"/>
+                            <display value="Bilin-Sprache"/>
+                        </concept>
+                        <concept>
+                            <code value="ca"/>
+                            <display value="Katalanisch"/>
+                        </concept>
+                        <concept>
+                            <code value="cad"/>
+                            <display value="Caddo-Sprachen"/>
+                        </concept>
+                        <concept>
+                            <code value="cai"/>
+                            <display value="Indianersprachen, Zentralamerika (Andere)"/>
+                        </concept>
+                        <concept>
+                            <code value="car"/>
+                            <display value="Karibische Sprachen"/>
+                        </concept>
+                        <concept>
+                            <code value="cau"/>
+                            <display value="Kaukasische Sprachen (Andere)"/>
+                        </concept>
+                        <concept>
+                            <code value="ce"/>
+                            <display value="Tschetschenisch"/>
+                        </concept>
+                        <concept>
+                            <code value="ceb"/>
+                            <display value="Cebuano"/>
+                        </concept>
+                        <concept>
+                            <code value="cel"/>
+                            <display value="Keltische Sprachen (Andere)"/>
+                        </concept>
+                        <concept>
+                            <code value="ch"/>
+                            <display value="Chamorro-Sprache"/>
+                        </concept>
+                        <concept>
+                            <code value="chb"/>
+                            <display value="Chibcha-Sprachen"/>
+                        </concept>
+                        <concept>
+                            <code value="chg"/>
+                            <display value="Tschagataisch"/>
+                        </concept>
+                        <concept>
+                            <code value="chk"/>
+                            <display value="Trukesisch"/>
+                        </concept>
+                        <concept>
+                            <code value="chm"/>
+                            <display value="Tscheremissisch"/>
+                        </concept>
+                        <concept>
+                            <code value="chn"/>
+                            <display value="Chinook-Jargon"/>
+                        </concept>
+                        <concept>
+                            <code value="cho"/>
+                            <display value="Choctaw-Sprache"/>
+                        </concept>
+                        <concept>
+                            <code value="chp"/>
+                            <display value="Chipewyan-Sprache"/>
+                        </concept>
+                        <concept>
+                            <code value="chr"/>
+                            <display value="Cherokee-Sprache"/>
+                        </concept>
+                        <concept>
+                            <code value="chy"/>
+                            <display value="Cheyenne-Sprache"/>
+                        </concept>
+                        <concept>
+                            <code value="cmc"/>
+                            <display value="Cham-Sprachen"/>
+                        </concept>
+                        <concept>
+                            <code value="co"/>
+                            <display value="Korsisch"/>
+                        </concept>
+                        <concept>
+                            <code value="cop"/>
+                            <display value="Koptisch"/>
+                        </concept>
+                        <concept>
+                            <code value="cpe"/>
+                            <display value="Kreolisch-Englisch (Andere)"/>
+                        </concept>
+                        <concept>
+                            <code value="cpf"/>
+                            <display value="Kreolisch-Franz&#xF6;sisch (Andere)"/>
+                        </concept>
+                        <concept>
+                            <code value="cpp"/>
+                            <display value="Kreolisch-Portugiesisch (Andere)"/>
+                        </concept>
+                        <concept>
+                            <code value="cr"/>
+                            <display value="Cree-Sprache"/>
+                        </concept>
+                        <concept>
+                            <code value="crh"/>
+                            <display value="Krimtatarisch"/>
+                        </concept>
+                        <concept>
+                            <code value="crp"/>
+                            <display value="Kreolische Sprachen; Pidginsprachen (Andere)"/>
+                        </concept>
+                        <concept>
+                            <code value="cs"/>
+                            <display value="Tschechisch"/>
+                        </concept>
+                        <concept>
+                            <code value="csb"/>
+                            <display value="Kaschubisch"/>
+                        </concept>
+                        <concept>
+                            <code value="cu"/>
+                            <display value="Kirchenslawisch"/>
+                        </concept>
+                        <concept>
+                            <code value="cus"/>
+                            <display value="Kuschitische Sprachen (Andere)"/>
+                        </concept>
+                        <concept>
+                            <code value="cv"/>
+                            <display value="Tschuwaschisch"/>
+                        </concept>
+                        <concept>
+                            <code value="cy"/>
+                            <display value="Kymrisch"/>
+                        </concept>
+                        <concept>
+                            <code value="da"/>
+                            <display value="D&#xE4;nisch"/>
+                        </concept>
+                        <concept>
+                            <code value="dak"/>
+                            <display value="Dakota-Sprache"/>
+                        </concept>
+                        <concept>
+                            <code value="dar"/>
+                            <display value="Darginisch"/>
+                        </concept>
+                        <concept>
+                            <code value="day"/>
+                            <display value="Dajakisch"/>
+                        </concept>
+                        <concept>
+                            <code value="de"/>
+                            <display value="Deutsch"/>
+                        </concept>
+                        <concept>
+                            <code value="del"/>
+                            <display value="Delaware-Sprache"/>
+                        </concept>
+                        <concept>
+                            <code value="den"/>
+                            <display value="Slave-Sprache"/>
+                        </concept>
+                        <concept>
+                            <code value="dgr"/>
+                            <display value="Dogrib-Sprache"/>
+                        </concept>
+                        <concept>
+                            <code value="din"/>
+                            <display value="Dinka-Sprache"/>
+                        </concept>
+                        <concept>
+                            <code value="doi"/>
+                            <display value="Dogri"/>
+                        </concept>
+                        <concept>
+                            <code value="dra"/>
+                            <display value="Drawidische Sprachen (Andere)"/>
+                        </concept>
+                        <concept>
+                            <code value="dsb"/>
+                            <display value="Niedersorbisch"/>
+                        </concept>
+                        <concept>
+                            <code value="dua"/>
+                            <display value="Duala-Sprachen"/>
+                        </concept>
+                        <concept>
+                            <code value="dum"/>
+                            <display value="Mittelniederl&#xE4;ndisch"/>
+                        </concept>
+                        <concept>
+                            <code value="dv"/>
+                            <display value="Maledivisch"/>
+                        </concept>
+                        <concept>
+                            <code value="dyu"/>
+                            <display value="Dyula-Sprache"/>
+                        </concept>
+                        <concept>
+                            <code value="dz"/>
+                            <display value="Dzongkha"/>
+                        </concept>
+                        <concept>
+                            <code value="ee"/>
+                            <display value="Ewe-Sprache"/>
+                        </concept>
+                        <concept>
+                            <code value="efi"/>
+                            <display value="Efik"/>
+                        </concept>
+                        <concept>
+                            <code value="egy"/>
+                            <display value="&#xC4;gyptisch"/>
+                        </concept>
+                        <concept>
+                            <code value="eka"/>
+                            <display value="Ekajuk"/>
+                        </concept>
+                        <concept>
+                            <code value="el"/>
+                            <display value="Neugriechisch"/>
+                        </concept>
+                        <concept>
+                            <code value="elx"/>
+                            <display value="Elamisch"/>
+                        </concept>
+                        <concept>
+                            <code value="en"/>
+                            <display value="Englisch"/>
+                        </concept>
+                        <concept>
+                            <code value="enm"/>
+                            <display value="Mittelenglisch"/>
+                        </concept>
+                        <concept>
+                            <code value="eo"/>
+                            <display value="Esperanto"/>
+                        </concept>
+                        <concept>
+                            <code value="es"/>
+                            <display value="Spanisch"/>
+                        </concept>
+                        <concept>
+                            <code value="et"/>
+                            <display value="Estnisch"/>
+                        </concept>
+                        <concept>
+                            <code value="eu"/>
+                            <display value="Baskisch"/>
+                        </concept>
+                        <concept>
+                            <code value="ewo"/>
+                            <display value="Ewondo"/>
+                        </concept>
+                        <concept>
+                            <code value="fa"/>
+                            <display value="Persisch"/>
+                        </concept>
+                        <concept>
+                            <code value="fan"/>
+                            <display value="Pangwe-Sprache"/>
+                        </concept>
+                        <concept>
+                            <code value="fat"/>
+                            <display value="Fante-Sprache"/>
+                        </concept>
+                        <concept>
+                            <code value="ff"/>
+                            <display value="Ful"/>
+                        </concept>
+                        <concept>
+                            <code value="fi"/>
+                            <display value="Finnisch"/>
+                        </concept>
+                        <concept>
+                            <code value="fil"/>
+                            <display value="Pilipino"/>
+                        </concept>
+                        <concept>
+                            <code value="fiu"/>
+                            <display value="Finnougrische Sprachen (Andere)"/>
+                        </concept>
+                        <concept>
+                            <code value="fj"/>
+                            <display value="Fidschi-Sprache"/>
+                        </concept>
+                        <concept>
+                            <code value="fo"/>
+                            <display value="F&#xE4;r&#xF6;isch"/>
+                        </concept>
+                        <concept>
+                            <code value="fon"/>
+                            <display value="Fon-Sprache"/>
+                        </concept>
+                        <concept>
+                            <code value="fr"/>
+                            <display value="Franz&#xF6;sisch"/>
+                        </concept>
+                        <concept>
+                            <code value="frm"/>
+                            <display value="Mittelfranz&#xF6;sisch"/>
+                        </concept>
+                        <concept>
+                            <code value="fro"/>
+                            <display value="Altfranz&#xF6;sisch"/>
+                        </concept>
+                        <concept>
+                            <code value="frr"/>
+                            <display value="Nordfriesisch"/>
+                        </concept>
+                        <concept>
+                            <code value="frs"/>
+                            <display value="Ostfriesisch"/>
+                        </concept>
+                        <concept>
+                            <code value="fur"/>
+                            <display value="Friulisch"/>
+                        </concept>
+                        <concept>
+                            <code value="fy"/>
+                            <display value="Friesisch"/>
+                        </concept>
+                        <concept>
+                            <code value="ga"/>
+                            <display value="Irisch"/>
+                        </concept>
+                        <concept>
+                            <code value="gaa"/>
+                            <display value="Ga-Sprache"/>
+                        </concept>
+                        <concept>
+                            <code value="gay"/>
+                            <display value="Gayo-Sprache"/>
+                        </concept>
+                        <concept>
+                            <code value="gba"/>
+                            <display value="Gbaya-Sprache"/>
+                        </concept>
+                        <concept>
+                            <code value="gd"/>
+                            <display value="G&#xE4;lisch-Schottisch"/>
+                        </concept>
+                        <concept>
+                            <code value="gem"/>
+                            <display value="Germanische Sprachen (Andere)"/>
+                        </concept>
+                        <concept>
+                            <code value="gez"/>
+                            <display value="Alt&#xE4;thiopisch"/>
+                        </concept>
+                        <concept>
+                            <code value="gil"/>
+                            <display value="Gilbertesisch"/>
+                        </concept>
+                        <concept>
+                            <code value="gl"/>
+                            <display value="Galicisch"/>
+                        </concept>
+                        <concept>
+                            <code value="gmh"/>
+                            <display value="Mittelhochdeutsch"/>
+                        </concept>
+                        <concept>
+                            <code value="gn"/>
+                            <display value="Guaran&#xED;-Sprache"/>
+                        </concept>
+                        <concept>
+                            <code value="goh"/>
+                            <display value="Althochdeutsch"/>
+                        </concept>
+                        <concept>
+                            <code value="gon"/>
+                            <display value="Gondi-Sprache"/>
+                        </concept>
+                        <concept>
+                            <code value="gor"/>
+                            <display value="Gorontalesisch"/>
+                        </concept>
+                        <concept>
+                            <code value="got"/>
+                            <display value="Gotisch"/>
+                        </concept>
+                        <concept>
+                            <code value="grb"/>
+                            <display value="Grebo-Sprache"/>
+                        </concept>
+                        <concept>
+                            <code value="grc"/>
+                            <display value="Griechisch"/>
+                        </concept>
+                        <concept>
+                            <code value="gsw"/>
+                            <display value="Schweizerdeutsch"/>
+                        </concept>
+                        <concept>
+                            <code value="gu"/>
+                            <display value="Gujarati-Sprache"/>
+                        </concept>
+                        <concept>
+                            <code value="gv"/>
+                            <display value="Manx"/>
+                        </concept>
+                        <concept>
+                            <code value="gwi"/>
+                            <display value="Kutchin-Sprache"/>
+                        </concept>
+                        <concept>
+                            <code value="ha"/>
+                            <display value="Haussa-Sprache"/>
+                        </concept>
+                        <concept>
+                            <code value="hai"/>
+                            <display value="Haida-Sprache"/>
+                        </concept>
+                        <concept>
+                            <code value="haw"/>
+                            <display value="Hawaiisch"/>
+                        </concept>
+                        <concept>
+                            <code value="he"/>
+                            <display value="Hebr&#xE4;isch"/>
+                        </concept>
+                        <concept>
+                            <code value="hi"/>
+                            <display value="Hindi"/>
+                        </concept>
+                        <concept>
+                            <code value="hil"/>
+                            <display value="Hiligaynon-Sprache"/>
+                        </concept>
+                        <concept>
+                            <code value="him"/>
+                            <display value="Himachali"/>
+                        </concept>
+                        <concept>
+                            <code value="hit"/>
+                            <display value="Hethitisch"/>
+                        </concept>
+                        <concept>
+                            <code value="hmn"/>
+                            <display value="Miao-Sprachen"/>
+                        </concept>
+                        <concept>
+                            <code value="ho"/>
+                            <display value="Hiri-Motu"/>
+                        </concept>
+                        <concept>
+                            <code value="hr"/>
+                            <display value="Kroatisch"/>
+                        </concept>
+                        <concept>
+                            <code value="hsb"/>
+                            <display value="Obersorbisch"/>
+                        </concept>
+                        <concept>
+                            <code value="ht"/>
+                            <display value="Ha&#xEF;tien (Haiti-Kreolisch)"/>
+                        </concept>
+                        <concept>
+                            <code value="hu"/>
+                            <display value="Ungarisch"/>
+                        </concept>
+                        <concept>
+                            <code value="hup"/>
+                            <display value="Hupa-Sprache"/>
+                        </concept>
+                        <concept>
+                            <code value="hy"/>
+                            <display value="Armenisch"/>
+                        </concept>
+                        <concept>
+                            <code value="hz"/>
+                            <display value="Herero-Sprache"/>
+                        </concept>
+                        <concept>
+                            <code value="ia"/>
+                            <display value="Interlingua"/>
+                        </concept>
+                        <concept>
+                            <code value="iba"/>
+                            <display value="Iban-Sprache"/>
+                        </concept>
+                        <concept>
+                            <code value="id"/>
+                            <display value="Bahasa Indonesia"/>
+                        </concept>
+                        <concept>
+                            <code value="ie"/>
+                            <display value="Interlingue"/>
+                        </concept>
+                        <concept>
+                            <code value="ig"/>
+                            <display value="Ibo-Sprache"/>
+                        </concept>
+                        <concept>
+                            <code value="ii"/>
+                            <display value="Lalo-Sprache"/>
+                        </concept>
+                        <concept>
+                            <code value="ijo"/>
+                            <display value="Ijo-Sprache"/>
+                        </concept>
+                        <concept>
+                            <code value="ik"/>
+                            <display value="Inupik"/>
+                        </concept>
+                        <concept>
+                            <code value="ilo"/>
+                            <display value="Ilokano-Sprache"/>
+                        </concept>
+                        <concept>
+                            <code value="inc"/>
+                            <display value="Indoarische Sprachen (Andere)"/>
+                        </concept>
+                        <concept>
+                            <code value="ine"/>
+                            <display value="Indogermanische Sprachen (Andere)"/>
+                        </concept>
+                        <concept>
+                            <code value="inh"/>
+                            <display value="Inguschisch"/>
+                        </concept>
+                        <concept>
+                            <code value="io"/>
+                            <display value="Ido"/>
+                        </concept>
+                        <concept>
+                            <code value="ira"/>
+                            <display value="Iranische Sprachen (Andere)"/>
+                        </concept>
+                        <concept>
+                            <code value="iro"/>
+                            <display value="Irokesische Sprachen"/>
+                        </concept>
+                        <concept>
+                            <code value="is"/>
+                            <display value="Isl&#xE4;ndisch"/>
+                        </concept>
+                        <concept>
+                            <code value="it"/>
+                            <display value="Italienisch"/>
+                        </concept>
+                        <concept>
+                            <code value="iu"/>
+                            <display value="Inuktitut"/>
+                        </concept>
+                        <concept>
+                            <code value="ja"/>
+                            <display value="Japanisch"/>
+                        </concept>
+                        <concept>
+                            <code value="jbo"/>
+                            <display value="Lojban"/>
+                        </concept>
+                        <concept>
+                            <code value="jpr"/>
+                            <display value="J&#xFC;disch-Persisch"/>
+                        </concept>
+                        <concept>
+                            <code value="jrb"/>
+                            <display value="J&#xFC;disch-Arabisch"/>
+                        </concept>
+                        <concept>
+                            <code value="jv"/>
+                            <display value="Javanisch"/>
+                        </concept>
+                        <concept>
+                            <code value="ka"/>
+                            <display value="Georgisch"/>
+                        </concept>
+                        <concept>
+                            <code value="kaa"/>
+                            <display value="Karakalpakisch"/>
+                        </concept>
+                        <concept>
+                            <code value="kab"/>
+                            <display value="Kabylisch"/>
+                        </concept>
+                        <concept>
+                            <code value="kac"/>
+                            <display value="Kachin-Sprache"/>
+                        </concept>
+                        <concept>
+                            <code value="kam"/>
+                            <display value="Kamba-Sprache"/>
+                        </concept>
+                        <concept>
+                            <code value="kar"/>
+                            <display value="Karenisch"/>
+                        </concept>
+                        <concept>
+                            <code value="kaw"/>
+                            <display value="Kawi"/>
+                        </concept>
+                        <concept>
+                            <code value="kbd"/>
+                            <display value="Kabardinisch"/>
+                        </concept>
+                        <concept>
+                            <code value="kg"/>
+                            <display value="Kongo-Sprache"/>
+                        </concept>
+                        <concept>
+                            <code value="kha"/>
+                            <display value="Khasi-Sprache"/>
+                        </concept>
+                        <concept>
+                            <code value="khi"/>
+                            <display value="Khoisan-Sprachen (Andere)"/>
+                        </concept>
+                        <concept>
+                            <code value="kho"/>
+                            <display value="Sakisch"/>
+                        </concept>
+                        <concept>
+                            <code value="ki"/>
+                            <display value="Kikuyu-Sprache"/>
+                        </concept>
+                        <concept>
+                            <code value="kj"/>
+                            <display value="Kwanyama-Sprache"/>
+                        </concept>
+                        <concept>
+                            <code value="kk"/>
+                            <display value="Kasachisch"/>
+                        </concept>
+                        <concept>
+                            <code value="kl"/>
+                            <display value="Gr&#xF6;nl&#xE4;ndisch"/>
+                        </concept>
+                        <concept>
+                            <code value="km"/>
+                            <display value="Kambodschanisch"/>
+                        </concept>
+                        <concept>
+                            <code value="kmb"/>
+                            <display value="Kimbundu-Sprache"/>
+                        </concept>
+                        <concept>
+                            <code value="kn"/>
+                            <display value="Kannada"/>
+                        </concept>
+                        <concept>
+                            <code value="ko"/>
+                            <display value="Koreanisch"/>
+                        </concept>
+                        <concept>
+                            <code value="kok"/>
+                            <display value="Konkani"/>
+                        </concept>
+                        <concept>
+                            <code value="kos"/>
+                            <display value="Kosraeanisch"/>
+                        </concept>
+                        <concept>
+                            <code value="kpe"/>
+                            <display value="Kpelle-Sprache"/>
+                        </concept>
+                        <concept>
+                            <code value="kr"/>
+                            <display value="Kanuri-Sprache"/>
+                        </concept>
+                        <concept>
+                            <code value="krc"/>
+                            <display value="Karatschaiisch-Balkarisch"/>
+                        </concept>
+                        <concept>
+                            <code value="krl"/>
+                            <display value="Karelisch"/>
+                        </concept>
+                        <concept>
+                            <code value="kro"/>
+                            <display value="Kru-Sprachen (Andere)"/>
+                        </concept>
+                        <concept>
+                            <code value="kru"/>
+                            <display value="Oraon-Sprache"/>
+                        </concept>
+                        <concept>
+                            <code value="ks"/>
+                            <display value="Kaschmiri"/>
+                        </concept>
+                        <concept>
+                            <code value="ku"/>
+                            <display value="Kurdisch"/>
+                        </concept>
+                        <concept>
+                            <code value="kum"/>
+                            <display value="Kum&#xFC;kisch"/>
+                        </concept>
+                        <concept>
+                            <code value="kut"/>
+                            <display value="Kutenai-Sprache"/>
+                        </concept>
+                        <concept>
+                            <code value="kv"/>
+                            <display value="Komi-Sprache"/>
+                        </concept>
+                        <concept>
+                            <code value="kw"/>
+                            <display value="Kornisch"/>
+                        </concept>
+                        <concept>
+                            <code value="ky"/>
+                            <display value="Kirgisisch"/>
+                        </concept>
+                        <concept>
+                            <code value="la"/>
+                            <display value="Latein"/>
+                        </concept>
+                        <concept>
+                            <code value="lad"/>
+                            <display value="Judenspanisch"/>
+                        </concept>
+                        <concept>
+                            <code value="lah"/>
+                            <display value="Lahnda"/>
+                        </concept>
+                        <concept>
+                            <code value="lam"/>
+                            <display value="Lamba-Sprache (Bantusprache)"/>
+                        </concept>
+                        <concept>
+                            <code value="lb"/>
+                            <display value="Luxemburgisch"/>
+                        </concept>
+                        <concept>
+                            <code value="lez"/>
+                            <display value="Lesgisch"/>
+                        </concept>
+                        <concept>
+                            <code value="lg"/>
+                            <display value="Ganda-Sprache"/>
+                        </concept>
+                        <concept>
+                            <code value="li"/>
+                            <display value="Limburgisch"/>
+                        </concept>
+                        <concept>
+                            <code value="ln"/>
+                            <display value="Lingala"/>
+                        </concept>
+                        <concept>
+                            <code value="lo"/>
+                            <display value="Laotisch"/>
+                        </concept>
+                        <concept>
+                            <code value="lol"/>
+                            <display value="Mongo-Sprache"/>
+                        </concept>
+                        <concept>
+                            <code value="loz"/>
+                            <display value="Rotse-Sprache"/>
+                        </concept>
+                        <concept>
+                            <code value="lt"/>
+                            <display value="Litauisch"/>
+                        </concept>
+                        <concept>
+                            <code value="lu"/>
+                            <display value="Luba-Katanga-Sprache"/>
+                        </concept>
+                        <concept>
+                            <code value="lua"/>
+                            <display value="Lulua-Sprache"/>
+                        </concept>
+                        <concept>
+                            <code value="lui"/>
+                            <display value="Luise&#xF1;o-Sprache"/>
+                        </concept>
+                        <concept>
+                            <code value="lun"/>
+                            <display value="Lunda-Sprache"/>
+                        </concept>
+                        <concept>
+                            <code value="luo"/>
+                            <display value="Luo-Sprache"/>
+                        </concept>
+                        <concept>
+                            <code value="lus"/>
+                            <display value="Lushai-Sprache"/>
+                        </concept>
+                        <concept>
+                            <code value="lv"/>
+                            <display value="Lettisch"/>
+                        </concept>
+                        <concept>
+                            <code value="mad"/>
+                            <display value="Maduresisch"/>
+                        </concept>
+                        <concept>
+                            <code value="mag"/>
+                            <display value="Khotta"/>
+                        </concept>
+                        <concept>
+                            <code value="mai"/>
+                            <display value="Maithili"/>
+                        </concept>
+                        <concept>
+                            <code value="mak"/>
+                            <display value="Makassarisch"/>
+                        </concept>
+                        <concept>
+                            <code value="man"/>
+                            <display value="Malinke-Sprache"/>
+                        </concept>
+                        <concept>
+                            <code value="map"/>
+                            <display value="Austronesische Sprachen (Andere)"/>
+                        </concept>
+                        <concept>
+                            <code value="mas"/>
+                            <display value="Massai-Sprache"/>
+                        </concept>
+                        <concept>
+                            <code value="mdf"/>
+                            <display value="Mokscha-Sprache"/>
+                        </concept>
+                        <concept>
+                            <code value="mdr"/>
+                            <display value="Mandaresisch"/>
+                        </concept>
+                        <concept>
+                            <code value="men"/>
+                            <display value="Mende-Sprache"/>
+                        </concept>
+                        <concept>
+                            <code value="mg"/>
+                            <display value="Malagassi-Sprache"/>
+                        </concept>
+                        <concept>
+                            <code value="mga"/>
+                            <display value="Mittelirisch"/>
+                        </concept>
+                        <concept>
+                            <code value="mh"/>
+                            <display value="Marschallesisch"/>
+                        </concept>
+                        <concept>
+                            <code value="mi"/>
+                            <display value="Maori-Sprache"/>
+                        </concept>
+                        <concept>
+                            <code value="mic"/>
+                            <display value="Micmac-Sprache"/>
+                        </concept>
+                        <concept>
+                            <code value="min"/>
+                            <display value="Minangkabau-Sprache"/>
+                        </concept>
+                        <concept>
+                            <code value="mis"/>
+                            <display value="Einzelne andere Sprachen"/>
+                        </concept>
+                        <concept>
+                            <code value="mk"/>
+                            <display value="Makedonisch"/>
+                        </concept>
+                        <concept>
+                            <code value="mkh"/>
+                            <display value="Mon-Khmer-Sprachen (Andere)"/>
+                        </concept>
+                        <concept>
+                            <code value="ml"/>
+                            <display value="Malayalam"/>
+                        </concept>
+                        <concept>
+                            <code value="mn"/>
+                            <display value="Mongolisch"/>
+                        </concept>
+                        <concept>
+                            <code value="mnc"/>
+                            <display value="Mandschurisch"/>
+                        </concept>
+                        <concept>
+                            <code value="mni"/>
+                            <display value="Meithei-Sprache"/>
+                        </concept>
+                        <concept>
+                            <code value="mno"/>
+                            <display value="Manobo-Sprachen"/>
+                        </concept>
+                        <concept>
+                            <code value="moh"/>
+                            <display value="Mohawk-Sprache"/>
+                        </concept>
+                        <concept>
+                            <code value="mos"/>
+                            <display value="Mossi-Sprache"/>
+                        </concept>
+                        <concept>
+                            <code value="mr"/>
+                            <display value="Marathi"/>
+                        </concept>
+                        <concept>
+                            <code value="ms"/>
+                            <display value="Malaiisch"/>
+                        </concept>
+                        <concept>
+                            <code value="mt"/>
+                            <display value="Maltesisch"/>
+                        </concept>
+                        <concept>
+                            <code value="mul"/>
+                            <display value="Mehrere Sprachen"/>
+                        </concept>
+                        <concept>
+                            <code value="mun"/>
+                            <display value="Mundasprachen (Andere)"/>
+                        </concept>
+                        <concept>
+                            <code value="mus"/>
+                            <display value="Muskogisch"/>
+                        </concept>
+                        <concept>
+                            <code value="mwl"/>
+                            <display value="Mirandesisch"/>
+                        </concept>
+                        <concept>
+                            <code value="mwr"/>
+                            <display value="Marwari"/>
+                        </concept>
+                        <concept>
+                            <code value="my"/>
+                            <display value="Birmanisch"/>
+                        </concept>
+                        <concept>
+                            <code value="myn"/>
+                            <display value="Maya-Sprachen"/>
+                        </concept>
+                        <concept>
+                            <code value="myv"/>
+                            <display value="Erza-Mordwinisch"/>
+                        </concept>
+                        <concept>
+                            <code value="na"/>
+                            <display value="Nauruanisch"/>
+                        </concept>
+                        <concept>
+                            <code value="nah"/>
+                            <display value="Nahuatl"/>
+                        </concept>
+                        <concept>
+                            <code value="nai"/>
+                            <display value="Indianersprachen, Nordamerika (Andere)"/>
+                        </concept>
+                        <concept>
+                            <code value="nap"/>
+                            <display value="Neapel / Mundart"/>
+                        </concept>
+                        <concept>
+                            <code value="nb"/>
+                            <display value="Bokm&#xE5;l"/>
+                        </concept>
+                        <concept>
+                            <code value="nd"/>
+                            <display value="Ndebele-Sprache (Simbabwe)"/>
+                        </concept>
+                        <concept>
+                            <code value="nds"/>
+                            <display value="Niederdeutsch"/>
+                        </concept>
+                        <concept>
+                            <code value="ne"/>
+                            <display value="Nepali"/>
+                        </concept>
+                        <concept>
+                            <code value="new"/>
+                            <display value="Newari"/>
+                        </concept>
+                        <concept>
+                            <code value="ng"/>
+                            <display value="Ndonga"/>
+                        </concept>
+                        <concept>
+                            <code value="nia"/>
+                            <display value="Nias-Sprache"/>
+                        </concept>
+                        <concept>
+                            <code value="nic"/>
+                            <display value="Nigerkordofanische Sprachen (Andere)"/>
+                        </concept>
+                        <concept>
+                            <code value="niu"/>
+                            <display value="Niue-Sprache"/>
+                        </concept>
+                        <concept>
+                            <code value="nl"/>
+                            <display value="Niederl&#xE4;ndisch"/>
+                        </concept>
+                        <concept>
+                            <code value="nn"/>
+                            <display value="Nynorsk"/>
+                        </concept>
+                        <concept>
+                            <code value="no"/>
+                            <display value="Norwegisch"/>
+                        </concept>
+                        <concept>
+                            <code value="nog"/>
+                            <display value="Nogaisch"/>
+                        </concept>
+                        <concept>
+                            <code value="non"/>
+                            <display value="Altnorwegisch"/>
+                        </concept>
+                        <concept>
+                            <code value="nqo"/>
+                            <display value="N'Ko"/>
+                        </concept>
+                        <concept>
+                            <code value="nr"/>
+                            <display value="Ndebele-Sprache (Transvaal)"/>
+                        </concept>
+                        <concept>
+                            <code value="nso"/>
+                            <display value="Pedi-Sprache"/>
+                        </concept>
+                        <concept>
+                            <code value="nub"/>
+                            <display value="Nubische Sprachen"/>
+                        </concept>
+                        <concept>
+                            <code value="nv"/>
+                            <display value="Navajo-Sprache"/>
+                        </concept>
+                        <concept>
+                            <code value="nwc"/>
+                            <display value="Alt-Newari"/>
+                        </concept>
+                        <concept>
+                            <code value="ny"/>
+                            <display value="Nyanja-Sprache"/>
+                        </concept>
+                        <concept>
+                            <code value="nym"/>
+                            <display value="Nyamwezi-Sprache"/>
+                        </concept>
+                        <concept>
+                            <code value="nyn"/>
+                            <display value="Nkole-Sprache"/>
+                        </concept>
+                        <concept>
+                            <code value="nyo"/>
+                            <display value="Nyoro-Sprache"/>
+                        </concept>
+                        <concept>
+                            <code value="nzi"/>
+                            <display value="Nzima-Sprache"/>
+                        </concept>
+                        <concept>
+                            <code value="oc"/>
+                            <display value="Okzitanisch"/>
+                        </concept>
+                        <concept>
+                            <code value="oj"/>
+                            <display value="Ojibwa-Sprache"/>
+                        </concept>
+                        <concept>
+                            <code value="om"/>
+                            <display value="Galla-Sprache"/>
+                        </concept>
+                        <concept>
+                            <code value="or"/>
+                            <display value="Oriya-Sprache"/>
+                        </concept>
+                        <concept>
+                            <code value="os"/>
+                            <display value="Ossetisch"/>
+                        </concept>
+                        <concept>
+                            <code value="osa"/>
+                            <display value="Osage-Sprache"/>
+                        </concept>
+                        <concept>
+                            <code value="ota"/>
+                            <display value="Osmanisch"/>
+                        </concept>
+                        <concept>
+                            <code value="oto"/>
+                            <display value="Otomangue-Sprachen"/>
+                        </concept>
+                        <concept>
+                            <code value="pa"/>
+                            <display value="Pandschabi-Sprache"/>
+                        </concept>
+                        <concept>
+                            <code value="paa"/>
+                            <display value="Papuasprachen (Andere)"/>
+                        </concept>
+                        <concept>
+                            <code value="pag"/>
+                            <display value="Pangasinan-Sprache"/>
+                        </concept>
+                        <concept>
+                            <code value="pal"/>
+                            <display value="Mittelpersisch"/>
+                        </concept>
+                        <concept>
+                            <code value="pam"/>
+                            <display value="Pampanggan-Sprache"/>
+                        </concept>
+                        <concept>
+                            <code value="pap"/>
+                            <display value="Papiamento"/>
+                        </concept>
+                        <concept>
+                            <code value="pau"/>
+                            <display value="Palau-Sprache"/>
+                        </concept>
+                        <concept>
+                            <code value="peo"/>
+                            <display value="Altpersisch"/>
+                        </concept>
+                        <concept>
+                            <code value="phi"/>
+                            <display value="Philippinisch-Austronesisch (Andere)"/>
+                        </concept>
+                        <concept>
+                            <code value="phn"/>
+                            <display value="Ph&#xF6;nikisch"/>
+                        </concept>
+                        <concept>
+                            <code value="pi"/>
+                            <display value="Pali"/>
+                        </concept>
+                        <concept>
+                            <code value="pl"/>
+                            <display value="Polnisch"/>
+                        </concept>
+                        <concept>
+                            <code value="pon"/>
+                            <display value="Ponapeanisch"/>
+                        </concept>
+                        <concept>
+                            <code value="pra"/>
+                            <display value="Prakrit"/>
+                        </concept>
+                        <concept>
+                            <code value="pro"/>
+                            <display value="Altokzitanisch"/>
+                        </concept>
+                        <concept>
+                            <code value="ps"/>
+                            <display value="Paschtu"/>
+                        </concept>
+                        <concept>
+                            <code value="pt"/>
+                            <display value="Portugiesisch"/>
+                        </concept>
+                        <concept>
+                            <code value="qaa"/>
+                            <display value="Reserviert f&#xFC;r lokale Verwendung"/>
+                        </concept>
+                        <concept>
+                            <code value="qu"/>
+                            <display value="Quechua-Sprache"/>
+                        </concept>
+                        <concept>
+                            <code value="raj"/>
+                            <display value="Rajasthani"/>
+                        </concept>
+                        <concept>
+                            <code value="rap"/>
+                            <display value="Osterinsel-Sprache"/>
+                        </concept>
+                        <concept>
+                            <code value="rar"/>
+                            <display value="Rarotonganisch"/>
+                        </concept>
+                        <concept>
+                            <code value="rm"/>
+                            <display value="R&#xE4;toromanisch"/>
+                        </concept>
+                        <concept>
+                            <code value="rn"/>
+                            <display value="Rundi-Sprache"/>
+                        </concept>
+                        <concept>
+                            <code value="ro"/>
+                            <display value="Rum&#xE4;nisch"/>
+                        </concept>
+                        <concept>
+                            <code value="roa"/>
+                            <display value="Romanische Sprachen (Andere)"/>
+                        </concept>
+                        <concept>
+                            <code value="rom"/>
+                            <display value="Romani (Sprache)"/>
+                        </concept>
+                        <concept>
+                            <code value="ru"/>
+                            <display value="Russisch"/>
+                        </concept>
+                        <concept>
+                            <code value="rup"/>
+                            <display value="Aromunisch"/>
+                        </concept>
+                        <concept>
+                            <code value="rw"/>
+                            <display value="Rwanda-Sprache"/>
+                        </concept>
+                        <concept>
+                            <code value="sa"/>
+                            <display value="Sanskrit"/>
+                        </concept>
+                        <concept>
+                            <code value="sad"/>
+                            <display value="Sandawe-Sprache"/>
+                        </concept>
+                        <concept>
+                            <code value="sah"/>
+                            <display value="Jakutisch"/>
+                        </concept>
+                        <concept>
+                            <code value="sai"/>
+                            <display value="Indianersprachen, S&#xFC;damerika (Andere)"/>
+                        </concept>
+                        <concept>
+                            <code value="sal"/>
+                            <display value="Salish-Sprache"/>
+                        </concept>
+                        <concept>
+                            <code value="sam"/>
+                            <display value="Samaritanisch"/>
+                        </concept>
+                        <concept>
+                            <code value="sas"/>
+                            <display value="Sasak"/>
+                        </concept>
+                        <concept>
+                            <code value="sat"/>
+                            <display value="Santali"/>
+                        </concept>
+                        <concept>
+                            <code value="sc"/>
+                            <display value="Sardisch"/>
+                        </concept>
+                        <concept>
+                            <code value="scn"/>
+                            <display value="Sizilianisch"/>
+                        </concept>
+                        <concept>
+                            <code value="sco"/>
+                            <display value="Schottisch"/>
+                        </concept>
+                        <concept>
+                            <code value="sd"/>
+                            <display value="Sindhi-Sprache"/>
+                        </concept>
+                        <concept>
+                            <code value="se"/>
+                            <display value="Nordsaamisch"/>
+                        </concept>
+                        <concept>
+                            <code value="sel"/>
+                            <display value="Selkupisch"/>
+                        </concept>
+                        <concept>
+                            <code value="sem"/>
+                            <display value="Semitische Sprachen (Andere)"/>
+                        </concept>
+                        <concept>
+                            <code value="sg"/>
+                            <display value="Sango-Sprache"/>
+                        </concept>
+                        <concept>
+                            <code value="sga"/>
+                            <display value="Altirisch"/>
+                        </concept>
+                        <concept>
+                            <code value="sgn"/>
+                            <display value="Zeichensprachen"/>
+                        </concept>
+                        <concept>
+                            <code value="shn"/>
+                            <display value="Schan-Sprache"/>
+                        </concept>
+                        <concept>
+                            <code value="si"/>
+                            <display value="Singhalesisch"/>
+                        </concept>
+                        <concept>
+                            <code value="sid"/>
+                            <display value="Sidamo-Sprache"/>
+                        </concept>
+                        <concept>
+                            <code value="sio"/>
+                            <display value="Sioux-Sprachen (Andere)"/>
+                        </concept>
+                        <concept>
+                            <code value="sit"/>
+                            <display value="Sinotibetische Sprachen (Andere)"/>
+                        </concept>
+                        <concept>
+                            <code value="sk"/>
+                            <display value="Slowakisch"/>
+                        </concept>
+                        <concept>
+                            <code value="sl"/>
+                            <display value="Slowenisch"/>
+                        </concept>
+                        <concept>
+                            <code value="sla"/>
+                            <display value="Slawische Sprachen (Andere)"/>
+                        </concept>
+                        <concept>
+                            <code value="sm"/>
+                            <display value="Samoanisch"/>
+                        </concept>
+                        <concept>
+                            <code value="sma"/>
+                            <display value="S&#xFC;dsaamisch"/>
+                        </concept>
+                        <concept>
+                            <code value="smi"/>
+                            <display value="Saamisch"/>
+                        </concept>
+                        <concept>
+                            <code value="smj"/>
+                            <display value="Lulesaamisch"/>
+                        </concept>
+                        <concept>
+                            <code value="smn"/>
+                            <display value="Inarisaamisch"/>
+                        </concept>
+                        <concept>
+                            <code value="sms"/>
+                            <display value="Skoltsaamisch"/>
+                        </concept>
+                        <concept>
+                            <code value="sn"/>
+                            <display value="Schona-Sprache"/>
+                        </concept>
+                        <concept>
+                            <code value="snk"/>
+                            <display value="Soninke-Sprache"/>
+                        </concept>
+                        <concept>
+                            <code value="so"/>
+                            <display value="Somali"/>
+                        </concept>
+                        <concept>
+                            <code value="sog"/>
+                            <display value="Sogdisch"/>
+                        </concept>
+                        <concept>
+                            <code value="son"/>
+                            <display value="Songhai-Sprache"/>
+                        </concept>
+                        <concept>
+                            <code value="sq"/>
+                            <display value="Albanisch"/>
+                        </concept>
+                        <concept>
+                            <code value="sr"/>
+                            <display value="Serbisch"/>
+                        </concept>
+                        <concept>
+                            <code value="srn"/>
+                            <display value="Sranantongo"/>
+                        </concept>
+                        <concept>
+                            <code value="srr"/>
+                            <display value="Serer-Sprache"/>
+                        </concept>
+                        <concept>
+                            <code value="ss"/>
+                            <display value="Swasi-Sprache"/>
+                        </concept>
+                        <concept>
+                            <code value="ssa"/>
+                            <display value="Nilosaharanische Sprachen (Andere)"/>
+                        </concept>
+                        <concept>
+                            <code value="st"/>
+                            <display value="S&#xFC;d-Sotho-Sprache"/>
+                        </concept>
+                        <concept>
+                            <code value="su"/>
+                            <display value="Sundanesisch"/>
+                        </concept>
+                        <concept>
+                            <code value="suk"/>
+                            <display value="Sukuma-Sprache"/>
+                        </concept>
+                        <concept>
+                            <code value="sus"/>
+                            <display value="Susu"/>
+                        </concept>
+                        <concept>
+                            <code value="sux"/>
+                            <display value="Sumerisch"/>
+                        </concept>
+                        <concept>
+                            <code value="sv"/>
+                            <display value="Schwedisch"/>
+                        </concept>
+                        <concept>
+                            <code value="sw"/>
+                            <display value="Swahili"/>
+                        </concept>
+                        <concept>
+                            <code value="syc"/>
+                            <display value="Syrisch"/>
+                        </concept>
+                        <concept>
+                            <code value="syr"/>
+                            <display value="Neuostaram&#xE4;isch"/>
+                        </concept>
+                        <concept>
+                            <code value="ta"/>
+                            <display value="Tamil"/>
+                        </concept>
+                        <concept>
+                            <code value="tai"/>
+                            <display value="Thaisprachen (Andere)"/>
+                        </concept>
+                        <concept>
+                            <code value="te"/>
+                            <display value="Telugu-Sprache"/>
+                        </concept>
+                        <concept>
+                            <code value="tem"/>
+                            <display value="Temne-Sprache"/>
+                        </concept>
+                        <concept>
+                            <code value="ter"/>
+                            <display value="Tereno-Sprache"/>
+                        </concept>
+                        <concept>
+                            <code value="tet"/>
+                            <display value="Tetum-Sprache"/>
+                        </concept>
+                        <concept>
+                            <code value="tg"/>
+                            <display value="Tadschikisch"/>
+                        </concept>
+                        <concept>
+                            <code value="th"/>
+                            <display value="Thail&#xE4;ndisch"/>
+                        </concept>
+                        <concept>
+                            <code value="ti"/>
+                            <display value="Tigrinja-Sprache"/>
+                        </concept>
+                        <concept>
+                            <code value="tig"/>
+                            <display value="Tigre-Sprache"/>
+                        </concept>
+                        <concept>
+                            <code value="tiv"/>
+                            <display value="Tiv-Sprache"/>
+                        </concept>
+                        <concept>
+                            <code value="tk"/>
+                            <display value="Turkmenisch"/>
+                        </concept>
+                        <concept>
+                            <code value="tkl"/>
+                            <display value="Tokelauanisch"/>
+                        </concept>
+                        <concept>
+                            <code value="tl"/>
+                            <display value="Tagalog"/>
+                        </concept>
+                        <concept>
+                            <code value="tlh"/>
+                            <display value="Klingonisch"/>
+                        </concept>
+                        <concept>
+                            <code value="tli"/>
+                            <display value="Tlingit-Sprache"/>
+                        </concept>
+                        <concept>
+                            <code value="tmh"/>
+                            <display value="Tama&#x161;eq"/>
+                        </concept>
+                        <concept>
+                            <code value="tn"/>
+                            <display value="Tswana-Sprache"/>
+                        </concept>
+                        <concept>
+                            <code value="to"/>
+                            <display value="Tongaisch"/>
+                        </concept>
+                        <concept>
+                            <code value="tog"/>
+                            <display value="Tonga (Bantusprache, Sambia)"/>
+                        </concept>
+                        <concept>
+                            <code value="tpi"/>
+                            <display value="Neumelanesisch"/>
+                        </concept>
+                        <concept>
+                            <code value="tr"/>
+                            <display value="T&#xFC;rkisch"/>
+                        </concept>
+                        <concept>
+                            <code value="ts"/>
+                            <display value="Tsonga-Sprache"/>
+                        </concept>
+                        <concept>
+                            <code value="tsi"/>
+                            <display value="Tsimshian-Sprache"/>
+                        </concept>
+                        <concept>
+                            <code value="tt"/>
+                            <display value="Tatarisch"/>
+                        </concept>
+                        <concept>
+                            <code value="tum"/>
+                            <display value="Tumbuka-Sprache"/>
+                        </concept>
+                        <concept>
+                            <code value="tup"/>
+                            <display value="Tupi-Sprache"/>
+                        </concept>
+                        <concept>
+                            <code value="tut"/>
+                            <display value="Altaische Sprachen (Andere)"/>
+                        </concept>
+                        <concept>
+                            <code value="tvl"/>
+                            <display value="Elliceanisch"/>
+                        </concept>
+                        <concept>
+                            <code value="tw"/>
+                            <display value="Twi-Sprache"/>
+                        </concept>
+                        <concept>
+                            <code value="ty"/>
+                            <display value="Tahitisch"/>
+                        </concept>
+                        <concept>
+                            <code value="tyv"/>
+                            <display value="Tuwinisch"/>
+                        </concept>
+                        <concept>
+                            <code value="udm"/>
+                            <display value="Udmurtisch"/>
+                        </concept>
+                        <concept>
+                            <code value="ug"/>
+                            <display value="Uigurisch"/>
+                        </concept>
+                        <concept>
+                            <code value="uga"/>
+                            <display value="Ugaritisch"/>
+                        </concept>
+                        <concept>
+                            <code value="uk"/>
+                            <display value="Ukrainisch"/>
+                        </concept>
+                        <concept>
+                            <code value="umb"/>
+                            <display value="Mbundu-Sprache"/>
+                        </concept>
+                        <concept>
+                            <code value="und"/>
+                            <display value="Nicht zu entscheiden"/>
+                        </concept>
+                        <concept>
+                            <code value="ur"/>
+                            <display value="Urdu"/>
+                        </concept>
+                        <concept>
+                            <code value="uz"/>
+                            <display value="Usbekisch"/>
+                        </concept>
+                        <concept>
+                            <code value="vai"/>
+                            <display value="Vai-Sprache"/>
+                        </concept>
+                        <concept>
+                            <code value="ve"/>
+                            <display value="Venda-Sprache"/>
+                        </concept>
+                        <concept>
+                            <code value="vi"/>
+                            <display value="Vietnamesisch"/>
+                        </concept>
+                        <concept>
+                            <code value="vo"/>
+                            <display value="Volap&#xFC;k"/>
+                        </concept>
+                        <concept>
+                            <code value="vot"/>
+                            <display value="Wotisch"/>
+                        </concept>
+                        <concept>
+                            <code value="wa"/>
+                            <display value="Wallonisch"/>
+                        </concept>
+                        <concept>
+                            <code value="wak"/>
+                            <display value="Wakash-Sprachen"/>
+                        </concept>
+                        <concept>
+                            <code value="wal"/>
+                            <display value="Walamo-Sprache"/>
+                        </concept>
+                        <concept>
+                            <code value="war"/>
+                            <display value="Waray"/>
+                        </concept>
+                        <concept>
+                            <code value="was"/>
+                            <display value="Washo-Sprache"/>
+                        </concept>
+                        <concept>
+                            <code value="wen"/>
+                            <display value="Sorbisch (Andere)"/>
+                        </concept>
+                        <concept>
+                            <code value="wo"/>
+                            <display value="Wolof-Sprache"/>
+                        </concept>
+                        <concept>
+                            <code value="xal"/>
+                            <display value="Kalm&#xFC;ckisch"/>
+                        </concept>
+                        <concept>
+                            <code value="xh"/>
+                            <display value="Xhosa-Sprache"/>
+                        </concept>
+                        <concept>
+                            <code value="yao"/>
+                            <display value="Yao-Sprache (Bantusprache)"/>
+                        </concept>
+                        <concept>
+                            <code value="yap"/>
+                            <display value="Yapesisch"/>
+                        </concept>
+                        <concept>
+                            <code value="yi"/>
+                            <display value="Jiddisch"/>
+                        </concept>
+                        <concept>
+                            <code value="yo"/>
+                            <display value="Yoruba-Sprache"/>
+                        </concept>
+                        <concept>
+                            <code value="ypk"/>
+                            <display value="Ypik-Sprachen"/>
+                        </concept>
+                        <concept>
+                            <code value="za"/>
+                            <display value="Zhuang"/>
+                        </concept>
+                        <concept>
+                            <code value="zap"/>
+                            <display value="Zapotekisch"/>
+                        </concept>
+                        <concept>
+                            <code value="zbl"/>
+                            <display value="Bliss-Symbol"/>
+                        </concept>
+                        <concept>
+                            <code value="zen"/>
+                            <display value="Zenaga"/>
+                        </concept>
+                        <concept>
+                            <code value="zgh"/>
+                            <display value="Tamazight"/>
+                        </concept>
+                        <concept>
+                            <code value="zh"/>
+                            <display value="Chinesisch"/>
+                        </concept>
+                        <concept>
+                            <code value="znd"/>
+                            <display value="Zande-Sprachen"/>
+                        </concept>
+                        <concept>
+                            <code value="zu"/>
+                            <display value="Zulu-Sprache"/>
+                        </concept>
+                        <concept>
+                            <code value="zun"/>
+                            <display value="Zu&#xF1;i-Sprache"/>
+                        </concept>
+                        <concept>
+                            <code value="zxx"/>
+                            <display value="Kein linguistischer Inhalt"/>
+                        </concept>
+                        <concept>
+                            <code value="zza"/>
+                            <display value="Zazaki"/>
+                        </concept>
+                    </include>
+                </compose>
+            </ValueSet>

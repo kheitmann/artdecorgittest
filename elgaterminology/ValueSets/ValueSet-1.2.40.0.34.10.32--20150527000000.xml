@@ -1,0 +1,391 @@
+<ValueSet xmlns="http://hl7.org/fhir">
+                <id value="1.2.40.0.34.10.32--20150527000000"/>
+                <meta>
+                    <source value="http://localhost:8877/exist/apps/fhir/4.0/elgabbr-"/>
+                    <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/><!--<profile value="http://hl7.org/fhir/4.0/StructureDefinition/ValueSet"/>-->
+                    <tag>
+                        <system value="http://hl7.org/fhir/FHIR-version"/>
+                        <code value="4.0.1"/>
+                    </tag>
+                </meta>
+                <extension url="http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod">
+                    <valuePeriod>
+                        <start value="2015-05-27T00:00:00+02:00"/>
+                    </valuePeriod>
+                </extension>
+                <url value="http://localhost:8877/exist/apps/fhir/ValueSet/1.2.40.0.34.10.32--20150527000000"/>
+                <identifier>
+                    <use value="official"/>
+                    <system value="urn:ietf:rfc:3986"/>
+                    <value value="urn:oid:1.2.40.0.34.10.32"/>
+                </identifier>
+                <version value="2015-05-27T00:00:00"/>
+                <name value="ELGA_MedikationMengenart"/>
+                <title value="ELGA_MedikationMengenart"/>
+                <status value="active"/>
+                <experimental value="false"/>
+                <publisher value="ELGA GmbH"/>
+                <description value="ELGA ValueSet for units of measure in e-Medikation"/>
+                <immutable value="false"/>
+                <compose>
+                    <include>
+                        <system value="http://unitsofmeasure.org"/>
+                        <concept>
+                            <code value="%"/>
+                            <display value="%"/>
+                        </concept>
+                        <concept>
+                            <code value="/d"/>
+                            <display value="/d"/>
+                        </concept>
+                        <concept>
+                            <code value="/g"/>
+                            <display value="/g"/>
+                        </concept>
+                        <concept>
+                            <code value="/h"/>
+                            <display value="/h"/>
+                        </concept>
+                        <concept>
+                            <code value="/kg"/>
+                            <display value="/kg"/>
+                        </concept>
+                        <concept>
+                            <code value="/kg{body`wt}"/>
+                            <display value="/kg K&#xF6;rpergewicht"/>
+                        </concept>
+                        <concept>
+                            <code value="/min"/>
+                            <display value="/min"/>
+                        </concept>
+                        <concept>
+                            <code value="/s"/>
+                            <display value="/s"/>
+                        </concept>
+                        <concept>
+                            <code value="1"/>
+                            <display value="1"/>
+                        </concept>
+                        <concept>
+                            <code value="[iU]"/>
+                            <display value="IE"/>
+                        </concept>
+                        <concept>
+                            <code value="[iU]/g"/>
+                            <display value="IE/g"/>
+                        </concept>
+                        <concept>
+                            <code value="[iU]/mL"/>
+                            <display value="IE/ml"/>
+                        </concept>
+                        <concept>
+                            <code value="a"/>
+                            <display value="a"/>
+                        </concept>
+                        <concept>
+                            <code value="bar"/>
+                            <display value="bar"/>
+                        </concept>
+                        <concept>
+                            <code value="Cal"/>
+                            <display value="Cal"/>
+                        </concept>
+                        <concept>
+                            <code value="cal/d"/>
+                            <display value="cal/d"/>
+                        </concept>
+                        <concept>
+                            <code value="cal/g"/>
+                            <display value="cal/g"/>
+                        </concept>
+                        <concept>
+                            <code value="cal/h"/>
+                            <display value="cal/h"/>
+                        </concept>
+                        <concept>
+                            <code value="cal/mL"/>
+                            <display value="cal/ml"/>
+                        </concept>
+                        <concept>
+                            <code value="Cel"/>
+                            <display value="Cel"/>
+                        </concept>
+                        <concept>
+                            <code value="cm"/>
+                            <display value="cm"/>
+                        </concept>
+                        <concept>
+                            <code value="cm2"/>
+                            <display value="cm2"/>
+                        </concept>
+                        <concept>
+                            <code value="cm3"/>
+                            <display value="cm3"/>
+                        </concept>
+                        <concept>
+                            <code value="d"/>
+                            <display value="d"/>
+                        </concept>
+                        <concept>
+                            <code value="g"/>
+                            <display value="g"/>
+                        </concept>
+                        <concept>
+                            <code value="g/kg"/>
+                            <display value="g/kg"/>
+                        </concept>
+                        <concept>
+                            <code value="g/L"/>
+                            <display value="g/l"/>
+                        </concept>
+                        <concept>
+                            <code value="g/mL"/>
+                            <display value="g/ml"/>
+                        </concept>
+                        <concept>
+                            <code value="h"/>
+                            <display value="h"/>
+                        </concept>
+                        <concept>
+                            <code value="J"/>
+                            <display value="J"/>
+                        </concept>
+                        <concept>
+                            <code value="k[iU]"/>
+                            <display value="kIE"/>
+                        </concept>
+                        <concept>
+                            <code value="k[iU]/L"/>
+                            <display value="kIE/l"/>
+                        </concept>
+                        <concept>
+                            <code value="kat"/>
+                            <display value="kat"/>
+                        </concept>
+                        <concept>
+                            <code value="kcal"/>
+                            <display value="kcal"/>
+                        </concept>
+                        <concept>
+                            <code value="kcal/d"/>
+                            <display value="kcal/d"/>
+                        </concept>
+                        <concept>
+                            <code value="kcal/g"/>
+                            <display value="kcal/g"/>
+                        </concept>
+                        <concept>
+                            <code value="kcal/h"/>
+                            <display value="kcal/h"/>
+                        </concept>
+                        <concept>
+                            <code value="kcal/mL"/>
+                            <display value="kcal/ml"/>
+                        </concept>
+                        <concept>
+                            <code value="kg"/>
+                            <display value="kg"/>
+                        </concept>
+                        <concept>
+                            <code value="kg/m2"/>
+                            <display value="kg/m2"/>
+                        </concept>
+                        <concept>
+                            <code value="kg/m3"/>
+                            <display value="kg/m3"/>
+                        </concept>
+                        <concept>
+                            <code value="kJ"/>
+                            <display value="kJ"/>
+                        </concept>
+                        <concept>
+                            <code value="kPa"/>
+                            <display value="kPa"/>
+                        </concept>
+                        <concept>
+                            <code value="L"/>
+                            <display value="l"/>
+                        </concept>
+                        <concept>
+                            <code value="L/s"/>
+                            <display value="l/s"/>
+                        </concept>
+                        <concept>
+                            <code value="m"/>
+                            <display value="m"/>
+                        </concept>
+                        <concept>
+                            <code value="m2"/>
+                            <display value="m2"/>
+                        </concept>
+                        <concept>
+                            <code value="m[iU]"/>
+                            <display value="mIE"/>
+                        </concept>
+                        <concept>
+                            <code value="m[iU]/L"/>
+                            <display value="mIE/l"/>
+                        </concept>
+                        <concept>
+                            <code value="mbar"/>
+                            <display value="mbar"/>
+                        </concept>
+                        <concept>
+                            <code value="mg"/>
+                            <display value="mg"/>
+                        </concept>
+                        <concept>
+                            <code value="mg/L"/>
+                            <display value="mg/l"/>
+                        </concept>
+                        <concept>
+                            <code value="min"/>
+                            <display value="min"/>
+                        </concept>
+                        <concept>
+                            <code value="mL"/>
+                            <display value="ml"/>
+                        </concept>
+                        <concept>
+                            <code value="mL/s"/>
+                            <display value="ml/s"/>
+                        </concept>
+                        <concept>
+                            <code value="mm"/>
+                            <display value="mm"/>
+                        </concept>
+                        <concept>
+                            <code value="mm2"/>
+                            <display value="mm2"/>
+                        </concept>
+                        <concept>
+                            <code value="mm[Hg]"/>
+                            <display value="mmHg"/>
+                        </concept>
+                        <concept>
+                            <code value="mmol"/>
+                            <display value="mmol"/>
+                        </concept>
+                        <concept>
+                            <code value="mmol/L"/>
+                            <display value="mmol/l"/>
+                        </concept>
+                        <concept>
+                            <code value="mo"/>
+                            <display value="mo"/>
+                        </concept>
+                        <concept>
+                            <code value="mol/L"/>
+                            <display value="mol/l"/>
+                        </concept>
+                        <concept>
+                            <code value="ng"/>
+                            <display value="ng"/>
+                        </concept>
+                        <concept>
+                            <code value="ng/L"/>
+                            <display value="ng/l"/>
+                        </concept>
+                        <concept>
+                            <code value="nmol/L"/>
+                            <display value="nmol/l"/>
+                        </concept>
+                        <concept>
+                            <code value="[pH]"/>
+                            <display value="pH"/>
+                        </concept>
+                        <concept>
+                            <code value="s"/>
+                            <display value="s"/>
+                        </concept>
+                        <concept>
+                            <code value="ug"/>
+                            <display value="&#xB5;g"/>
+                        </concept>
+                        <concept>
+                            <code value="ug/(kg.min)"/>
+                            <display value="&#xB5;g/(kg.min)"/>
+                        </concept>
+                        <concept>
+                            <code value="ug/L"/>
+                            <display value="&#xB5;g/l"/>
+                        </concept>
+                        <concept>
+                            <code value="ukat"/>
+                            <display value="&#xB5;kat"/>
+                        </concept>
+                        <concept>
+                            <code value="ukat/L"/>
+                            <display value="&#xB5;kat/l"/>
+                        </concept>
+                        <concept>
+                            <code value="ukat/mL"/>
+                            <display value="&#xB5;kat/ml"/>
+                        </concept>
+                        <concept>
+                            <code value="uL"/>
+                            <display value="&#xB5;l"/>
+                        </concept>
+                        <concept>
+                            <code value="umol"/>
+                            <display value="&#xB5;mol"/>
+                        </concept>
+                        <concept>
+                            <code value="umol/L"/>
+                            <display value="&#xB5;mol/l"/>
+                        </concept>
+                        <concept>
+                            <code value="wk"/>
+                            <display value="wk"/>
+                        </concept>
+                        <concept>
+                            <code value="{Broteinheiten}"/>
+                            <display value="Broteinheiten"/>
+                        </concept>
+                        <concept>
+                            <code value="{Flaschen}"/>
+                            <display value="Flaschen"/>
+                        </concept>
+                        <concept>
+                            <code value="{Tropfen}"/>
+                            <display value="Tropfen"/>
+                        </concept>
+                        <concept>
+                            <code value="{Hub}"/>
+                            <display value="Hub"/>
+                        </concept>
+                        <concept>
+                            <code value="{Packung}"/>
+                            <display value="Packung"/>
+                        </concept>
+                        <concept>
+                            <code value="{Stueck}"/>
+                            <display value="St&#xFC;ck"/>
+                        </concept>
+                        <concept>
+                            <code value="{Teeloeffel}"/>
+                            <display value="Teel&#xF6;ffel"/>
+                        </concept>
+                        <concept>
+                            <code value="{Essloeffel}"/>
+                            <display value="Essl&#xF6;ffel"/>
+                        </concept>
+                        <concept>
+                            <code value="{Messloeffel}"/>
+                            <display value="Messl&#xF6;ffel"/>
+                        </concept>
+                        <concept>
+                            <code value="{Packungsbeutel}"/>
+                            <display value="Packungsbeutel"/>
+                        </concept>
+                        <concept>
+                            <code value="{Beutel/Aufgussbeutel}"/>
+                            <display value="Beutel/Aufgussbeutel"/>
+                        </concept>
+                        <concept>
+                            <code value="{Globuli}"/>
+                            <display value="Globuli"/>
+                        </concept>
+                    </include>
+                </compose>
+            </ValueSet>
